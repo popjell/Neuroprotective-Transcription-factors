@@ -43,8 +43,6 @@ grid.newpage()
 grid.draw(venn)
 
 
-
-write(MN_upregulated_candidates$symbol, "MN_upregulated_genes.txt")
 #output for iregulon analysis
 intersected_df <- RGC_results.df[RGC_results.df$ensembl_id %in% intersected_genes, ]
 intersected_symbols <- intersected_df$symbol
@@ -63,5 +61,17 @@ intersected_combined_df <- intersected_combined_df %>%
 #write as .txt file with no commas
 write.table(intersected_combined_df, "Expression_data.txt", sep = "\t", row.names = FALSE, quote = FALSE)
 
+#Intersect with 97 common
+library(readxl)
 
+set <- readxl::read_xlsx("List of 97 common genes.xlsx")
+
+# Extract the gene names as a vector
+set_genes <- set$Genes
+
+# Now the intersection will work
+overlap <- intersect(intersected_symbols, set_genes)
+overlap_table <- tibble::tibble(Genes = overlap)
+
+print(paste("Number of overlapping genes with the paper's 97 gene list:", nrow(overlap_table)))
 

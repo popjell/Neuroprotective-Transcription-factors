@@ -4,21 +4,6 @@
 write(intersected_genes, "intersected_upregulated_IDs.txt")
 print(paste("Number of overlapping genes:", length(intersected_genes)))
 
-library(readxl)
-
-set <- readxl::read_xlsx("List of 97 common genes.xlsx")
-
-# Extract the gene names as a vector
-set_genes <- set$Genes
-
-# Now the intersection will work
-overlap <- intersect(intersected_symbols, set_genes)
-overlap_table <- tibble::tibble(Genes = overlap)
-
-print(paste("Number of overlapping genes with the paper's list:", nrow(overlap_table)))
-
-
-
 #Run gprofiler analysis in web
 
 #Import the .csv from gprofiler into R

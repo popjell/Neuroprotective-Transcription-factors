@@ -48,6 +48,9 @@ top_genes <- MN_upregulated_candidates |>
 dplyr::filter(log2FoldChange > 10) |>
 arrange(desc(log2FoldChange))
 
+#vst analysis for heatmap
+vsd_MN <- vst(dds_MN, blind = FALSE)
+vst_mat <- assay(vsd_MN)
 
 vst_mat_top50 <- assay(vsd_MN)[top_genes$ensembl_id, ]
 
