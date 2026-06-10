@@ -9,38 +9,34 @@ library(VennDiagram)
 
 # 2. Generate the Venn Diagram
 # This creates a high-res TIFF file in your working directory matching the paper's style
-venn <- venn.diagram(
-  x = list(MNs = my_gene_list_MN, RGCs = my_gene_list_RGC),
+
+# clean inputs, remove NAs and duplicates
+mn <- unique(na.omit(my_gene_list_MN))
+rgc <- unique(na.omit(my_gene_list_RGC))
+
+#supress log file output
+futile.logger::flog.threshold(futile.logger::ERROR, name = "VennDiagramLogger")
+# recreate and draw the Venn (filename=NULL returns grobs)
+venn <- VennDiagram::venn.diagram(
+  x = list(MNs = mn, RGCs = rgc),
   category.names = c("MNs", "RGCs"),
   filename = NULL,
-  
-  # Structural layout matching your image
-  lwd = 2,
-  lty = 'solid',
-  fill = c("#7b91c4", "#f47c7c"), # Custom hex codes matching their blue/red palette
-  alpha = c(0.8, 0.8),            # Transparency so the overlap looks blended
-  
-  # Text adjustments (Numbers inside the circles)
-  cex = 1.5,
-  fontface = "bold",
-  fontfamily = "sans",
-  scaled = FALSE,                 
-  
-  # Category labels adjustments (MNs and RGCs text placement)
-  cat.cex = 1.5,
-  cat.fontface = "bold",
-  cat.default.pos = "outer",
-  cat.pos = c(-20, 20),          
-  cat.dist = c(0.05, 0.05),       
-  cat.fontfamily = "sans",
-  
-  main = "Significantly upregulated genes",
-  main.cex = 1.5,
-  main.fontface = "bold",
+  imagetype = "png",
+  lwd = 2, lty = "solid",
+  fill = c("#7b91c4", "#f47c7c"),
+  alpha = c(0.8, 0.8),
+  cex = 1.5, fontface = "bold", fontfamily = "sans",
+  scaled = FALSE,
+  cat.cex = 1.5, cat.fontface = "bold", cat.default.pos = "outer",
+  cat.pos = c(-20, 20), cat.dist = c(0.05, 0.05), cat.fontfamily = "sans",
+  main = "Significantly upregulated genes", main.cex = 1.5, main.fontface = "bold",
   main.fontfamily = "sans"
 )
-grid.newpage()
-grid.draw(venn)
+
+grid::grid.newpage()
+grid::grid.draw(venn)
+venn
+
 
 
 #output for iregulon analysis
@@ -74,4 +70,3 @@ overlap <- intersect(intersected_symbols, set_genes)
 overlap_table <- tibble::tibble(Genes = overlap)
 
 print(paste("Number of overlapping genes with the paper's 97 gene list:", nrow(overlap_table)))
-
