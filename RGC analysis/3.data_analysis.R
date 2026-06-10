@@ -49,7 +49,7 @@ dplyr::filter(log2FoldChange > 2) |>
 arrange(desc(log2FoldChange))
 
 vsd_RGC <- vst(dds_RGC, blind = FALSE)
-vst_mat_top50 <- assay(vsd_RGC)[top_genes$ensembl_id, ]
+vst_mat_top50 <- assay(vsd_RGC)[top_genes$symbol, ]
 
 #replace ensemble ids with symbols where available, otherwise keep ensemble ids
 rownames(vst_mat_top50) <- ifelse(!is.na(top_genes$symbol) & top_genes$symbol != "", 
