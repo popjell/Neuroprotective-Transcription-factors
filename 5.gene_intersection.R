@@ -45,7 +45,7 @@ intersected_symbols <- intersected_df$symbol
 intersected_symbols <- intersected_symbols[!is.na(intersected_symbols) & intersected_symbols != ""]
 print(paste("Total valid symbols found:", length(intersected_symbols)))
 write(intersected_symbols, "intersected_upregulated_genes.txt")
-
+write(intersected_genes, "intersected_upregulated_ensembl_ids.txt")
 #now output a list of all genes with their log2 fold change and p-value for iregulon analysis, from both MN and RGC
 intersected_combined_df <- merge(MN_results.df, RGC_results.df, by = "ensembl_id", suffixes = c("_MN", "_RGC"))
 #change so that symbol column is not dupicated
@@ -59,14 +59,3 @@ write.table(intersected_combined_df, "Expression_data.txt", sep = "\t", row.name
 
 #Intersect with 97 common
 library(readxl)
-
-set <- readxl::read_xlsx("List of 97 common genes.xlsx")
-
-# Extract the gene names as a vector
-set_genes <- set$Genes
-
-# Now the intersection will work
-overlap <- intersect(intersected_symbols, set_genes)
-overlap_table <- tibble::tibble(Genes = overlap)
-
-print(paste("Number of overlapping genes with the paper's 97 gene list:", nrow(overlap_table)))
