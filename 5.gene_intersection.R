@@ -56,6 +56,3 @@ intersected_combined_df <- intersected_combined_df %>%
 
 #write as .txt file with no commas
 write.table(intersected_combined_df, "Expression_data.txt", sep = "\t", row.names = FALSE, quote = FALSE)
-
-#Intersect with 97 common
-library(readxl)

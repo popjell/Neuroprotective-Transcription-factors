@@ -1,4 +1,8 @@
 
+
+#Intersect with 97 common
+library(readxl)
+
 set <- readxl::read_xlsx("List of 97 common genes.xlsx")
 
 # Extract the gene names as a vector
