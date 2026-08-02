@@ -293,14 +293,17 @@ if (clustering_method == "2") {
   family_summary <- family_df %>%
     dplyr::count(family, sort = TRUE) %>%
     dplyr::mutate(
-      tfs = sapply(family, function(f) paste(sort(family_df$tf[family_df$family == f]), collapse = ", ")),
+      tfs = sapply(family, function(f) {
+        paste(strwrap(paste(sort(family_df$tf[family_df$family == f]), collapse = ", "), width = 28), collapse = "\n")
+      }),
+      family_wrapped = sapply(family, function(x) paste(strwrap(x, width = 24), collapse = "\n")),
       row = rev(seq_len(dplyr::n()))
     )
 
   table_df <- data.frame(
     x = rep(1:2, each = nrow(family_summary)),
     y = rep(family_summary$row, 2),
-    label = c(family_summary$family, family_summary$tfs),
+    label = c(family_summary$family_wrapped, family_summary$tfs),
     n = rep(family_summary$n, 2),
     row_bg = rep(ifelse(family_summary$row %% 2 == 0, "grey94", "white"), 2),
     stringsAsFactors = FALSE
@@ -316,11 +319,11 @@ if (clustering_method == "2") {
 
   p_table <- ggplot(table_df, aes(x = x, y = y)) +
     geom_tile(aes(fill = row_bg), color = "grey80", linewidth = 0.3) +
-    geom_text(aes(label = label), hjust = 0, vjust = 0.5, size = 3.3, color = "black") +
+    geom_text(aes(label = label), hjust = 0, vjust = 0.5, size = 3.3, color = "black", lineheight = 0.9) +
     scale_fill_identity() +
     geom_tile(data = col_header, aes(x = x, y = y), fill = "grey25", color = "grey25", linewidth = 0.3) +
     geom_text(data = col_header, aes(x = x, y = y, label = label),
-              hjust = 0, vjust = 0.5, size = 3.5, fontface = "bold", color = "white") +
+              hjust = 0, vjust = 0.5, size = 3.5, fontface = "bold", color = "white", lineheight = 0.9) +
     scale_x_discrete(expand = c(0, 0)) +
     scale_y_continuous(expand = c(0, 0), breaks = NULL) +
     labs(title = "TFs Grouped by JASPAR Family") +
