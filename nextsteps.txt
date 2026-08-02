@@ -1,0 +1,83 @@
+
+how to target TF's
+
+rank TF's and plot centrality analysis
+Use average degree (your deg/total connections)
+
+do GO analysis
+what processes are affected
+ -make sub gene regulatory networks of affected genes from process's, either by extracting genes and making new network, or using current gene network and remove non included
+
+ use tool to summarize/group GO:BB
+  (eg; revigo, and others)
+
+with interesting processes/ parent categories of process's;
+    - which TF's are critical for that, which signalling pathway affect those TF's
+    - find additional process's in addition to just immune signalling
+        -key: development (don't use non-nervous system programs), cell death (all types), stress response, cell-cell interaction/communication
+    - analyze them with multi-omic?
+
+make report
+
+possibly sub-populations
+
+
+
+for revigo: extract revigo heatmap correlations (and figure out ) (and use online version of revigo to look at similar terms)
+try other semantic algorithms:
+
+simplify enrichment, and more
+see which one makes sense logically
+run ssgsea between them (how similar are the pathways between the genes inside them)
+
+
+see GO process per TF?
+issues:
+- TF's can be very broad
+- maybe rank based on uniqueness
+
+
+maybe VAE but might overgeneralize
+
+enrichment analysis on pathways, then use ML model like random forest to see which has the most distinction between EAE and control
+Issue:
+- ML is not powerfull enough on the low # of samples like in bulk RNA seq
+
+finally; make categories
+
+
+
+
+
+july 7
+- group bubble plot by x axis size (or maybe clustering?)
+- change bubble plot to % outdegree, to remove bias of networks with many networks
+
+enrichment:
+- running gsea on the a go set, takes all genes in the term, and accumulates the gene expression
+- make colour for enrichment
+
+make cluster set graph 
+make unique list of genes for each pathways -> genes that are only in that set adn not in other sets
+
+
+
+
+extrate genes targed by singular TF's (like cebp a-d, nfi? (less important))
+
+for TF cluster dot plot;
+- change it so that 
+
+current: cluster TF by target genes we have
+another way: cluster TF's based on motif similarity (familys of TF's) with jasper database
+make another dot plot with families v.s. categories
+
+
+exact TF families:
+
+generate subnetworks to see # of genes, and GO on that network of genes specifically
+
+start looking for small molecules ;
+- databases to look for it
+- upstream signalling pathway for each TF
+look at literature to see how these TF's are charecterized in these contexts, and how it is related

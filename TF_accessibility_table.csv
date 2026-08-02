@@ -1,0 +1,8 @@
+"TF","tf_atac_log2FC","tf_atac_padj","tf_is_sig_open","n_targets_total","n_targets_in_atac","n_targets_opening","n_targets_closing","n_targets_unchanged","prop_targets_opening","mean_target_log2FC"
+"Nfatc3",0.036295087882749,0.99994102674917,FALSE,1,0,0,0,0,0,NA
+"Stat1",0.113327681152631,0.99994102674917,FALSE,1,0,0,0,0,0,NA
+"Smad3",-0.0697502468454723,0.99994102674917,FALSE,1,0,0,0,0,0,NA
+"Thra",-0.254890731818065,0.99994102674917,FALSE,1,0,0,0,0,0,NA
+"Cebpb",0.0732946432880779,0.99994102674917,FALSE,1,0,0,0,0,0,NA
+"Nfia",-0.244463511724212,0.99994102674917,FALSE,1,0,0,0,0,0,NA
+"Myf6",0.354769101172037,0.99994102674917,FALSE,1,0,0,0,0,0,NA

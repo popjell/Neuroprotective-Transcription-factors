@@ -1,0 +1,99 @@
+"cluster","cluster_label","ParentTerm","pct_coverage","enrichment_score"
+1,"Nfatc3_cluster","actin cytoskeleton organization",8.72093023255814,2.0257761166975
+1,"Nfatc3_cluster","catabolic process",91.2790697674419,2.18760047388113
+1,"Nfatc3_cluster","cell activation",63.953488372093,2.75560707650577
+1,"Nfatc3_cluster","cell junction disassembly",3.48837209302326,1.64428732603923
+1,"Nfatc3_cluster","cell killing",12.2093023255814,2.0507259915286
+1,"Nfatc3_cluster","cell population proliferation",28.4883720930233,2.50150740838055
+1,"Nfatc3_cluster","immune system process",81.3953488372093,2.75083603355287
+1,"Nfatc3_cluster","leukocyte cell-cell adhesion",19.7674418604651,0
+1,"Nfatc3_cluster","phagocytosis",38.3720930232558,2.58882995852716
+1,"Nfatc3_cluster","phagocytosis, engulfment",3.48837209302326,0
+1,"Nfatc3_cluster","positive regulation of biological process",79.0697674418605,2.82312524809043
+1,"Nfatc3_cluster","reactive oxygen species metabolic process",6.97674418604651,1.90715920649302
+1,"Nfatc3_cluster","regulation of proteolysis",13.953488372093,2.05756315524234
+1,"Nfatc3_cluster","respiratory burst",3.48837209302326,1.68788571259934
+2,"Stat1_cluster","actin cytoskeleton organization",9.48905109489051,1.94314432723914
+2,"Stat1_cluster","catabolic process",90.5109489051095,2.11370993665334
+2,"Stat1_cluster","cell activation",66.4233576642336,2.67743795315637
+2,"Stat1_cluster","cell junction disassembly",3.64963503649635,1.56629821759156
+2,"Stat1_cluster","cell killing",11.6788321167883,1.98952104489416
+2,"Stat1_cluster","cell population proliferation",29.1970802919708,2.43814145406737
+2,"Stat1_cluster","immune system process",83.2116788321168,2.72158183552703
+2,"Stat1_cluster","leukocyte cell-cell adhesion",18.978102189781,0
+2,"Stat1_cluster","phagocytosis",37.956204379562,2.50981790810029
+2,"Stat1_cluster","phagocytosis, engulfment",3.64963503649635,0
+2,"Stat1_cluster","positive regulation of biological process",81.7518248175183,2.76645125717895
+2,"Stat1_cluster","reactive oxygen species metabolic process",7.2992700729927,1.71680872847491
+2,"Stat1_cluster","regulation of proteolysis",13.8686131386861,2.02985585099014
+2,"Stat1_cluster","respiratory burst",2.91970802919708,1.64870145344161
+3,"Smad3_cluster","actin cytoskeleton organization",11.8811881188119,1.57300660178651
+3,"Smad3_cluster","catabolic process",91.0891089108911,1.99340179805594
+3,"Smad3_cluster","cell activation",66.3366336633663,1.99519582977566
+3,"Smad3_cluster","cell junction disassembly",4.95049504950495,3.51253392968889
+3,"Smad3_cluster","cell killing",8.91089108910891,2.98531626456478
+3,"Smad3_cluster","cell population proliferation",31.6831683168317,1.80754972220425
+3,"Smad3_cluster","immune system process",80.1980198019802,2.00716873364581
+3,"Smad3_cluster","leukocyte cell-cell adhesion",21.7821782178218,0
+3,"Smad3_cluster","phagocytosis",41.5841584158416,1.82709970908695
+3,"Smad3_cluster","phagocytosis, engulfment",5.94059405940594,0
+3,"Smad3_cluster","positive regulation of biological process",80.1980198019802,2.16418300893765
+3,"Smad3_cluster","reactive oxygen species metabolic process",8.91089108910891,1.52537000834582
+3,"Smad3_cluster","regulation of proteolysis",10.8910891089109,2.21099522066515
+3,"Smad3_cluster","respiratory burst",3.96039603960396,7.11665551409887
+4,"Thra_cluster","actin cytoskeleton organization",21.5686274509804,1.94517773965878
+4,"Thra_cluster","catabolic process",96.078431372549,1.76400080867334
+4,"Thra_cluster","cell activation",68.6274509803922,2.41756050481233
+4,"Thra_cluster","cell junction disassembly",7.84313725490196,1.63423894478723
+4,"Thra_cluster","cell killing",3.92156862745098,1.41927200067159
+4,"Thra_cluster","cell population proliferation",39.2156862745098,2.25797332189173
+4,"Thra_cluster","immune system process",86.2745098039216,2.40877153802629
+4,"Thra_cluster","leukocyte cell-cell adhesion",21.5686274509804,0
+4,"Thra_cluster","phagocytosis",47.0588235294118,2.28387960807115
+4,"Thra_cluster","phagocytosis, engulfment",7.84313725490196,0
+4,"Thra_cluster","positive regulation of biological process",88.2352941176471,2.54711419814131
+4,"Thra_cluster","reactive oxygen species metabolic process",5.88235294117647,1.48090262123718
+4,"Thra_cluster","regulation of proteolysis",7.84313725490196,1.59930363997622
+4,"Thra_cluster","respiratory burst",3.92156862745098,1.442180348699
+5,"Cebpb_cluster","actin cytoskeleton organization",0,0
+5,"Cebpb_cluster","catabolic process",100,1.34340480624743
+5,"Cebpb_cluster","cell activation",90.4761904761905,2.15355760297164
+5,"Cebpb_cluster","cell junction disassembly",4.76190476190476,4.25417723569072
+5,"Cebpb_cluster","cell killing",14.2857142857143,1.51267853547083
+5,"Cebpb_cluster","cell population proliferation",42.8571428571429,1.88853397875988
+5,"Cebpb_cluster","immune system process",85.7142857142857,2.13356363517597
+5,"Cebpb_cluster","leukocyte cell-cell adhesion",38.0952380952381,0
+5,"Cebpb_cluster","phagocytosis",42.8571428571429,1.87610766977049
+5,"Cebpb_cluster","phagocytosis, engulfment",0,0
+5,"Cebpb_cluster","positive regulation of biological process",95.2380952380952,2.20024043929051
+5,"Cebpb_cluster","reactive oxygen species metabolic process",4.76190476190476,11.2614863254853
+5,"Cebpb_cluster","regulation of proteolysis",9.52380952380952,1.4173419772612
+5,"Cebpb_cluster","respiratory burst",4.76190476190476,11.2614863254853
+6,"Nfia_cluster","actin cytoskeleton organization",23.5294117647059,1.55718792006339
+6,"Nfia_cluster","catabolic process",100,1.45608340793343
+6,"Nfia_cluster","cell activation",58.8235294117647,1.92307405070853
+6,"Nfia_cluster","cell junction disassembly",0,0
+6,"Nfia_cluster","cell killing",5.88235294117647,8.50672248214016
+6,"Nfia_cluster","cell population proliferation",29.4117647058824,1.71038683362742
+6,"Nfia_cluster","immune system process",94.1176470588235,1.88810446258672
+6,"Nfia_cluster","leukocyte cell-cell adhesion",17.6470588235294,0
+6,"Nfia_cluster","phagocytosis",47.0588235294118,1.80245248039866
+6,"Nfia_cluster","phagocytosis, engulfment",5.88235294117647,0
+6,"Nfia_cluster","positive regulation of biological process",94.1176470588235,2.09202909258185
+6,"Nfia_cluster","reactive oxygen species metabolic process",11.7647058823529,1.36252053237366
+6,"Nfia_cluster","regulation of proteolysis",11.7647058823529,1.43536043295841
+6,"Nfia_cluster","respiratory burst",11.7647058823529,1.42525924575084
+7,"Myf6_cluster","actin cytoskeleton organization",20,1.62378360609252
+7,"Myf6_cluster","catabolic process",100,1.53731634012621
+7,"Myf6_cluster","cell activation",80,2.14648389665346
+7,"Myf6_cluster","cell junction disassembly",4,4.25417723569072
+7,"Myf6_cluster","cell killing",12,1.51267853547083
+7,"Myf6_cluster","cell population proliferation",44,1.9480590621763
+7,"Myf6_cluster","immune system process",84,2.06445215494833
+7,"Myf6_cluster","leukocyte cell-cell adhesion",32,0
+7,"Myf6_cluster","phagocytosis",52,2.01090694722578
+7,"Myf6_cluster","phagocytosis, engulfment",4,0
+7,"Myf6_cluster","positive regulation of biological process",88,2.22514555675755
+7,"Myf6_cluster","reactive oxygen species metabolic process",8,1.36252053237366
+7,"Myf6_cluster","regulation of proteolysis",12,1.46932295431771
+7,"Myf6_cluster","respiratory burst",4,6.20996259591719
