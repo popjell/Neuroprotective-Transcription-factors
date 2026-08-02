@@ -1,0 +1,267 @@
+"cluster","cluster_label","ParentTerm","pct_coverage","enrichment_score"
+1,"bHLH-ZIP","actin cytoskeleton organization",16.6666666666667,1.59048576307795
+1,"bHLH-ZIP","catabolic process",100,1.49669987402982
+1,"bHLH-ZIP","cell activation",69.4444444444444,2.03477897368099
+1,"bHLH-ZIP","cell junction disassembly",2.77777777777778,4.25417723569072
+1,"bHLH-ZIP","cell killing",8.33333333333333,5.0097005088055
+1,"bHLH-ZIP","cell population proliferation",33.3333333333333,1.82922294790186
+1,"bHLH-ZIP","immune system process",86.1111111111111,1.97627830876753
+1,"bHLH-ZIP","leukocyte cell-cell adhesion",25,0
+1,"bHLH-ZIP","phagocytosis",47.2222222222222,1.90667971381222
+1,"bHLH-ZIP","phagocytosis, engulfment",2.77777777777778,0
+1,"bHLH-ZIP","positive regulation of biological process",88.8888888888889,2.1585873246697
+1,"bHLH-ZIP","reactive oxygen species metabolic process",8.33333333333333,1.36252053237366
+1,"bHLH-ZIP","regulation of proteolysis",13.8888888888889,1.45234169363806
+1,"bHLH-ZIP","respiratory burst",8.33333333333333,3.81761092083401
+2,"C4-GATA-related","actin cytoskeleton organization",11.965811965812,2.05778055210056
+2,"C4-GATA-related","catabolic process",93.1623931623932,2.20962630661909
+2,"C4-GATA-related","cell activation",61.5384615384615,2.74764408278741
+2,"C4-GATA-related","cell junction disassembly",3.41880341880342,1.63527495145985
+2,"C4-GATA-related","cell killing",9.4017094017094,2.02686982474515
+2,"C4-GATA-related","cell population proliferation",29.0598290598291,2.51163097027403
+2,"C4-GATA-related","immune system process",80.3418803418803,2.74146874174972
+2,"C4-GATA-related","leukocyte cell-cell adhesion",22.2222222222222,0
+2,"C4-GATA-related","phagocytosis",38.4615384615385,2.59822861048962
+2,"C4-GATA-related","phagocytosis, engulfment",3.41880341880342,0
+2,"C4-GATA-related","positive regulation of biological process",79.4871794871795,2.80716618552334
+2,"C4-GATA-related","reactive oxygen species metabolic process",7.69230769230769,1.89822333082801
+2,"C4-GATA-related","regulation of proteolysis",12.8205128205128,2.07978308945586
+2,"C4-GATA-related","respiratory burst",5.12820512820513,1.77431728049609
+3,"CEBP-related","actin cytoskeleton organization",0,0
+3,"CEBP-related","catabolic process",100,1.34340480624743
+3,"CEBP-related","cell activation",90.4761904761905,2.15355760297164
+3,"CEBP-related","cell junction disassembly",4.76190476190476,4.25417723569072
+3,"CEBP-related","cell killing",14.2857142857143,1.51267853547083
+3,"CEBP-related","cell population proliferation",42.8571428571429,1.88853397875988
+3,"CEBP-related","immune system process",85.7142857142857,2.13356363517597
+3,"CEBP-related","leukocyte cell-cell adhesion",38.0952380952381,0
+3,"CEBP-related","phagocytosis",42.8571428571429,1.87610766977049
+3,"CEBP-related","phagocytosis, engulfment",0,0
+3,"CEBP-related","positive regulation of biological process",95.2380952380952,2.20024043929051
+3,"CEBP-related","reactive oxygen species metabolic process",4.76190476190476,11.2614863254853
+3,"CEBP-related","regulation of proteolysis",9.52380952380952,1.4173419772612
+3,"CEBP-related","respiratory burst",4.76190476190476,11.2614863254853
+4,"E2F","actin cytoskeleton organization",10.2803738317757,1.92806025367945
+4,"E2F","catabolic process",91.588785046729,2.10791969010005
+4,"E2F","cell activation",60.7476635514019,2.68298872053205
+4,"E2F","cell junction disassembly",2.80373831775701,1.54095206430169
+4,"E2F","cell killing",9.34579439252336,1.97824565847891
+4,"E2F","cell population proliferation",27.1028037383178,2.44882801363763
+4,"E2F","immune system process",81.3084112149533,2.72766943034246
+4,"E2F","leukocyte cell-cell adhesion",20.5607476635514,0
+4,"E2F","phagocytosis",37.3831775700935,2.55634076907663
+4,"E2F","phagocytosis, engulfment",2.80373831775701,0
+4,"E2F","positive regulation of biological process",79.4392523364486,2.78843924104331
+4,"E2F","reactive oxygen species metabolic process",5.60747663551402,1.72940770005168
+4,"E2F","regulation of proteolysis",12.1495327102804,2.05240292357379
+4,"E2F","respiratory burst",3.73831775700935,1.62498548771813
+5,"Ets-related","actin cytoskeleton organization",10,2.04383404327049
+5,"Ets-related","catabolic process",92.1428571428571,2.25869274443112
+5,"Ets-related","cell activation",62.1428571428571,2.80387110264053
+5,"Ets-related","cell junction disassembly",3.57142857142857,1.68193266312024
+5,"Ets-related","cell killing",10,2.08382657669446
+5,"Ets-related","cell population proliferation",29.2857142857143,2.55495589930362
+5,"Ets-related","immune system process",80,2.79714056114387
+5,"Ets-related","leukocyte cell-cell adhesion",22.8571428571429,0
+5,"Ets-related","phagocytosis",38.5714285714286,2.64853408500046
+5,"Ets-related","phagocytosis, engulfment",3.57142857142857,0
+5,"Ets-related","positive regulation of biological process",79.2857142857143,2.86097031845062
+5,"Ets-related","reactive oxygen species metabolic process",7.85714285714286,1.94148186520065
+5,"Ets-related","regulation of proteolysis",12.8571428571429,2.13348887700806
+5,"Ets-related","respiratory burst",4.28571428571429,1.71247485981999
+6,"Interferon-regulatory factors","actin cytoskeleton organization",10,1.9313523507585
+6,"Interferon-regulatory factors","catabolic process",90.8333333333333,2.09871358803034
+6,"Interferon-regulatory factors","cell activation",68.3333333333333,2.65568988562821
+6,"Interferon-regulatory factors","cell junction disassembly",3.33333333333333,1.55877387186065
+6,"Interferon-regulatory factors","cell killing",10,1.96179810528027
+6,"Interferon-regulatory factors","cell population proliferation",30,2.4206589144997
+6,"Interferon-regulatory factors","immune system process",83.3333333333333,2.70419500012865
+6,"Interferon-regulatory factors","leukocyte cell-cell adhesion",20,0
+6,"Interferon-regulatory factors","phagocytosis",37.5,2.49286829638516
+6,"Interferon-regulatory factors","phagocytosis, engulfment",4.16666666666667,0
+6,"Interferon-regulatory factors","positive regulation of biological process",83.3333333333333,2.7516131192626
+6,"Interferon-regulatory factors","reactive oxygen species metabolic process",7.5,1.70236091890206
+6,"Interferon-regulatory factors","regulation of proteolysis",13.3333333333333,1.99853330972803
+6,"Interferon-regulatory factors","respiratory burst",3.33333333333333,1.64870145344161
+7,"Jun-related","actin cytoskeleton organization",22,1.94517773965878
+7,"Jun-related","catabolic process",96,1.76400080867334
+7,"Jun-related","cell activation",68,2.41310345358595
+7,"Jun-related","cell junction disassembly",8,1.63423894478723
+7,"Jun-related","cell killing",4,1.41927200067159
+7,"Jun-related","cell population proliferation",40,2.25797332189173
+7,"Jun-related","immune system process",86,2.40395164476086
+7,"Jun-related","leukocyte cell-cell adhesion",22,0
+7,"Jun-related","phagocytosis",46,2.27724856483235
+7,"Jun-related","phagocytosis, engulfment",6,0
+7,"Jun-related","positive regulation of biological process",88,2.54543111321537
+7,"Jun-related","reactive oxygen species metabolic process",6,1.48090262123718
+7,"Jun-related","regulation of proteolysis",8,1.59930363997622
+7,"Jun-related","respiratory burst",4,1.442180348699
+8,"More than 3 adjacent zinc fingers","actin cytoskeleton organization",10.7142857142857,2.08874488929326
+8,"More than 3 adjacent zinc fingers","catabolic process",93.5714285714286,2.25207004628203
+8,"More than 3 adjacent zinc fingers","cell activation",66.4285714285714,2.86354996022903
+8,"More than 3 adjacent zinc fingers","cell junction disassembly",2.85714285714286,1.63423894478723
+8,"More than 3 adjacent zinc fingers","cell killing",12.1428571428571,2.1834260645116
+8,"More than 3 adjacent zinc fingers","cell population proliferation",30,2.57263836497146
+8,"More than 3 adjacent zinc fingers","immune system process",83.5714285714286,2.82708023494531
+8,"More than 3 adjacent zinc fingers","leukocyte cell-cell adhesion",20,0
+8,"More than 3 adjacent zinc fingers","phagocytosis",40,2.67867225866141
+8,"More than 3 adjacent zinc fingers","phagocytosis, engulfment",2.85714285714286,0
+8,"More than 3 adjacent zinc fingers","positive regulation of biological process",82.8571428571429,2.90234291972772
+8,"More than 3 adjacent zinc fingers","reactive oxygen species metabolic process",7.85714285714286,1.96730556916899
+8,"More than 3 adjacent zinc fingers","regulation of proteolysis",14.2857142857143,2.18168837175112
+8,"More than 3 adjacent zinc fingers","respiratory burst",3.57142857142857,1.70618958563586
+9,"MyoD/ASC-related factors","actin cytoskeleton organization",20,1.62378360609252
+9,"MyoD/ASC-related factors","catabolic process",100,1.53731634012621
+9,"MyoD/ASC-related factors","cell activation",80,2.14648389665346
+9,"MyoD/ASC-related factors","cell junction disassembly",4,4.25417723569072
+9,"MyoD/ASC-related factors","cell killing",12,1.51267853547083
+9,"MyoD/ASC-related factors","cell population proliferation",44,1.9480590621763
+9,"MyoD/ASC-related factors","immune system process",84,2.06445215494833
+9,"MyoD/ASC-related factors","leukocyte cell-cell adhesion",32,0
+9,"MyoD/ASC-related factors","phagocytosis",52,2.01090694722578
+9,"MyoD/ASC-related factors","phagocytosis, engulfment",4,0
+9,"MyoD/ASC-related factors","positive regulation of biological process",88,2.22514555675755
+9,"MyoD/ASC-related factors","reactive oxygen species metabolic process",8,1.36252053237366
+9,"MyoD/ASC-related factors","regulation of proteolysis",12,1.46932295431771
+9,"MyoD/ASC-related factors","respiratory burst",4,6.20996259591719
+10,"NF-kappaB-related factors","actin cytoskeleton organization",11.6666666666667,2.05554135267767
+10,"NF-kappaB-related factors","catabolic process",95,2.22525074043808
+10,"NF-kappaB-related factors","cell activation",70.8333333333333,2.82116058825289
+10,"NF-kappaB-related factors","cell junction disassembly",4.16666666666667,1.71372847534224
+10,"NF-kappaB-related factors","cell killing",14.1666666666667,2.2007707937069
+10,"NF-kappaB-related factors","cell population proliferation",30,2.52856237867155
+10,"NF-kappaB-related factors","immune system process",85,2.80656874445875
+10,"NF-kappaB-related factors","leukocyte cell-cell adhesion",24.1666666666667,0
+10,"NF-kappaB-related factors","phagocytosis",39.1666666666667,2.62091758042497
+10,"NF-kappaB-related factors","phagocytosis, engulfment",3.33333333333333,0
+10,"NF-kappaB-related factors","positive regulation of biological process",86.6666666666667,2.87773216619399
+10,"NF-kappaB-related factors","reactive oxygen species metabolic process",9.16666666666667,1.96715038215633
+10,"NF-kappaB-related factors","regulation of proteolysis",14.1666666666667,2.121000658394
+10,"NF-kappaB-related factors","respiratory burst",3.33333333333333,1.62498548771813
+11,"NFAT-related factors","actin cytoskeleton organization",10.0671140939597,1.82296640467833
+11,"NFAT-related factors","catabolic process",92.6174496644295,1.88739520598452
+11,"NFAT-related factors","cell activation",65.1006711409396,2.40033639745515
+11,"NFAT-related factors","cell junction disassembly",3.35570469798658,1.71372847534224
+11,"NFAT-related factors","cell killing",12.751677852349,5.37383240239441
+11,"NFAT-related factors","cell population proliferation",29.5302013422819,2.15251081282074
+11,"NFAT-related factors","immune system process",82.5503355704698,2.3707219809151
+11,"NFAT-related factors","leukocyte cell-cell adhesion",21.4765100671141,0
+11,"NFAT-related factors","phagocytosis",40.2684563758389,2.25266909281018
+11,"NFAT-related factors","phagocytosis, engulfment",3.35570469798658,0
+11,"NFAT-related factors","positive regulation of biological process",81.2080536912752,2.5053284913415
+11,"NFAT-related factors","reactive oxygen species metabolic process",8.05369127516778,1.68547564261761
+11,"NFAT-related factors","regulation of proteolysis",12.751677852349,1.79040765587752
+11,"NFAT-related factors","respiratory burst",3.35570469798658,1.56572441569335
+12,"Nuclear factor 1","actin cytoskeleton organization",23.5294117647059,1.55718792006339
+12,"Nuclear factor 1","catabolic process",100,1.45608340793343
+12,"Nuclear factor 1","cell activation",58.8235294117647,1.92307405070853
+12,"Nuclear factor 1","cell junction disassembly",0,0
+12,"Nuclear factor 1","cell killing",5.88235294117647,8.50672248214016
+12,"Nuclear factor 1","cell population proliferation",29.4117647058824,1.71038683362742
+12,"Nuclear factor 1","immune system process",94.1176470588235,1.88810446258672
+12,"Nuclear factor 1","leukocyte cell-cell adhesion",17.6470588235294,0
+12,"Nuclear factor 1","phagocytosis",47.0588235294118,1.80245248039866
+12,"Nuclear factor 1","phagocytosis, engulfment",5.88235294117647,0
+12,"Nuclear factor 1","positive regulation of biological process",94.1176470588235,2.09202909258185
+12,"Nuclear factor 1","reactive oxygen species metabolic process",11.7647058823529,1.36252053237366
+12,"Nuclear factor 1","regulation of proteolysis",11.7647058823529,1.43536043295841
+12,"Nuclear factor 1","respiratory burst",11.7647058823529,1.42525924575084
+13,"Runt-related factors","actin cytoskeleton organization",12.8712871287129,1.92382333685611
+13,"Runt-related factors","catabolic process",92.0792079207921,1.98309617395316
+13,"Runt-related factors","cell activation",64.3564356435644,2.51764475625972
+13,"Runt-related factors","cell junction disassembly",3.96039603960396,1.63423894478723
+13,"Runt-related factors","cell killing",8.91089108910891,1.8009753773189
+13,"Runt-related factors","cell population proliferation",28.7128712871287,2.26698862772269
+13,"Runt-related factors","immune system process",80.1980198019802,2.50794249006288
+13,"Runt-related factors","leukocyte cell-cell adhesion",24.7524752475248,0
+13,"Runt-related factors","phagocytosis",37.6237623762376,2.3248623294958
+13,"Runt-related factors","phagocytosis, engulfment",1.98019801980198,0
+13,"Runt-related factors","positive regulation of biological process",80.1980198019802,2.62341732319568
+13,"Runt-related factors","reactive oxygen species metabolic process",10.8910891089109,1.83007856784997
+13,"Runt-related factors","regulation of proteolysis",12.8712871287129,1.78509634277953
+13,"Runt-related factors","respiratory burst",4.95049504950495,4.87212578818759
+14,"SMAD factors","actin cytoskeleton organization",14.5833333333333,1.74111937603863
+14,"SMAD factors","catabolic process",91.6666666666667,1.85889519894944
+14,"SMAD factors","cell activation",60.4166666666667,2.27787545926714
+14,"SMAD factors","cell junction disassembly",6.25,1.54178135231942
+14,"SMAD factors","cell killing",4.16666666666667,1.42906635042298
+14,"SMAD factors","cell population proliferation",33.3333333333333,2.14287831451739
+14,"SMAD factors","immune system process",81.25,2.29384791534373
+14,"SMAD factors","leukocyte cell-cell adhesion",20.8333333333333,0
+14,"SMAD factors","phagocytosis",52.0833333333333,2.28933171097001
+14,"SMAD factors","phagocytosis, engulfment",6.25,0
+14,"SMAD factors","positive regulation of biological process",77.0833333333333,2.44978331692858
+14,"SMAD factors","reactive oxygen species metabolic process",12.5,1.68602228621256
+14,"SMAD factors","regulation of proteolysis",12.5,1.72408198044014
+14,"SMAD factors","respiratory burst",4.16666666666667,1.42525924575084
+15,"SOX-related factors","actin cytoskeleton organization",25,1.35959745545859
+15,"SOX-related factors","catabolic process",100,1.46308407324739
+15,"SOX-related factors","cell activation",62.5,1.6751900995843
+15,"SOX-related factors","cell junction disassembly",0,0
+15,"SOX-related factors","cell killing",0,0
+15,"SOX-related factors","cell population proliferation",37.5,1.51385777403135
+15,"SOX-related factors","immune system process",100,1.76164444468539
+15,"SOX-related factors","leukocyte cell-cell adhesion",12.5,0
+15,"SOX-related factors","phagocytosis",50,1.53989512705377
+15,"SOX-related factors","phagocytosis, engulfment",25,0
+15,"SOX-related factors","positive regulation of biological process",100,1.82135088546164
+15,"SOX-related factors","reactive oxygen species metabolic process",12.5,1.46308407324739
+15,"SOX-related factors","regulation of proteolysis",0,0
+15,"SOX-related factors","respiratory burst",0,0
+16,"STAT factors","actin cytoskeleton organization",9.9290780141844,1.9297167319314
+16,"STAT factors","catabolic process",90.7801418439716,1.95895306527999
+16,"STAT factors","cell activation",66.6666666666667,2.62804517753762
+16,"STAT factors","cell junction disassembly",3.54609929078014,2.26676128812907
+16,"STAT factors","cell killing",11.3475177304965,1.93502553363032
+16,"STAT factors","cell population proliferation",29.7872340425532,2.36593319278988
+16,"STAT factors","immune system process",82.9787234042553,2.64388558989381
+16,"STAT factors","leukocyte cell-cell adhesion",20.5673758865248,0
+16,"STAT factors","phagocytosis",39.0070921985816,2.42966846764997
+16,"STAT factors","phagocytosis, engulfment",3.54609929078014,0
+16,"STAT factors","positive regulation of biological process",81.5602836879433,2.7119743290554
+16,"STAT factors","reactive oxygen species metabolic process",7.80141843971631,1.71953941956248
+16,"STAT factors","regulation of proteolysis",14.8936170212766,1.9878773163061
+16,"STAT factors","respiratory burst",3.54609929078014,1.64079613153378
+17,"Steroid hormone receptors (NR3)","actin cytoskeleton organization",16.6666666666667,2.01435950920158
+17,"Steroid hormone receptors (NR3)","catabolic process",92.3076923076923,2.0305857634386
+17,"Steroid hormone receptors (NR3)","cell activation",62.8205128205128,2.5390560445598
+17,"Steroid hormone receptors (NR3)","cell junction disassembly",3.84615384615385,1.54095206430169
+17,"Steroid hormone receptors (NR3)","cell killing",6.41025641025641,1.71923600818762
+17,"Steroid hormone receptors (NR3)","cell population proliferation",29.4871794871795,2.31347180184908
+17,"Steroid hormone receptors (NR3)","immune system process",80.7692307692308,2.55212236919397
+17,"Steroid hormone receptors (NR3)","leukocyte cell-cell adhesion",23.0769230769231,0
+17,"Steroid hormone receptors (NR3)","phagocytosis",38.4615384615385,2.38130122807632
+17,"Steroid hormone receptors (NR3)","phagocytosis, engulfment",2.56410256410256,0
+17,"Steroid hormone receptors (NR3)","positive regulation of biological process",80.7692307692308,2.65737264666548
+17,"Steroid hormone receptors (NR3)","reactive oxygen species metabolic process",10.2564102564103,1.83518941915503
+17,"Steroid hormone receptors (NR3)","regulation of proteolysis",8.97435897435897,1.73025619355721
+17,"Steroid hormone receptors (NR3)","respiratory burst",6.41025641025641,1.70618958563586
+18,"TBP-related factors","actin cytoskeleton organization",10,1.92239791407717
+18,"TBP-related factors","catabolic process",91.8181818181818,2.11838269104481
+18,"TBP-related factors","cell activation",61.8181818181818,2.72102136083098
+18,"TBP-related factors","cell junction disassembly",3.63636363636364,1.63423894478723
+18,"TBP-related factors","cell killing",10.9090909090909,2.04144478867227
+18,"TBP-related factors","cell population proliferation",27.2727272727273,2.45818225269732
+18,"TBP-related factors","immune system process",80,2.72496784042937
+18,"TBP-related factors","leukocyte cell-cell adhesion",18.1818181818182,0
+18,"TBP-related factors","phagocytosis",39.0909090909091,2.57543971074597
+18,"TBP-related factors","phagocytosis, engulfment",2.72727272727273,0
+18,"TBP-related factors","positive regulation of biological process",78.1818181818182,2.79358533304768
+18,"TBP-related factors","reactive oxygen species metabolic process",7.27272727272727,1.85997683506979
+18,"TBP-related factors","regulation of proteolysis",11.8181818181818,2.04948932838183
+18,"TBP-related factors","respiratory burst",4.54545454545455,1.70618958563586
+19,"Thyroid hormone receptor-related factors (NR1)","actin cytoskeleton organization",21.5686274509804,1.94517773965878
+19,"Thyroid hormone receptor-related factors (NR1)","catabolic process",96.078431372549,1.76400080867334
+19,"Thyroid hormone receptor-related factors (NR1)","cell activation",68.6274509803922,2.41904618855446
+19,"Thyroid hormone receptor-related factors (NR1)","cell junction disassembly",7.84313725490196,1.63423894478723
+19,"Thyroid hormone receptor-related factors (NR1)","cell killing",3.92156862745098,1.41927200067159
+19,"Thyroid hormone receptor-related factors (NR1)","cell population proliferation",39.2156862745098,2.25797332189173
+19,"Thyroid hormone receptor-related factors (NR1)","immune system process",86.2745098039216,2.41037816911477
+19,"Thyroid hormone receptor-related factors (NR1)","leukocyte cell-cell adhesion",21.5686274509804,0
+19,"Thyroid hormone receptor-related factors (NR1)","phagocytosis",47.0588235294118,2.28608995581742
+19,"Thyroid hormone receptor-related factors (NR1)","phagocytosis, engulfment",7.84313725490196,0
+19,"Thyroid hormone receptor-related factors (NR1)","positive regulation of biological process",88.2352941176471,2.54767522644995
+19,"Thyroid hormone receptor-related factors (NR1)","reactive oxygen species metabolic process",5.88235294117647,1.48090262123718
+19,"Thyroid hormone receptor-related factors (NR1)","regulation of proteolysis",7.84313725490196,1.59930363997622
+19,"Thyroid hormone receptor-related factors (NR1)","respiratory burst",3.92156862745098,1.442180348699

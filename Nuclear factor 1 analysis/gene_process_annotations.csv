@@ -1,0 +1,18 @@
+"symbol","response_to_bacterium","positive_regulation_of_gene_expression","cellular_response_to_lipopolysaccharide","positive_regulation_of_neuron_apoptotic_process","signal_transduction","inflammatory_response","response_to_lipopolysaccharide","negative_regulation_of_neuron_apoptotic_process","immune_system_process","positive_regulation_of_cell_migration","innate_immune_response","cytokine_mediated_signaling_pathway","angiogenesis","response_to_hypoxia","positive_regulation_of_endothelial_cell_proliferat","top_processes","n_processes"
+"Ccl2",1,1,1,0,0,1,1,1,0,1,0,1,1,1,1,"angiogenesis; response to hypoxia; positive regulation of endothelial cell proliferation; positive regulation of endothelial cell proliferation; inflammatory response; inflammatory response; response to bacterium; positive regulation of gene expression; cytokine-mediated signaling pathway; cytokine-mediated signaling pathway; positive regulation of cell migration; response to lipopolysaccharide; negative regulation of neuron apoptotic process; cellular response to lipopolysaccharide; cellular response to lipopolysaccharide",11
+"Lcn2",1,1,1,1,0,0,1,0,1,0,1,0,0,0,0,"immune system process; response to bacterium; response to bacterium; positive regulation of gene expression; positive regulation of gene expression; response to lipopolysaccharide; positive regulation of neuron apoptotic process; positive regulation of neuron apoptotic process; innate immune response; innate immune response; cellular response to lipopolysaccharide",7
+"Tlr2",1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,"immune system process; inflammatory response; inflammatory response; signal transduction; response to bacterium; positive regulation of gene expression; positive regulation of cell migration; innate immune response; innate immune response",7
+"Cd180",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,"immune system process; inflammatory response; innate immune response; cellular response to lipopolysaccharide; cellular response to lipopolysaccharide",4
+"Grn",0,0,0,1,1,0,0,1,0,1,0,0,0,0,0,"signal transduction; positive regulation of cell migration; positive regulation of cell migration; negative regulation of neuron apoptotic process; negative regulation of neuron apoptotic process; negative regulation of neuron apoptotic process; positive regulation of neuron apoptotic process",4
+"Fgr",0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,"immune system process; positive regulation of cell migration; innate immune response",3
+"Ptafr",0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,"inflammatory response; signal transduction; response to lipopolysaccharide",3
+"Ncf2",0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,"response to lipopolysaccharide; positive regulation of neuron apoptotic process",2
+"Arhgap25",0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,"signal transduction",1
+"Retnlg",0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,"signal transduction",1
+"Csf2rb2",0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"cytokine-mediated signaling pathway",1
+"Csf2rb",0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"cytokine-mediated signaling pathway; cytokine-mediated signaling pathway",1
+"Arhgef19",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"",0
+"Itm2c",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"",0
+"Prkcd",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"",0
+"Elf4",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"",0
+"Plaur",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"",0

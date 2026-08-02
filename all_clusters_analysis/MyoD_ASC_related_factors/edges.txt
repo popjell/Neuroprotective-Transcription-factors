@@ -1,0 +1,26 @@
+Regulator Gene	Target Gene	interaction	Motif id	NES	Assembly
+Myf6	Cadm1	regulates via transfac_pro-M01692	transfac_pro-M01692	3.04836	mm9
+Myf6	Arhgap25	regulates via transfac_pro-M01692	transfac_pro-M01692	3.04836	mm9
+Myf6	Il1b	regulates via transfac_pro-M01692	transfac_pro-M01692	3.04836	mm9
+Myf6	P2ry6	regulates via transfac_pro-M01692	transfac_pro-M01692	3.04836	mm9
+Myf6	Osm	regulates via transfac_pro-M01692	transfac_pro-M01692	3.04836	mm9
+Myf6	Cndp2	regulates via transfac_pro-M01692	transfac_pro-M01692	3.04836	mm9
+Myf6	Elf4	regulates via transfac_pro-M01692	transfac_pro-M01692	3.04836	mm9
+Myf6	Fgr	regulates via transfac_pro-M01692	transfac_pro-M01692	3.04836	mm9
+Myf6	Ptprf	regulates via transfac_pro-M01692	transfac_pro-M01692	3.04836	mm9
+Myf6	Vasp	regulates via transfac_pro-M01692	transfac_pro-M01692	3.04836	mm9
+Myf6	Ccl2	regulates via transfac_pro-M01692	transfac_pro-M01692	3.04836	mm9
+Myf6	Fgl2	regulates via transfac_pro-M01692	transfac_pro-M01692	3.04836	mm9
+Myf6	Atf3	regulates via transfac_pro-M01692	transfac_pro-M01692	3.04836	mm9
+Myf6	Rest	regulates via transfac_pro-M01692	transfac_pro-M01692	3.04836	mm9
+Myf6	Tmbim6	regulates via transfac_pro-M01692	transfac_pro-M01692	3.04836	mm9
+Myf6	Cd180	regulates via transfac_pro-M01692	transfac_pro-M01692	3.04836	mm9
+Myf6	Runx1	regulates via transfac_pro-M01692	transfac_pro-M01692	3.04836	mm9
+Myf6	Prkcd	regulates via transfac_pro-M01692	transfac_pro-M01692	3.04836	mm9
+Myf6	Serpine2	regulates via transfac_pro-M01692	transfac_pro-M01692	3.04836	mm9
+Myf6	Ccrl2	regulates via transfac_pro-M01692	transfac_pro-M01692	3.04836	mm9
+Myf6	Kcnk6	regulates via transfac_pro-M01692	transfac_pro-M01692	3.04836	mm9
+Myf6	Rcsd1	regulates via transfac_pro-M01692	transfac_pro-M01692	3.04836	mm9
+Myf6	Slco2b1	regulates via transfac_pro-M01692	transfac_pro-M01692	3.04836	mm9
+Myf6	Rac2	regulates via transfac_pro-M01692	transfac_pro-M01692	3.04836	mm9
+Myf6	E2f8	regulates via transfac_pro-M01692	transfac_pro-M01692	3.04836	mm9

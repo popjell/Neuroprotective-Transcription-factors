@@ -1,0 +1,14 @@
+CEBP
+General: https://pubmed.ncbi.nlm.nih.gov/8530141/
+
+EAE Context: https://pmc.ncbi.nlm.nih.gov/articles/PMC5337143/
+- Mice negative to CEBP TF's are resistant to eae
+- CEBP drives autoimmune inflammation, primarily immune cell infiltration into the CNS
+- no neuronal context
+
+
+NFI
+General:
+
+Eae context: https://pmc.ncbi.nlm.nih.gov/articles/PMC9263648/
+- not much background actually

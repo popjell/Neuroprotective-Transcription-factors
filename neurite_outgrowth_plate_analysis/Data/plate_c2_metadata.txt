@@ -1,0 +1,11 @@
+Baseline: B7,B8,B9,C7,C8,C9,D7,D8,D9
+
+Drugged:
+DMSO:3
+0.1 uM YE2617:4
+0.5 uM YE2617:5
+1.0 uM YE2617:6
+
+Media:
+Control:B,C,D
+PBMC:E,F,G

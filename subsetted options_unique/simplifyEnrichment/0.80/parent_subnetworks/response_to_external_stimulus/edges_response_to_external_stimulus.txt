@@ -1,0 +1,20 @@
+Regulator Gene	Target Gene	interaction	Motif id	NES	Assembly
+Pura	Cd52	regulates via homer-M00159	homer-M00159	7.90831	mm9
+Yy1	Cd52	regulates via taipale-AAAAAGMGGAAGTN-SPIB-DBD	taipale-AAAAAGMGGAAGTN-SPIB-DBD	7.51948	mm9
+Nfatc3	Cd52	regulates via taipale-AAAAAGMGGAAGTN-SPIB-DBD	taipale-AAAAAGMGGAAGTN-SPIB-DBD	7.51948	mm9
+Tbp	Cd52	regulates via taipale-AAAAAGMGGAAGTN-SPIB-DBD	taipale-AAAAAGMGGAAGTN-SPIB-DBD	7.51948	mm9
+E2f6	Cd52	regulates via factorbook-PU1	factorbook-PU1	6.1267	mm9
+Rela	Cd52	regulates via transfac_pro-M01224	transfac_pro-M01224	4.95189	mm9
+Ap3b1	Cd52	regulates via transfac_pro-M01224	transfac_pro-M01224	4.95189	mm9
+Runx2	Cd52	regulates via tfdimers-MD00066	tfdimers-MD00066	4.53165	mm9
+Ets1	Cd52	regulates via tfdimers-MD00066	tfdimers-MD00066	4.53165	mm9
+Fli1	Cd52	regulates via tfdimers-MD00066	tfdimers-MD00066	4.53165	mm9
+Ets2	Cd52	regulates via tfdimers-MD00066	tfdimers-MD00066	4.53165	mm9
+Bptf	Cd52	regulates via tfdimers-MD00066	tfdimers-MD00066	4.53165	mm9
+Runx3	Cd52	regulates via tfdimers-MD00066	tfdimers-MD00066	4.53165	mm9
+Runx1	Slfn4	regulates via homer-M00051	homer-M00051	4.08002	mm9
+Ehf	Cd52	regulates via transfac_pro-M01203	transfac_pro-M01203	4.01167	mm9
+Elf4	Cd52	regulates via transfac_pro-M00339	transfac_pro-M00339	3.80756	mm9
+Gata1	Cd52	regulates via transfac_pro-M00339	transfac_pro-M00339	3.80756	mm9
+Nr3c1	Cd52	regulates via transfac_pro-M00339	transfac_pro-M00339	3.80756	mm9
+Smad3	Cd52	regulates via transfac_pro-M00792	transfac_pro-M00792	3.23493	mm9

@@ -1,0 +1,10 @@
+plate images/
+Background info/
+
+/.quarto/
+**/*.quarto_ipynb
+
+#Ignore all future heavy rds and compressed files 
+*.rds
+*.csv.gz
+

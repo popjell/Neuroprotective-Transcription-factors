@@ -1,0 +1,19 @@
+Regulator Gene	Target Gene	interaction	Motif id	NES	Assembly
+Irf2	Psme1	regulates via swissregulon-IRF1-2-7.p3	swissregulon-IRF1-2-7.p3	5.83392	mm9
+Irf2	Psmb9	regulates via swissregulon-IRF1-2-7.p3	swissregulon-IRF1-2-7.p3	5.83392	mm9
+Irf1	Psme1	regulates via swissregulon-IRF1-2-7.p3	swissregulon-IRF1-2-7.p3	5.83392	mm9
+Irf1	Psmb9	regulates via swissregulon-IRF1-2-7.p3	swissregulon-IRF1-2-7.p3	5.83392	mm9
+Irf7	Psme1	regulates via swissregulon-IRF1-2-7.p3	swissregulon-IRF1-2-7.p3	5.83392	mm9
+Irf7	Psmb9	regulates via swissregulon-IRF1-2-7.p3	swissregulon-IRF1-2-7.p3	5.83392	mm9
+Irf5	Psme1	regulates via swissregulon-IRF1-2-7.p3	swissregulon-IRF1-2-7.p3	5.83392	mm9
+Irf5	Psmb9	regulates via swissregulon-IRF1-2-7.p3	swissregulon-IRF1-2-7.p3	5.83392	mm9
+Irf8	Psme1	regulates via swissregulon-IRF1-2-7.p3	swissregulon-IRF1-2-7.p3	5.83392	mm9
+Irf8	Psmb9	regulates via swissregulon-IRF1-2-7.p3	swissregulon-IRF1-2-7.p3	5.83392	mm9
+Irf9	Psme1	regulates via swissregulon-IRF1-2-7.p3	swissregulon-IRF1-2-7.p3	5.83392	mm9
+Irf9	Psmb9	regulates via swissregulon-IRF1-2-7.p3	swissregulon-IRF1-2-7.p3	5.83392	mm9
+Stat1	Psme1	regulates via swissregulon-IRF1-2-7.p3	swissregulon-IRF1-2-7.p3	5.83392	mm9
+Stat1	Psmb9	regulates via swissregulon-IRF1-2-7.p3	swissregulon-IRF1-2-7.p3	5.83392	mm9
+Stat2	Psme1	regulates via swissregulon-IRF1-2-7.p3	swissregulon-IRF1-2-7.p3	5.83392	mm9
+Stat2	Psmb9	regulates via swissregulon-IRF1-2-7.p3	swissregulon-IRF1-2-7.p3	5.83392	mm9
+Pura	Psme1	regulates via swissregulon-IRF1-2-7.p3	swissregulon-IRF1-2-7.p3	5.83392	mm9
+Pura	Psmb9	regulates via swissregulon-IRF1-2-7.p3	swissregulon-IRF1-2-7.p3	5.83392	mm9
