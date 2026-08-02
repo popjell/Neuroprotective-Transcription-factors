@@ -1,9 +1,0 @@
-Regulator Gene	Target Gene	interaction	Motif id	NES	Assembly
-Sox10	Ptafr	regulates via tfdimers-MD00329	tfdimers-MD00329	3.06406	mm9
-Sox10	Prkcd	regulates via tfdimers-MD00329	tfdimers-MD00329	3.06406	mm9
-Sox10	Fcer1g	regulates via tfdimers-MD00329	tfdimers-MD00329	3.06406	mm9
-Sox10	Cd180	regulates via tfdimers-MD00329	tfdimers-MD00329	3.06406	mm9
-Sox10	Elf4	regulates via tfdimers-MD00329	tfdimers-MD00329	3.06406	mm9
-Sox10	Lsp1	regulates via tfdimers-MD00329	tfdimers-MD00329	3.06406	mm9
-Sox10	Osm	regulates via tfdimers-MD00329	tfdimers-MD00329	3.06406	mm9
-Sox10	Arhgap25	regulates via tfdimers-MD00329	tfdimers-MD00329	3.06406	mm9
