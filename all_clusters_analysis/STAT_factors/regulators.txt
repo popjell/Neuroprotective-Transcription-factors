@@ -1,4 +1,0 @@
-Stat1
-Stat2
-Stat3
-Stat6
