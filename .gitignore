@@ -1,10 +1,24 @@
-plate images/
 Background info/
-
+neurite_outgrowth_plate_analysis/
 /.quarto/
 **/*.quarto_ipynb
 
-#Ignore all future heavy rds and compressed files 
+# Ignore all heavy RDS and compressed files
 *.rds
 *.csv.gz
+
+
+# GO reduction and category-based analysis
+parent_subnetworks/
+parent_category_genes/
+subsetted options/
+subsetted options_unique/
+all_clusters_analysis/
+
+
+# Visualization outputs
+*.png
+*.pdf
+
+
 
