@@ -42,7 +42,7 @@ count_matrix_MN <- lapply(raw_files_MN, read_counts) |>
 head(count_matrix_MN)
 
 # Fetch the metadata
-gse_meta_MN <- getGEO(gsenum_MN, GSEMatrix = TRUE)[[1]]
+gse_meta_MN <- getGEO(gsenum_MN, GSEMatrix = TRUE, returnType = "ExpressionSet")[[1]]
 pheno_MN <- pData(gse_meta_MN)
 
 # Clean up the characteristics columns
