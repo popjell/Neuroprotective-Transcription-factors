@@ -1,0 +1,444 @@
+,term_name,negative_log10_of_adjusted_p_value,metabolism_related,metabolism_confidence,cell_killing_related,cell_killing_confidence,cell_killing_override
+32,cell killing,21.0127819687736,false,95,true,98,true
+154,cell death,7.363885875425,false,95,true,98,true
+139,apoptotic process,7.86599886078479,false,95,true,97,true
+155,programmed cell death,7.363885875425,false,95,true,97,true
+101,positive regulation of cell killing,9.62468123034198,false,95,true,95,true
+120,regulation of cell killing,8.34130687379868,false,95,true,95,true
+1,immune system process,56.3748186011489,false,95,false,95,false
+2,response to external stimulus,50.7006998171319,false,95,false,95,false
+3,defense response,44.9507298342327,false,95,false,95,false
+4,response to other organism,44.3069430088218,false,95,false,95,false
+5,response to external biotic stimulus,44.2188302178549,false,95,false,95,false
+6,biological process involved in interspecies interaction between organisms,43.8249766832331,false,95,false,95,false
+7,response to biotic stimulus,43.4371161110026,false,95,false,95,false
+9,regulation of immune system process,38.7025890821493,false,95,false,95,false
+10,positive regulation of immune system process,37.3033461546257,false,95,false,95,false
+12,defense response to symbiont,33.9852026324442,false,95,false,95,false
+13,regulation of response to external stimulus,33.5039706026302,false,95,false,95,false
+14,defense response to other organism,33.1528501412873,false,95,false,95,false
+15,response to stress,33.045853723789,false,95,false,95,false
+16,inflammatory response,31.6109157003512,false,95,false,95,false
+17,positive regulation of response to stimulus,30.9207515358124,false,95,false,95,false
+18,positive regulation of response to external stimulus,30.862521193194,false,95,false,95,false
+19,regulation of response to stimulus,28.602550643326,false,95,false,95,false
+21,response to stimulus,26.2610202815927,false,95,false,95,false
+24,cell activation,24.6415210395532,false,95,false,95,false
+25,response to bacterium,23.9836305042053,false,95,false,95,false
+27,leukocyte activation,23.3853402586779,false,95,false,95,false
+28,positive regulation of biological process,22.6753416677031,false,95,false,95,false
+29,positive regulation of defense response,22.2804883084624,false,95,false,95,false
+30,regulation of defense response,22.1088976021558,false,95,false,95,false
+31,antigen processing and presentation,22.0355717984123,false,95,false,95,false
+33,regulation of response to stress,20.8353998792813,false,95,false,95,false
+34,regulation of multicellular organismal process,18.9212560289242,false,95,false,95,false
+35,lymphocyte mediated immunity,18.8153594005427,false,95,false,95,false
+37,myeloid leukocyte activation,17.3452085851579,false,95,false,95,false
+38,cell surface receptor signaling pathway,16.6477831871563,false,95,false,95,false
+39,positive regulation of multicellular organismal process,16.4827035921248,false,95,false,95,false
+40,positive regulation of cellular process,16.4219019347358,false,95,false,95,false
+41,leukocyte migration,16.4098023431114,false,95,false,95,false
+43,chemotaxis,15.93823204202,false,95,false,95,false
+44,taxis,15.8753227929626,false,95,false,95,false
+45,regulation of response to biotic stimulus,15.7250886137623,false,95,false,95,false
+46,antigen processing and presentation of peptide antigen,15.6529906266656,false,95,false,95,false
+47,signal transduction,15.5532089188145,false,95,false,95,false
+48,regulation of biological process,15.5052791043399,false,95,false,95,false
+49,cellular response to chemical stimulus,15.4445399693721,false,95,false,95,false
+50,regulation of cytokine production,15.3883891169014,false,55,false,95,false
+51,positive regulation of inflammatory response,15.3783549057365,false,95,false,95,false
+52,cytokine production,15.2842651452422,false,55,false,95,false
+54,positive regulation of response to biotic stimulus,14.9667027701963,false,95,false,95,false
+55,signaling,14.8730749153084,false,95,false,95,false
+56,cellular response to stimulus,14.6629666362321,false,95,false,95,false
+57,response to peptide,14.6265611948545,false,95,false,95,false
+58,cell communication,14.5843766471301,false,95,false,95,false
+59,lymphocyte activation,14.5445214389398,false,95,false,95,false
+60,immune response-regulating signaling pathway,14.4968448530757,false,95,false,95,false
+61,myeloid leukocyte migration,14.3091140285755,false,95,false,95,false
+63,response to cytokine,14.040663918821,false,95,false,95,false
+64,biological regulation,13.9569064981515,false,95,false,95,false
+67,regulation of inflammatory response,13.5922948413145,false,95,false,95,false
+68,adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains,13.4054859612828,false,95,false,95,false
+70,antigen processing and presentation of exogenous antigen,13.3069527221141,false,95,false,95,false
+71,cytokine-mediated signaling pathway,13.2313107313982,false,95,false,95,false
+72,regulation of cellular process,13.2277547157908,false,95,false,95,false
+73,defense response to bacterium,13.0691461400322,false,95,false,95,false
+74,regulation of cell activation,13.0661167493988,false,95,false,95,false
+75,cellular response to cytokine stimulus,13.0104003328417,false,95,false,95,false
+76,T cell activation,12.9275988934448,false,95,false,95,false
+77,leukocyte chemotaxis,12.7021381643464,false,95,false,95,false
+78,leukocyte differentiation,12.6947496156633,false,95,false,95,false
+79,response to molecule of bacterial origin,12.6141200649905,false,95,false,95,false
+80,antigen processing and presentation of exogenous peptide antigen,12.5852526145268,false,95,false,95,false
+81,cell population proliferation,12.1288470387571,false,95,false,95,false
+82,cell chemotaxis,12.1040395753635,false,95,false,95,false
+84,immune response-activating signaling pathway,11.8819272486546,false,95,false,95,false
+85,positive regulation of cell communication,11.6668324151295,false,95,false,95,false
+86,positive regulation of signaling,11.6567851644623,false,95,false,95,false
+87,intracellular signal transduction,11.0901830218558,false,95,false,95,false
+88,regulation of signaling,11.0440726640925,false,95,false,95,false
+89,regulation of cell communication,11.0166651436739,false,95,false,95,false
+90,negative regulation of multicellular organismal process,10.8311789912319,false,95,false,95,false
+91,hemopoiesis,10.6432137179972,false,95,false,95,false
+92,immune response-regulating cell surface receptor signaling pathway,10.5696200320263,false,95,false,95,false
+93,regulation of signal transduction,10.5284679805676,false,95,false,95,false
+94,positive regulation of signal transduction,10.4519775495267,false,95,false,95,false
+95,cell migration,10.2632290601473,false,95,false,95,false
+96,cellular response to molecule of bacterial origin,10.2082116857919,false,95,false,95,false
+97,response to lipopolysaccharide,10.1245900056262,false,95,false,95,false
+98,response to chemical,9.94480759146624,false,95,false,95,false
+100,locomotion,9.63103949464919,false,95,false,95,false
+102,regulation of leukocyte activation,9.57495852804059,false,95,false,95,false
+103,leukocyte cell-cell adhesion,9.41040210749794,false,95,false,95,false
+104,cellular response to lipopolysaccharide,9.37198048536698,false,95,false,95,false
+105,cellular response to biotic stimulus,9.33421739058257,false,95,false,95,false
+107,response to oxygen-containing compound,9.12056951106853,false,95,false,95,false
+109,regulation of intracellular signal transduction,9.00202960762207,false,95,false,95,false
+111,glial cell activation,8.91754346773235,false,95,false,95,false
+112,immune response-activating cell surface receptor signaling pathway,8.85271089221983,false,95,false,95,false
+113,negative regulation of immune system process,8.82715297692925,false,95,false,95,false
+114,intracellular signaling cassette,8.80879941831666,false,95,false,95,false
+115,adaptive immune response,8.70257077173041,false,95,false,95,false
+116,multicellular organismal process,8.67836862288933,false,95,false,95,false
+117,positive regulation of adaptive immune response,8.56345154179727,false,95,false,95,false
+118,antigen processing and presentation of peptide antigen via MHC class I,8.55342420454352,false,95,false,95,false
+119,positive regulation of cytokine production,8.52852213295921,false,55,false,95,false
+121,mononuclear cell migration,8.31067288414793,false,95,false,95,false
+122,cell-cell adhesion,8.29511033664706,false,95,false,95,false
+125,positive regulation of cell activation,8.23426618637852,false,95,false,95,false
+126,positive regulation of leukocyte migration,8.18388056421835,false,95,false,95,false
+127,regulation of multicellular organismal development,8.1027985672436,false,95,false,95,false
+128,negative regulation of cytokine production,8.07566033894503,false,55,false,95,false
+129,mononuclear cell differentiation,8.0373627558077,false,95,false,95,false
+130,phagocytosis,8.02881948565953,false,95,false,95,false
+131,regulation of developmental process,8.00540125616115,false,95,false,95,false
+132,regulation of leukocyte migration,7.96042484129612,false,95,false,95,false
+133,cell adhesion,7.95736741489932,false,95,false,95,false
+134,cellular response to oxygen-containing compound,7.90464242661895,false,95,false,95,false
+135,positive regulation of mononuclear cell migration,7.89990538632569,false,95,false,95,false
+136,antigen processing and presentation of peptide antigen via MHC class II,7.89320499682449,false,95,false,95,false
+137,neutrophil activation,7.87537764064656,false,95,false,95,false
+138,microglial cell activation,7.87537764064656,false,95,false,95,false
+140,cell motility,7.80663001430792,false,95,false,95,false
+141,regulation of interleukin-6 production,7.78687528629321,false,55,false,95,false
+142,interleukin-6 production,7.78687528629321,false,55,false,95,false
+143,positive regulation of adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains,7.67099847322639,false,95,false,95,false
+144,endocytosis,7.66804987221577,false,95,false,95,false
+145,negative regulation of biological process,7.62862363287484,false,95,false,95,false
+146,antigen processing and presentation of peptide or polysaccharide antigen via MHC class II,7.55567842951331,false,95,false,95,false
+147,leukocyte activation involved in inflammatory response,7.52115879134052,false,95,false,95,false
+148,myeloid leukocyte differentiation,7.51889257148235,false,95,false,95,false
+149,leukocyte proliferation,7.50560466174568,false,95,false,95,false
+150,macrophage activation,7.44144733089009,false,95,false,95,false
+151,regulation of cell population proliferation,7.38594688491159,false,95,false,95,false
+152,regulation of tumor necrosis factor production,7.37817738937427,false,55,false,95,false
+153,tumor necrosis factor production,7.37817738937427,false,55,false,95,false
+156,negative regulation of cellular process,7.32604037861718,false,95,false,95,false
+157,cell differentiation,7.26227266296339,false,95,false,95,false
+158,tumor necrosis factor superfamily cytokine production,7.261539304408,false,55,false,95,false
+159,regulation of tumor necrosis factor superfamily cytokine production,7.261539304408,false,55,false,95,false
+160,cellular developmental process,7.25740642533193,false,95,false,95,false
+161,secretion,7.23230319056197,false,75,false,95,false
+163,negative regulation of response to external stimulus,7.20649952286063,false,95,false,95,false
+164,granulocyte activation,7.19803141447754,false,95,false,95,false
+165,anatomical structure development,7.19334951635867,false,95,false,95,false
+166,positive regulation of cell migration,7.19002228200341,false,95,false,95,false
+167,innate immune response-activating signaling pathway,7.08171345955113,false,95,false,95,false
+168,establishment of localization,7.0204263581144,false,95,false,95,false
+169,defense response to Gram-positive bacterium,6.9965266679415,false,95,false,95,false
+170,regulation of leukocyte chemotaxis,6.97442678237333,false,95,false,95,false
+171,blood vessel development,6.96265773327769,false,95,false,95,false
+172,regulation of adaptive immune response,6.95637976086181,false,95,false,95,false
+173,regulation of cell-cell adhesion,6.95198183515741,false,95,false,95,false
+174,regulation of transport,6.93598465981186,false,95,false,95,false
+175,positive regulation of leukocyte chemotaxis,6.87837421838029,false,95,false,95,false
+176,neuroinflammatory response,6.80970667609577,false,95,false,95,false
+177,positive regulation of cell motility,6.78764320179711,false,95,false,95,false
+178,antigen processing and presentation of exogenous peptide antigen via MHC class II,6.76742664931459,false,95,false,95,false
+179,regulation of cell adhesion,6.76720214627604,false,95,false,95,false
+180,leukocyte activation involved in immune response,6.74884283414817,false,95,false,95,false
+181,positive regulation of leukocyte activation,6.7153469112506,false,95,false,95,false
+182,cell activation involved in immune response,6.6992690827645,false,95,false,95,false
+183,transport,6.66763423392195,false,95,false,95,false
+184,vesicle-mediated transport,6.57268202558648,false,95,false,95,false
+185,response to virus,6.56571014737117,false,95,false,95,false
+186,vasculature development,6.56224524327523,false,95,false,95,false
+187,positive regulation of locomotion,6.53738494788487,false,95,false,95,false
+188,myeloid cell differentiation,6.51985009958889,false,95,false,95,false
+189,myeloid cell activation involved in immune response,6.48870361046166,false,95,false,95,false
+190,granulocyte migration,6.46125075410353,false,95,false,95,false
+191,developmental process,6.45245559089966,false,95,false,95,false
+192,import into cell,6.3758062553426,false,95,false,95,false
+193,regulation of adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains,6.34782609243126,false,95,false,95,false
+194,cell development,6.32560410100653,false,95,false,95,false
+195,response to lipid,6.29462900055453,false,95,false,95,false
+196,pattern recognition receptor signaling pathway,6.24051306376888,false,95,false,95,false
+197,granulocyte chemotaxis,6.23065509646967,false,95,false,95,false
+198,blood vessel morphogenesis,6.22398381140182,false,95,false,95,false
+200,regulation of mononuclear cell migration,6.00012758139932,false,95,false,95,false
+201,positive regulation of chemotaxis,5.96045587937596,false,95,false,95,false
+202,regulation of localization,5.95887925381244,false,95,false,95,false
+203,negative regulation of response to stimulus,5.89743816313694,false,95,false,95,false
+204,respiratory burst,5.80584834283104,true,70,false,95,false
+206,regulation of lymphocyte activation,5.65979026701774,false,95,false,95,false
+207,multicellular organism development,5.64749530688381,false,95,false,95,false
+208,regulation of chemokine production,5.64418845765432,false,55,false,95,false
+209,chemokine production,5.64418845765432,false,55,false,95,false
+210,positive regulation of gene expression,5.62602644396823,false,58,false,95,false
+211,lymphocyte proliferation,5.5568969130389,false,95,false,95,false
+212,regulation of leukocyte cell-cell adhesion,5.52089036240609,false,95,false,95,false
+213,mononuclear cell proliferation,5.42566695244754,false,95,false,95,false
+214,localization,5.32656153152183,false,95,false,95,false
+215,regulation of chemotaxis,5.27741326616384,false,95,false,95,false
+216,secretion by cell,5.27307959474857,false,75,false,95,false
+217,regulation of cell migration,5.24305071294702,false,95,false,95,false
+218,response to type II interferon,5.21305876934571,false,95,false,95,false
+219,positive regulation of developmental process,5.16941886218002,false,95,false,95,false
+220,positive regulation of cell differentiation,5.16666545060714,false,95,false,95,false
+221,tube morphogenesis,5.15703483284267,false,95,false,95,false
+222,positive regulation of interleukin-6 production,5.14710013987267,false,55,false,95,false
+223,positive regulation of metabolic process,5.10790676298255,true,95,false,95,false
+224,positive regulation of acute inflammatory response,5.09826223989608,false,95,false,95,false
+225,astrocyte development,5.08579726959423,false,95,false,95,false
+226,positive regulation of intracellular signal transduction,5.03285773589896,false,95,false,95,false
+227,regulation of secretion,5.03273848996027,false,75,false,95,false
+228,cellular response to lipid,4.97035701013714,false,95,false,95,false
+229,reactive oxygen species metabolic process,4.93773031143824,true,96,false,95,false
+230,neutrophil chemotaxis,4.9069985693956,false,95,false,95,false
+231,lipopolysaccharide-mediated signaling pathway,4.86442236086698,false,95,false,95,false
+233,positive regulation of cell adhesion,4.72246451663286,false,95,false,95,false
+234,regulation of cell motility,4.70524789211097,false,95,false,95,false
+236,regulation of cell differentiation,4.63629614570117,false,95,false,95,false
+238,angiogenesis,4.61524848121894,false,95,false,95,false
+239,lymphocyte differentiation,4.59586817520697,false,95,false,95,false
+240,antigen processing and presentation of endogenous peptide antigen,4.5841154462442,false,95,false,95,false
+241,regulation of vasculature development,4.58091312188574,false,95,false,95,false
+242,export from cell,4.56212962399354,false,95,false,95,false
+243,MAPK cascade,4.55963402125962,false,95,false,95,false
+244,positive regulation of non-canonical NF-kappaB signal transduction,4.46841930191981,false,95,false,95,false
+245,regulation of T cell activation,4.44368436673877,false,95,false,95,false
+246,positive regulation of chemokine production,4.40698358949451,false,55,false,95,false
+247,anatomical structure formation involved in morphogenesis,4.37911403344115,false,95,false,95,false
+248,antigen processing and presentation of endogenous antigen,4.35291334939998,false,95,false,95,false
+250,regulation of cell development,4.32879539969915,false,95,false,95,false
+251,regulation of locomotion,4.28330926844422,false,95,false,95,false
+252,regulation of hemopoiesis,4.20872403843095,false,95,false,95,false
+255,neutrophil migration,4.0855475828186,false,95,false,95,false
+257,negative regulation of transport,4.03200757425209,false,95,false,95,false
+258,response to wounding,4.02576572243232,false,95,false,95,false
+259,positive regulation of cell-cell adhesion,4.0120527682217,false,95,false,95,false
+260,tube development,3.97116541573907,false,95,false,95,false
+261,circulatory system development,3.96310331204845,false,95,false,95,false
+262,positive regulation of leukocyte cell-cell adhesion,3.93910953219234,false,95,false,95,false
+263,regulation of metabolic process,3.9385116732352,true,96,false,95,false
+264,negative regulation of cell activation,3.91637507480655,false,95,false,95,false
+265,regulation of angiogenesis,3.85620262235212,false,95,false,95,false
+266,regulation of proteolysis,3.82432975599107,true,92,false,95,false
+268,astrocyte activation,3.78272378470057,false,95,false,95,false
+269,negative regulation of signaling,3.73910296172622,false,95,false,95,false
+270,negative regulation of cell communication,3.73182119740853,false,95,false,95,false
+271,superoxide anion generation,3.72262921726523,true,75,false,95,false
+272,cell junction disassembly,3.72262921726523,false,95,false,95,false
+273,negative regulation of cell population proliferation,3.71910381658016,false,95,false,95,false
+274,positive regulation of lymphocyte activation,3.70555954435187,false,95,false,95,false
+275,positive regulation of biosynthetic process,3.70202656505257,true,90,false,95,false
+276,positive regulation of macromolecule metabolic process,3.65517910208353,true,95,false,95,false
+278,innate immune response activating cell surface receptor signaling pathway,3.60640491491223,false,95,false,95,false
+279,non-canonical NF-kappaB signal transduction,3.5683887118347,false,95,false,95,false
+280,regulation of secretion by cell,3.4847274015629,false,75,false,95,false
+281,catabolic process,3.46500208266803,true,92,false,95,false
+282,positive regulation of cell population proliferation,3.45314314418416,false,95,false,95,false
+283,positive regulation of T cell activation,3.45222547337597,false,95,false,95,false
+284,regulation of acute inflammatory response,3.45095234361591,false,95,false,95,false
+287,monocyte chemotaxis,3.36674532254448,false,95,false,95,false
+288,astrocyte differentiation,3.3365330654216,false,95,false,95,false
+290,positive regulation of monocyte chemotaxis,3.33603611500908,false,95,false,95,false
+292,antigen processing and presentation of exogenous peptide antigen via MHC class I,3.29958330449728,false,95,false,95,false
+293,regulation of leukocyte differentiation,3.23189982547818,false,95,false,95,false
+294,T cell differentiation,3.21530540340489,false,95,false,95,false
+295,regulation of non-canonical NF-kappaB signal transduction,3.21008584529386,false,95,false,95,false
+297,macrophage activation involved in immune response,3.20628844670949,false,95,false,95,false
+298,response to nitrogen compound,3.1966496033207,false,95,false,95,false
+299,osteoclast differentiation,3.18577492926814,false,95,false,95,false
+300,regulation of response to wounding,3.16849191035861,false,95,false,95,false
+301,regulation of antigen processing and presentation,3.08422714484617,false,95,false,95,false
+302,proteolysis,3.07018892442131,true,95,false,95,false
+303,superoxide metabolic process,3.05644014007459,true,95,false,95,false
+311,negative regulation of secretion,2.98295843168801,false,75,false,95,false
+312,regulation of MAPK cascade,2.96812252327354,false,95,false,95,false
+315,cell surface toll-like receptor signaling pathway,2.906556437311,false,95,false,95,false
+316,regulation of cellular component organization,2.89273621939007,false,95,false,95,false
+317,negative regulation of intracellular signal transduction,2.87501641170289,false,95,false,95,false
+318,positive regulation of macromolecule biosynthetic process,2.87344433823559,true,90,false,95,false
+319,regulation of monocyte chemotaxis,2.85990755276795,false,95,false,95,false
+320,response to chemokine,2.85838900235976,false,95,false,95,false
+321,mast cell activation,2.85838900235976,false,95,false,95,false
+322,cellular response to chemokine,2.85838900235976,false,95,false,95,false
+323,regulation of phagocytosis,2.82335088387739,false,95,false,95,false
+324,system development,2.80696656502886,false,95,false,95,false
+325,"phagocytosis, engulfment",2.78178514371846,false,95,false,95,false
+326,T cell proliferation,2.73060467065351,false,95,false,95,false
+329,T cell migration,2.71886036205791,false,95,false,95,false
+330,lymphocyte migration,2.68172732297007,false,95,false,95,false
+331,cellular response to type II interferon,2.68172732297007,false,95,false,95,false
+332,cell surface pattern recognition receptor signaling pathway,2.67392089728608,false,95,false,95,false
+333,anatomical structure morphogenesis,2.53577570585836,false,95,false,95,false
+334,regulation of biosynthetic process,2.51455103230938,true,92,false,95,false
+335,negative regulation of defense response,2.490313138572,false,95,false,95,false
+337,respiratory burst involved in defense response,2.46118978083823,true,65,false,95,false
+339,regulation of vesicle-mediated transport,2.45112655378191,false,95,false,95,false
+340,antigen processing and presentation of peptide antigen via MHC class Ib,2.43837331456727,false,95,false,95,false
+341,negative regulation of inflammatory response,2.42822573804914,false,95,false,95,false
+342,negative regulation of gene expression,2.4085038891382,false,58,false,95,false
+343,positive regulation of transport,2.39796545304243,false,95,false,95,false
+344,positive regulation of macrophage activation,2.38776498225142,false,95,false,95,false
+345,regulation of type II interferon production,2.38608223542299,false,55,false,95,false
+346,regulation of macromolecule biosynthetic process,2.38263816731994,true,92,false,95,false
+347,negative regulation of secretion by cell,2.37679664907976,false,75,false,95,false
+348,type II interferon production,2.3550159620041,false,55,false,95,false
+349,positive regulation of cell development,2.34662057304044,false,95,false,95,false
+352,B cell activation,2.3021020608867,false,95,false,95,false
+353,regulation of macromolecule metabolic process,2.29071934188391,true,96,false,95,false
+355,plasma membrane invagination,2.25995488299818,false,95,false,95,false
+356,positive regulation of interleukin-8 production,2.25995488299818,false,55,false,95,false
+357,response to endogenous stimulus,2.23025479390907,false,95,false,95,false
+359,alpha-beta T cell activation,2.22248129861093,false,95,false,95,false
+360,regulation of macrophage activation,2.20853428765903,false,95,false,95,false
+361,positive regulation of leukocyte differentiation,2.20192456581434,false,95,false,95,false
+362,positive regulation of hemopoiesis,2.20192456581434,false,95,false,95,false
+363,ERK1 and ERK2 cascade,2.17421490642368,false,95,false,95,false
+364,regulation of microglial cell activation,2.16091375106442,false,95,false,95,false
+365,positive regulation of inflammatory response to antigenic stimulus,2.16091375106442,false,95,false,95,false
+366,regulation of plasminogen activation,2.16091375106442,false,55,false,95,false
+367,regulation of inflammatory response to antigenic stimulus,2.14958649424741,false,95,false,95,false
+368,gliogenesis,2.1437528795396,false,95,false,95,false
+370,toll-like receptor 4 signaling pathway,2.10898386469123,false,95,false,95,false
+371,multicellular organismal-level homeostasis,2.10776641351708,false,95,false,95,false
+372,actin cytoskeleton organization,2.08956616333967,false,95,false,95,false
+373,lymphocyte activation involved in immune response,2.08121574136308,false,95,false,95,false
+374,chemokine-mediated signaling pathway,2.06076737463074,false,95,false,95,false
+375,microglial cell activation involved in immune response,2.04305298957866,false,95,false,95,false
+377,cellular response to metal ion,2.03885990632964,false,95,false,95,false
+378,regulation of metal ion transport,2.03550700780269,false,95,false,95,false
+379,dendritic cell antigen processing and presentation,2.02899060529219,false,95,false,95,false
+380,membrane invagination,2.01353645140475,false,95,false,95,false
+382,regulation of gene expression,1.9977384534803,false,58,false,95,false
+384,acute inflammatory response,1.97357293159207,false,95,false,95,false
+385,negative regulation of developmental process,1.95239910815998,false,95,false,95,false
+386,negative regulation of signal transduction,1.91423360289243,false,95,false,95,false
+387,leukocyte aggregation,1.90682663109076,false,95,false,95,false
+388,positive regulation of tumor necrosis factor production,1.90623050679314,false,55,false,95,false
+389,exocytosis,1.88740495640159,false,95,false,95,false
+391,positive regulation of tumor necrosis factor superfamily cytokine production,1.84061385571637,false,55,false,95,false
+392,positive regulation of vasculature development,1.83981196951506,false,95,false,95,false
+393,regulation of lipid metabolic process,1.82984608470345,true,96,false,95,false
+394,regulation of pattern recognition receptor signaling pathway,1.81848541172101,false,95,false,95,false
+396,inflammatory response to antigenic stimulus,1.79092868311239,false,95,false,95,false
+397,cellular response to macrophage colony-stimulating factor stimulus,1.79092868311239,false,95,false,95,false
+399,negative regulation of tumor necrosis factor superfamily cytokine production,1.79092868311239,false,55,false,95,false
+400,response to macrophage colony-stimulating factor,1.74889513343516,false,95,false,95,false
+401,positive regulation of proteolysis,1.74889513343516,true,92,false,95,false
+403,antigen processing and presentation via MHC class Ib,1.74464169954934,false,95,false,95,false
+404,zymogen activation,1.74431417516304,true,65,false,95,false
+405,detection of biotic stimulus,1.74431417516304,false,95,false,95,false
+406,osteoblast differentiation,1.69102118151084,false,95,false,95,false
+409,positive regulation of T cell migration,1.6841318770449,false,95,false,95,false
+410,cellular process,1.6836640254798,false,95,false,95,false
+411,regulation of protein metabolic process,1.65729434695231,true,95,false,95,false
+413,negative regulation of leukocyte activation,1.61321566420025,false,95,false,95,false
+414,positive regulation of phagocytosis,1.58814332199883,false,95,false,95,false
+416,regulation of endocytosis,1.57609326214651,false,95,false,95,false
+417,regulation of interleukin-8 production,1.54968247288239,false,55,false,95,false
+418,interleukin-8 production,1.54968247288239,false,55,false,95,false
+420,positive regulation of microglial cell activation,1.50422137686413,false,95,false,95,false
+421,negative regulation of plasminogen activation,1.50422137686413,false,55,false,95,false
+423,negative regulation of cell-cell adhesion,1.49657578327958,false,95,false,95,false
+424,positive regulation of MAPK cascade,1.47760296212319,false,95,false,95,false
+425,cellular response to nitrogen compound,1.47366160652496,false,95,false,95,false
+427,production of molecular mediator of immune response,1.45528425581502,false,52,false,95,false
+428,defense response to virus,1.44524100769788,false,95,false,95,false
+429,regulation of anatomical structure morphogenesis,1.43860257850883,false,95,false,95,false
+430,toll-like receptor signaling pathway,1.43810512274581,false,95,false,95,false
+431,regulation of leukocyte proliferation,1.4070196251771,false,95,false,95,false
+433,positive regulation of endocytosis,1.3517160853849,false,95,false,95,false
+434,regulation of osteoblast differentiation,1.33024784747025,false,95,false,95,false
+435,leukocyte migration involved in inflammatory response,1.31931821793712,false,95,false,95,false
+436,plasminogen activation,1.31931821793712,false,55,false,95,false
+437,protein maturation,1.31744842227369,false,60,false,95,false
+438,regulation of regulated secretory pathway,1.31617623885572,false,72,false,95,false
+439,regulation of calcium ion transport,1.31201183281761,false,95,false,95,false
+440,regulation of establishment of protein localization,1.30547430655071,false,95,false,95,false
+441,actin filament-based process,1.3039928359025,false,95,false,95,false
+442,positive regulation of acute inflammatory response to antigenic stimulus,1.30271813899033,false,95,false,95,false
+443,antigen processing and presentation of endogenous peptide antigen via MHC class I,1.30271813899033,false,95,false,95,false
+199,regulation of apoptotic process,6.12363440292537,false,95,true,93,true
+205,regulation of programmed cell death,5.73792361468221,false,95,true,93,true
+62,leukocyte mediated cytotoxicity,14.2566630076025,false,95,true,92,true
+249,T cell mediated cytotoxicity,4.34263406695944,false,95,true,92,true
+285,killing of cells of another organism,3.38354060655904,false,95,true,92,true
+314,natural killer cell mediated cytotoxicity,2.906556437311,false,95,true,92,true
+354,negative regulation of apoptotic process,2.28774247541401,false,95,true,92,true
+381,negative regulation of programmed cell death,2.00891207982012,false,95,true,92,true
+383,positive regulation of apoptotic process,1.99180646236845,false,95,true,92,true
+390,positive regulation of programmed cell death,1.84720396489899,false,95,true,92,true
+99,positive regulation of leukocyte mediated cytotoxicity,9.84736407230924,false,95,true,90,true
+110,regulation of leukocyte mediated cytotoxicity,8.97665597385459,false,95,true,90,true
+253,apoptotic signaling pathway,4.19354740804051,false,95,true,90,true
+296,positive regulation of T cell mediated cytotoxicity,3.20628844670949,false,95,true,90,true
+336,regulation of T cell mediated cytotoxicity,2.47383188999911,false,95,true,90,true
+426,regulation of natural killer cell mediated cytotoxicity,1.46027623440675,false,95,true,90,true
+432,intrinsic apoptotic signaling pathway,1.38873361319345,false,95,true,90,true
+254,regulation of apoptotic signaling pathway,4.11500978480371,false,95,true,88,true
+286,disruption of cell in another organism,3.38354060655904,false,95,true,88,false
+412,positive regulation of apoptotic signaling pathway,1.62361538466129,false,95,true,88,true
+304,type II hypersensitivity,3.03781264574726,false,95,true,85,false
+305,type IIa hypersensitivity,3.03781264574726,false,95,true,85,false
+306,regulation of type IIa hypersensitivity,3.03781264574726,false,95,true,82,false
+307,positive regulation of type IIa hypersensitivity,3.03781264574726,false,95,true,82,false
+308,positive regulation of type II hypersensitivity,3.03781264574726,false,95,true,82,false
+310,regulation of type II hypersensitivity,3.03781264574726,false,95,true,82,false
+8,immune response,39.9659112802385,false,95,false,82,false
+20,regulation of immune response,26.8749282531377,false,95,false,82,false
+22,positive regulation of immune response,25.7506496524311,false,95,false,82,false
+42,activation of immune response,15.962012829516,false,95,false,82,false
+53,regulation of innate immune response,14.9745238533247,false,95,false,82,false
+66,positive regulation of innate immune response,13.6506733386901,false,95,false,82,false
+123,activation of innate immune response,8.28001516684778,false,95,false,82,false
+11,innate immune response,34.9692253650085,false,95,false,78,false
+162,immunoglobulin mediated immune response,7.21007370679244,false,95,false,78,false
+237,humoral immune response,4.62914917126765,false,95,false,78,false
+277,synapse pruning,3.62287576584593,false,95,false,78,false
+398,regulation of immunoglobulin mediated immune response,1.79092868311239,false,95,false,78,false
+408,regulation of humoral immune response,1.6841318770449,false,95,false,78,false
+415,positive regulation of humoral immune response,1.58683453200318,false,95,false,76,false
+124,B cell mediated immunity,8.27627865798721,false,95,false,75,false
+256,humoral immune response mediated by circulating immunoglobulin,4.03339719627668,false,95,false,75,false
+395,regulation of B cell mediated immunity,1.79092868311239,false,95,false,75,false
+23,immune effector process,24.7110535331571,false,95,false,70,false
+26,leukocyte mediated immunity,23.4510422274385,false,95,false,70,false
+36,regulation of immune effector process,17.5228448078619,false,95,false,68,false
+65,regulation of leukocyte mediated immunity,13.9563279217295,false,95,false,68,false
+69,positive regulation of immune effector process,13.3716332617013,false,95,false,68,false
+83,positive regulation of leukocyte mediated immunity,12.0152515330186,false,95,false,68,false
+106,positive regulation of lymphocyte mediated immunity,9.13333172821197,false,95,false,68,false
+108,regulation of lymphocyte mediated immunity,9.03938267301653,false,95,false,68,false
+232,regulation of myeloid leukocyte mediated immunity,4.86442236086698,false,95,false,68,false
+235,T cell mediated immunity,4.66599541698525,false,95,false,68,false
+267,myeloid leukocyte mediated immunity,3.79726350383299,false,95,false,68,false
+289,positive regulation of myeloid leukocyte mediated immunity,3.33603611500908,false,95,false,68,false
+350,positive regulation of T cell mediated immunity,2.31253480027778,false,95,false,68,false
+369,negative regulation of immune effector process,2.11788860713967,false,95,false,68,false
+309,complement-mediated synapse pruning,3.03781264574726,false,95,false,60,false
+291,disruption of anatomical structure in another organism,3.32623201380662,false,95,true,55,false
+327,natural killer cell mediated immunity,2.71886036205791,false,95,true,55,false
+313,regulation of leukocyte degranulation,2.91520074463034,false,95,false,55,false
+328,leukocyte degranulation,2.71886036205791,false,95,false,55,false
+338,Fc-gamma receptor signaling pathway,2.46118978083823,false,95,false,55,false
+402,positive regulation of apoptotic cell clearance,1.74464169954934,false,95,false,55,false
+407,Fc receptor signaling pathway,1.68672411561231,false,95,false,55,false
+419,regulation of apoptotic cell clearance,1.50422137686413,false,95,false,55,false
+351,complement activation,2.31253480027778,false,95,true,50,false
+358,"complement activation, classical pathway",2.22589497415965,false,95,true,50,false
+376,positive regulation of complement activation,2.04305298957866,false,95,true,50,false
+422,positive regulation of hypersensitivity,1.50422137686413,false,95,true,50,false

@@ -1,0 +1,18 @@
+Regulator Gene	Target Gene	interaction	Motif id	NES	Assembly
+Nfix	Arhgap25	regulates via transfac_public-M00193	transfac_public-M00193	3.07145	mm9
+Nfix	Arhgef19	regulates via transfac_public-M00193	transfac_public-M00193	3.07145	mm9
+Nfix	Itm2c	regulates via transfac_public-M00193	transfac_public-M00193	3.07145	mm9
+Nfix	Retnlg	regulates via transfac_public-M00193	transfac_public-M00193	3.07145	mm9
+Nfix	Prkcd	regulates via transfac_public-M00193	transfac_public-M00193	3.07145	mm9
+Nfix	Fgr	regulates via transfac_public-M00193	transfac_public-M00193	3.07145	mm9
+Nfix	Lcn2	regulates via transfac_public-M00193	transfac_public-M00193	3.07145	mm9
+Nfix	Cd180	regulates via transfac_public-M00193	transfac_public-M00193	3.07145	mm9
+Nfix	Elf4	regulates via transfac_public-M00193	transfac_public-M00193	3.07145	mm9
+Nfix	Ptafr	regulates via transfac_public-M00193	transfac_public-M00193	3.07145	mm9
+Nfix	Ncf2	regulates via transfac_public-M00193	transfac_public-M00193	3.07145	mm9
+Nfix	Tlr2	regulates via transfac_public-M00193	transfac_public-M00193	3.07145	mm9
+Nfix	Plaur	regulates via transfac_public-M00193	transfac_public-M00193	3.07145	mm9
+Nfix	Csf2rb2	regulates via transfac_public-M00193	transfac_public-M00193	3.07145	mm9
+Nfix	Grn	regulates via transfac_public-M00193	transfac_public-M00193	3.07145	mm9
+Nfix	Ccl2	regulates via transfac_public-M00193	transfac_public-M00193	3.07145	mm9
+Nfix	Csf2rb	regulates via transfac_public-M00193	transfac_public-M00193	3.07145	mm9

@@ -5,6 +5,7 @@ library(readr)
 if(!file.exists("iregulon+centiscape+stringdb_node_table.csv")){
   stop("iregulon+centiscape+stringdb_node_table.csv not found in the root directory. Please run the centiscape analysis and add stringdb interactions to the cytoscape output table before proceeding.")
 }
+print(colnames(read_csv("iregulon+centiscape+stringdb_node_table.csv")))
 cytoscape_output_full <- read_csv("iregulon+centiscape+stringdb_node_table.csv") %>%
   dplyr::rename(
     symbol = `merge`

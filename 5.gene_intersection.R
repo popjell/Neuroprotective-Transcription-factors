@@ -56,3 +56,7 @@ intersected_combined_df <- intersected_combined_df %>%
 
 #write as .txt file with no commas
 write.table(intersected_combined_df, "Expression_data.txt", sep = "\t", row.names = FALSE, quote = FALSE)
+
+#Export Ensemble IDs for gprofiler use
+write(intersected_genes, "intersected_upregulated_IDs.txt")
+print(paste("Number of overlapping genes:", length(intersected_genes)))

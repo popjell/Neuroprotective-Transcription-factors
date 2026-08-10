@@ -1,0 +1,22 @@
+Regulator Gene	Target Gene	interaction	Motif id	NES	Assembly
+Cebpb	Tnfaip2	regulates via transfac_pro-M01869	transfac_pro-M01869	3.22846	mm9
+Cebpb	E2f8	regulates via transfac_pro-M01869	transfac_pro-M01869	3.22846	mm9
+Cebpb	Cybb	regulates via transfac_pro-M01869	transfac_pro-M01869	3.22846	mm9
+Cebpb	Plau	regulates via transfac_pro-M01869	transfac_pro-M01869	3.22846	mm9
+Cebpb	Camp	regulates via transfac_pro-M01869	transfac_pro-M01869	3.22846	mm9
+Cebpb	Ptafr	regulates via transfac_pro-M01869	transfac_pro-M01869	3.22846	mm9
+Cebpb	Lcn2	regulates via transfac_pro-M01869	transfac_pro-M01869	3.22846	mm9
+Cebpb	Il1b	regulates via transfac_pro-M01869	transfac_pro-M01869	3.22846	mm9
+Cebpb	Ptpn6	regulates via transfac_pro-M01869	transfac_pro-M01869	3.22846	mm9
+Cebpb	Nfkbiz	regulates via transfac_pro-M01869	transfac_pro-M01869	3.22846	mm9
+Cebpb	Tlr7	regulates via transfac_pro-M01869	transfac_pro-M01869	3.22846	mm9
+Cebpb	Epha2	regulates via transfac_pro-M01869	transfac_pro-M01869	3.22846	mm9
+Cebpb	Tmbim6	regulates via transfac_pro-M01869	transfac_pro-M01869	3.22846	mm9
+Cebpb	Lcp2	regulates via transfac_pro-M01869	transfac_pro-M01869	3.22846	mm9
+Cebpb	Ptprf	regulates via transfac_pro-M01869	transfac_pro-M01869	3.22846	mm9
+Cebpb	Osm	regulates via transfac_pro-M01869	transfac_pro-M01869	3.22846	mm9
+Cebpb	Cadm1	regulates via transfac_pro-M01869	transfac_pro-M01869	3.22846	mm9
+Cebpb	Bcl2a1b	regulates via transfac_pro-M01869	transfac_pro-M01869	3.22846	mm9
+Cebpb	Atf3	regulates via transfac_pro-M01869	transfac_pro-M01869	3.22846	mm9
+Cebpb	Cmklr1	regulates via transfac_pro-M01869	transfac_pro-M01869	3.22846	mm9
+Cebpb	Ccl2	regulates via transfac_pro-M01869	transfac_pro-M01869	3.22846	mm9

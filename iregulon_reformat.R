@@ -3,7 +3,8 @@ library(tidyr)
 
 reformat_networks <- function(iregulon_results, gene_list_file, expression_file = "Expression_data.txt"){
   
-  df <- read.csv(iregulon_results, skip = 11, stringsAsFactors = FALSE, check.names = FALSE)
+  sep <- ifelse(grepl("\\.tsv$", iregulon_results, ignore.case = TRUE), "\t", ",")
+  df <- read.csv(iregulon_results, skip = 11, sep = sep, stringsAsFactors = FALSE, check.names = FALSE)
   all_upregulated_genes <- readLines(gene_list_file)
   expression_data <<- read.csv(expression_file, sep = "\t", stringsAsFactors = FALSE, check.names = FALSE)
 
@@ -58,14 +59,22 @@ reformat_networks <- function(iregulon_results, gene_list_file, expression_file 
 
 # Combine background genes (Ensembl IDs) with expression data
   gene_nodes <- data.frame(
-    id_ens = background_genes, 
+    id_ens = background_genes,
     `Regulatory function` = "Regulated",
     check.names = FALSE
-  ) %>%
-    # Join using ensembl_id since your input list contains Ensembl IDs
-    left_join(expression_data, by = c("id_ens" = "ensembl_id")) %>%
-    # Set the main 'id' column to the Gene Symbol so it matches the edge table
-    mutate(id = symbol) %>% 
+  )
+
+  if (any(grepl("^ENSMUSG", background_genes))) {
+    # Input list contains Ensembl IDs: join on ensembl_id, keep the symbol
+    gene_nodes <- left_join(gene_nodes, expression_data, by = c("id_ens" = "ensembl_id")) %>%
+      mutate(id = symbol)
+  } else {
+    # Input list contains gene symbols: join on symbol, keep id_ens
+    gene_nodes <- left_join(gene_nodes, expression_data, by = c("id_ens" = "symbol")) %>%
+      mutate(id = id_ens)
+  }
+
+  gene_nodes <- gene_nodes %>%
     dplyr::filter(!is.na(id)) %>%
     dplyr::select(-id_ens)
   node_attributes <- bind_rows(tf_nodes, gene_nodes) %>%

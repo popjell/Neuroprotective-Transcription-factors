@@ -1,0 +1,150 @@
+; Name	LLM_metabolism_genes.txt
+; Species and nomenclature	Mus musculus, MGI symbols
+; Motif collection	10K (9713 PWMs)
+; Minimum NEScore	3.0
+; Rank threshold for visualization	5000
+; ROC threshold for AUC calculation (%)	0.03
+; Minimum identity between orthologous genes	0.0
+; Maximum false discovery rate (FDR) on motif similarity	0.001
+; Motif rankings database	20kb centered around TSS (7 species)
+; Number of valid nodes	62
+; iRegulon version	iRegulon v1.3 (build: 2015-02-12)
+# Rank	Motif id	AUC	NES	ClusterCode	Transcription factor	Target genes
+1	swissregulon-IRF1-2-7.p3	0.0846169	8.37392	M1	Irf2,Irf1,Irf7,Irf5,Irf8,Irf4,Irf3,Irf6,Irf9,Prdm1,Stat1,Stat2,Zfp683,Myb,E2f1,Pura	Psme1,Psmb9,Cybb,Slc15a3,Psmb8,Psmb10
+2	tfdimers-MD00230	0.0694369	6.73238	M2	Jun,Fos,Stat1	Plau,Abcc3,Fgfr4,Spint1,Slco2b1
+3	factorbook-PU1	0.065549	6.31196	M3	Irf4,Sfpi1,E2f1,Myb,Ep300,E2f6,Tcf4	Cybb,Grn,Ctsc,Erp29,Psmb8,Plau,Serpine2,Ucp2,Rac2,Slco2b1,Slc15a3,Laptm5,Calr
+4	jaspar-MA0050.1	0.0637908	6.12183	M1	Irf1,Irf2,Irf5,Irf8,Irf3,Irf9,Irf7,Irf4,Irf6,Stat1,Stat2,E2f1,Zfp683	Psmb9,Cybb,Psmb10,Psme1,Psmb8,Lrp5,Slc15a3,Ctsc,Ucp2,Lgmn,Psap
+5	homer-M00158	0.0632708	6.06559	M1	Irf4,Sfpi1,Prdm1,E2f1,Ep300,Zeb1,Myb	Rac2,Slc15a3,Psmb8,Grn,Cybb,Ctsc,Serpine2,Cmklr1,Ucp2,Erp29,Ctsz,Spint1,Capn3,Psmb9,Lgmn,Plau,Ifi30,Hk3,Lcn2,Plcb2
+6	jaspar-PF0067.1	0.0620078	5.92902	M4	Nfe2l1,Mafg,Nfe2l2,Dbp	Pgd,Calr,Psap,Cmklr1,Serpine2
+7	tfdimers-MD00336	0.0589619	5.59964	M1	Stat1,Irf8,Prdm1,Irf6,Irf7,Irf5,Irf2,Irf3,Irf1,Irf4,Pura	Slc15a3,Cybb,Rac2,Ctsz,Lrp5,Spint1,Capn3,Ucp2,Cebpa,Npc2,Pik3cg,Nmnat2,Fgfr4,Cndp2
+8	jaspar-PB0058.1	0.0576247	5.45504	M3	Sfpi1,Spib,Spic,Ehf,Elf3,Elk1,Ets1,Gabpb1,Elf5,Gata2,Gata3,Gata4,Gata6,Gata1,Gata5,Myb,Pura,Mzf1,Ltf	Plau,Pik3cg,Cybb,Laptm5,Ncf2,Apobr,Psap,Npc2,Grn,Calr,Plbd1,Abcc3,Slco2b1,Ctsz,Capn3,Lyz2,Retnlg,Plcb2
+9	homer-M00159	0.0572037	5.40951	M3	Irf4,Sfpi1,Gabpb1,Pura	Pik3cg,Psap,Plau,Ncf2,Plcb2,Apobr,Cybb,Slco2b1,Laptm5,Ncf1,Hk3,Xdh,Ucp2,Ctsz,Capn3,Erp29,Abcc3,Calr,Rac2,Cmklr1,Grn,Lrp5,Retnlg,Plbd1
+10	transfac_pro-M01510	0.055916	5.27026	M5	Srf,2310045N01Rik,Mef2b,Mef2c,Mef2a,Mef2d	Rac2,Plau,Pik3cg,Abcc3,Npc2,Capn3,Lrp5,Hk3,Nmnat2,Naglu,Serpine2,Lcn2,Cmklr1,Cebpa,Spint1,Slc15a3,Grn,Cybb,Slco2b1,Plcb2
+11	yetfasco-831	0.055916	5.27026	M5	Srf,Mef2b,2310045N01Rik,Mef2c,Mef2a,Mef2d	Rac2,Plau,Pik3cg,Abcc3,Npc2,Capn3,Lrp5,Hk3,Nmnat2,Naglu,Serpine2,Lcn2,Cmklr1,Cebpa,Spint1,Slc15a3,Grn,Cybb,Slco2b1,Plcb2
+12	encode-UW.Motif.0326	0.0546531	5.13369	M6		Rac2,Slco2b1,Ucp2,Plcb2,Tspo,Serpine2,Cmklr1,Laptm5,Lcn2,Capn3
+13	taipale-NCGAAACCGAAACT-IRF8-full	0.0542321	5.08817	M1	Irf8	Psmb9,Psmb8,Psmb10
+14	transfac_pro-M01882	0.0537368	5.03461	M1	Irf2,Irf1,Irf5,Irf7,Irf8,Irf4,Irf3,Irf9,Prdm1,Irf6,Zfp683,Stat1,Stat2,E2f1,Pura,Jun,Fos,Zeb1	Cybb,Psmb9,Slc15a3,Psmb10
+15	encode-UW.Motif.0238	0.0534149	4.9998	M7		Spint1,Pgd,Ncf1,Tspo
+16	tfdimers-MD00165	0.0532663	4.98373	M8	Crx,Jun,Fos	Fgfr4,Ctsc,Ddost,Ltf,Cybb
+17	swissregulon-NFE2L2.p2	0.0531177	4.96766	M4	Nfe2l2,Nfe2,Nfe2l1,Mafg,Maff,Nfe2l3,Mafk,Mafb,Maf,Bach1,Bach2,Jun,Jund,Junb,Fosl1,Fosb,Fosl2,Fos,Batf,Sfpi1	Psap,Tspo,Cmklr1,Ctsd,Ctsz
+18	homer-M00697	0.0507157	4.70791	M9		Rac2,Grn,Lcn2,Ltf
+19	yetfasco-902	0.0506414	4.69988	M10	Arnt,Usf1,Bhlhe40,Srebf1,Mycn,Usf2,Max,Myc,Mlx,Atf3,Helt,Arnt2,Arntl,Arntl2	Grn,Serpine2,Calr,Erp29
+20	transfac_pro-M03545	0.0501213	4.64364	M11	Rel,Nfkb2,Rela,Nfkb1,Bcl3,Ebf1,Stat6,Ovol2,Relb	Rac2,Laptm5,Plau,Cebpa,Plcb2,Lrp5,Cybb,Slco2b1,Cmklr1,Abcc3
+21	transfac_pro-M01768	0.0497251	4.6008	M10	Arnt,Bhlhe40,Srebf1,Usf1,Mycn,Usf2,Max,Myc,Srebf2,Mlx,Helt,Atf3,Arntl,Arntl2,Arnt2	Grn,Erp29,Calr,Serpine2,Spint1
+22	taipale-NNRRAAAGGAAACCGAAACTN-IRF3-full	0.0496756	4.59544	M1	Irf3,Zeb1	Psmb9,Psme1,Psmb8
+23	transfac_public-M00208	0.049428	4.56866	M11	Nfkb1,Nfkb2,Rela,Rel,Bcl3	Rac2,Ctsh,Cebpa,Slco2b1,Abcc3,Laptm5,Cybb,Plcb2
+24	swissregulon-TFEB.p2	0.0493537	4.56063	M10	Tfeb,Arnt,Bhlhe40,Srebf1,Usf1,Mycn,Usf2,Myc,Max,Srebf2,Mlx,Helt,Atf3,Arntl,Arntl2,Arnt2	Grn,Erp29,Calr,Serpine2,Spint1
+25	jaspar-MA0051.1	0.0490565	4.52849	M1	Irf2,Irf1,Irf5,Irf7,Irf8,Irf4,Irf6,Irf3,Irf9,Stat1,Stat2,Zfp683	Psmb9,Psmb10,Psme1,Cebpa,Psmb8
+26	transfac_public-M00063	0.0489327	4.5151	M1	Irf2,Irf1	Slc15a3,Cebpa,Cmklr1,Psmb9,Psme1
+27	jaspar-PF0032.1	0.0484127	4.45887	M4	Nfe2,Mafk,Nfe2l1,Mafg,Nfe2l2,Dbp	Pgd,Psap,Ctsd,Cmklr1,Ctsz
+28	transfac_pro-M01793	0.0478183	4.3946	M10	Arnt,Usf1,Bhlhe40,Usf2,Srebf1,Max,Myc,Bhlhe41,Mycn,Srebf2,Arntl,Arntl2,Mlx,Atf3,Helt,Arnt2	Grn,Serpine2,Calr,Erp29,Spint1
+29	encode-UW.Motif.0052	0.047125	4.31962	M11	Nfkb1,Rela,Nfkb2,Rel,Deaf1,Bcl3,Ebf1,Ovol2,Zbtb7a	Rac2,Laptm5,Ctsh,Spint1,Cmklr1
+30	yetfasco-988	0.047125	4.31962	M12	Hira	Fgfr4,Cybb,Cndp2,Spint1
+31	jaspar-CN0099.1	0.0470754	4.31426	M2	Nfatc2,Stat1	Slco2b1,Abcc3,Plau
+32	transfac_pro-M03123	0.0463078	4.23125	M10	Arnt,Bhlhe40,Max,Myc,Usf1,Srebf1,Mycn,Usf2,Mlx,Atf3,Helt,Arntl,Arntl2	Grn,Serpine2,Calr,Spint1
+33	yetfasco-1753	0.0451934	4.11075	M13	Prdm2,Zfp683,Prdm1	Pik3cg,Hp,Lgmn,Retnlg,Cmklr1,Plbd1,Nmnat2,Pdia6,Ncf2
+34	encode-UW.Motif.0431	0.0449953	4.08932	M14		Xdh,Spint1,Cmklr1,Tspo
+35	jaspar-PF0086.1	0.0447724	4.06522	M11	Rela,Rel,Nfkb2,Nfkb1,Bcl3,Ebf1,Ovol2,Zbtb7a,Relb	Ctsh,Spint1,Rac2
+36	flyfactorsurvey-HLH106_SANGER_5_1_FBgn0015234	0.0447477	4.06254	M15	Arnt,Srebf1,Tfeb,Bhlhe41,Mlx,Helt,Tfec,Arntl	Grn,Erp29,Cndp2,Spint1,Calr
+37	encode-UW.Motif.0057	0.0444753	4.03309	M11		Cebpa,Ctsz,Spint1,Slco2b1
+38	transfac_pro-M01239	0.0443019	4.01434	M11	Rel,Rela,Bcl3,Ebf1,E2f1,Relb,Stat6,Ovol2,Yy1,Mzf1,Zbtb7a,Nfatc3	Laptm5,Spint1,Rac2
+39	tfdimers-MD00236	0.0441533	3.99828	M1	Pou3f2,E2f1,Pdx1	Cebpa,Ncf2,Pik3cg,Naglu,Rac2
+40	flyfactorsurvey-Blimp-1_SOLEXA_FBgn0035625	0.0438562	3.96614	M1	Prdm1,Zfp683,Irf2,Irf1,Irf6,Irf4,Irf7,Irf5,Irf3,Irf8,Irf9,Bcl6,Bcl6b,Pura	Psmb9,Psmb10,Psmb8,Slc15a3,Rac2,Ctsc,Cebpa
+41	transfac_pro-M01037	0.0438066	3.96078	M16	Gli2,Gli3,Gli1,Glis1	Serpine2,Spint1,Lgmn,Plbd1,Cmklr1
+42	taipale-RTCACGTGAY-TFEB-full	0.0435095	3.92865	M10	Tfeb,Arnt,Usf1,Srebf1,Bhlhe40,Usf2,Max,Myc,Mycn,Mxd3,Tal1,Arid5b,Tfe3,Nhlh1,Ascl1,Mxd4,Myf5,Tcf3,Tcf12,Bhlhe41,Mitf,Hand1,Myog,Tal2,Tcf4,Myod1,Mxi1,Myf6,Mxd1,Hand2,Mlx,Atf3,Helt,Arntl,Arntl2,Arnt2,Mnt,Mycs	Grn,Serpine2,Erp29,Calr
+43	flyfactorsurvey-sna_SANGER_10_FBgn0003448	0.0431876	3.89384	M17	Snai2,Snai1,Snai3,Scrt2,Scrt1,Tcf21,Msc,Tcf23	Laptm5,Plbd1,Plcb2,Tspo,Lrp5,Serpine2
+44	yetfasco-1217	0.0429647	3.86974	M18	Hsf1,Hsf2,Hsf4,Hsf3	Capn3,Pgd,Rac2,Cebpa,Pik3cg
+45	encode-UW.Motif.0659	0.0426923	3.84028	M14		Serpine2,Cmklr1,Tspo,Ltf,Cybb,Plbd1,Lcn2,Lgmn,Pik3cg
+46	encode-UW.Motif.0168	0.0423704	3.80547	M7	Mycs	Tspo,Serpine2,Cmklr1,Cebpa,Laptm5,Abcc3,Plcb2,Spint1
+47	yetfasco-466	0.0422961	3.79743	M15		Grn,Serpine2,Calr
+48	yetfasco-311	0.0418008	3.74388	M19		Nmnat2,Calr,Ctsz,Spint1
+49	transfac_pro-M03832	0.0417513	3.73852	M20	Elk3,Ets1,Ets2,Etv5,Gabpb1,Elf2,Elk4,Erg,Fli1,Fev,Elf1,Elf4,Elk1,Gabpa,Elf3,Etv2,Erf,Etv1,Ehf,Etv3,Elf5,Spic,Smad4	Hspbp1,Ddost,Pik3cg,Cndp2
+50	tfdimers-MD00040	0.041677	3.73049	M21	Ikzf2,Pou2f1,Gsc,Klf4	Hp,Laptm5,Lgmn
+51	yetfasco-915	0.0414789	3.70906	M5	Srf,Mef2a,Mef2c,Mef2d,Mef2b,2310045N01Rik	Plau,Rac2,Cmklr1,Pik3cg,Spint1,Plcb2,Laptm5,Lcn2,Hk3,Tspo,Trem2,Lrp5,Slco2b1,Cebpa
+52	yetfasco-1079	0.0414293	3.70371	M5	2310045N01Rik,Mef2b,Mef2c,Mef2a,Mef2d,Srf	Plau,Slco2b1,Nmnat2,Plcb2,Spint1,Rac2,Lcn2,Npc2,Hp,Psap,Abcc3,Ctsd,Capn3,Ncf2,Tspo,Laptm5,Serpine2,Os9,Pik3cg,Ncf1,Hk3
+53	transfac_pro-M01799	0.0410827	3.66622	M15		Fgfr4,Plcb2,Cmklr1,Cndp2
+54	homer-M00262	0.0408598	3.64212	M10	Arnt,Bhlhe40,Usf1,Srebf1,Usf2,Myc,Max,Mycn,Srebf2,Atf3,Mlx,Arntl,Arntl2,Helt,Arnt2	Erp29,Grn,Serpine2,Calr
+55	encode-UW.Motif.0298	0.0408103	3.63676	M14	2310045N01Rik,Mef2a,Mef2b,Mef2c,Mef2d	Cebpa,Nt5c,Naglu,Slco2b1
+56	taipale-AAAAAGMGGAAGTN-SPIB-DBD	0.0407607	3.63141	M22	Spib,Sfpi1,Spic,Gabpb1,Yy1,Nfatc3,Sirt6,Tcf4,Tbp	Plbd1,Serpine2,Pik3cg,Lyz2,Ctsc,Ncf1,Laptm5,Grn,Ucp2,Plau,Cybb,Rac2,Abcc3,Retnlg,Cebpa,Ncf2,Cmklr1,Nmnat2,Erp29,Ctsz,Capn3,Slco2b1,Cndp2,Pgd
+57	encode-UW.Motif.0552	0.0407112	3.62605	M7		Cebpa,Capn3,Plbd1,Serpine2,Fgfr4,Plcb2
+58	swissregulon-STAT2-4-6.p2	0.040414	3.59392	M23	Stat4,Stat6,Stat2,Stat1,Stat3,Stat5b,Stat5a	Ltf,Laptm5,Ctsz,Slco2b1
+59	yetfasco-1738	0.0403398	3.58588	M15		Npc2,Hp,Cmklr1
+60	yetfasco-2246	0.0402655	3.57785	M10	Arnt,Usf1,Bhlhe40,Srebf1,Bhlhe41,Usf2,Max,Myc,Mycn,Tcf4,Myog,Mxd3,Myod1,Tfeb,Nhlh1,Mitf,Tfe3,Hand2,Myf5,Tcf12,Mxd1,Tal2,Ascl1,Mxd4,Myf6,Hand1,Arid5b,Tcf3,Tal1,Mxi1,Srebf2,Atf3,Arntl,Arntl2,Mlx,Arnt2,Helt,Mycs	Grn,Erp29,Serpine2,Calr
+61	taipale-RTCACGTGAY-USF1-DBD	0.0401912	3.56982	M10	Usf1,Arnt,Myc,Max,Srebf1,Bhlhe40,Usf2,Mycn,Nhlh1,Myf6,Bhlhe41,Tcf12,Myod1,Tal1,Myf5,Arid5b,Mxd1,Hand1,Tfe3,Mxi1,Tcf4,Hand2,Mitf,Tcf3,Tfeb,Myog,Ascl1,Mxd3,Mxd4,Tal2,Arnt2,Srebf2,Mlx,Atf3,Helt,Mnt,Arntl,Arntl2,Mycs	Grn,Erp29,Serpine2
+62	tfdimers-MD00598	0.0401912	3.56982	M22	Tbp,Gabpb1,Fli1,Elf2,Elk4,Etv6,Elf4,Ep300,E2f6	Nmnat2,Rac2,Cmklr1,Pik3cg,Laptm5
+63	tfdimers-MD00021	0.0401416	3.56446	M11	Zbtb7a,Nfatc3,Rel,Bcl3,Relb,Ebf1,Stat6	Ctsh,Rac2,Laptm5
+64	yetfasco-835	0.0400674	3.55643	M24	Foxl1,Foxk1,Foxa2,Foxj3,Foxj1,Foxf2,Foxo3,Foxa1,Foxa3,Foxo4,Foxo1,Hltf,Foxo6,Nr3c1,Pgr,Foxc2,Sox10,Cebpa,Cebpe,Cebpg,Cebpb,3110039M20Rik,Foxd2,Foxp1,Smad1,Pdx1,Jun,Fos	Plau,Spint1,Cebpa,Cybb
+65	transfac_pro-M01869	0.0399435	3.54304	M21	Cebpg,Cebpb,Cebpd,Cebpa,Meis1,Ikzf2	Cybb,Plau,Lcn2
+66	factorbook-NFKB1	0.0398197	3.52965	M11	Nfkb1,Bcl3,Nfkb2,Rela,Rel,Mzf1,Nfatc3,Zbtb7a,Ebf1,Relb,Ovol2,Churc1,Ap3b1,Ikzf2	Rac2,Spint1,Ctsh,Laptm5,Cebpa,Slco2b1,Plcb2,Psap,Calr,Lrp5,Plau,Ncf2,Hp,Lcn2,Nmnat2,Ncf1
+67	jaspar-PF0119.1	0.0398197	3.52965	M25		Hspbp1,Cebpa
+68	encode-UW.Motif.0555	0.039795	3.52697	M7		Calr,Cebpa,Hp,Psmb9,Cmklr1,Xdh,Ctsz,Laptm5,Capn3,Spint1,Hk3
+69	jaspar-MA0112.1	0.0396959	3.51626	M10	Esr1,Pparg,Esr2	Slco2b1,Serpine2,Ltf
+70	transfac_pro-M01788	0.0395969	3.50555	M5	2310045N01Rik,Mef2b,Mef2c,Mef2a,Mef2d	Plau,Spint1,Pik3cg,Npc2
+71	transfac_pro-M03126	0.0395969	3.50555	M14		Grn,Lgmn,Cmklr1,Calr,Cebpa,Slco2b1,Nmnat2,Ctsz,Psap,Retnlg
+72	jaspar-PF0085.1	0.039374	3.48145	M1	Irf2,Irf7,Irf8,Irf6,Irf3,Irf4,Irf1,Irf5,Irf9,E2f1,Myb,Zfp683,Stat1,Stat2	Psmb10,Psmb9
+73	tfdimers-MD00217	0.0391759	3.46002	M3	Mzf1,Ltf,Sfpi1	Serpine2,Psap,Slco2b1,Cmklr1,Laptm5
+74	homer-M00037	0.0390768	3.44931	M10	Bhlhe40,Arnt,Usf1,Mycn,Arntl,Arntl2,Helt,Arnt2	Erp29,Grn,Calr,Spint1,Ctsd,Fgfr4
+75	taipale-RTCACGTGAY-TFEC-DBD	0.0390025	3.44128	M10	Tfec,Usf1,Srebf1,Arnt,Bhlhe40,Myc,Max,Usf2,Mitf,Tfeb,Tfe3,Mycn,Mlx,Atf3,Arnt2,Helt,Arntl,Arntl2	Grn,Serpine2,Erp29,Calr
+76	factorbook-USF	0.0389035	3.43057	M10	Usf1,Usf2,Bhlhe40,Arnt,Srebf1,Mycn,Atf3,Arnt2,Arntl,Arntl2,Helt	Erp29,Serpine2,Grn,Calr,Spint1,Cebpa,Lrp5,Ctsz,Ctsd,Fgfr4,Pik3cg,Capn3
+77	yetfasco-1227	0.0389035	3.43057	M5	Srf,Mef2a,Mef2c,Mef2d,Mef2b,2310045N01Rik	Plau,Cmklr1,Pik3cg,Slco2b1,Ctsc,Tspo,Cybb,Plcb2,Serpine2,Slc15a3
+78	flyfactorsurvey-Blimp-1_NAR_FBgn0035625	0.0388044	3.41985	M1	Prdm1,Zfp683,Irf2,Irf1,Irf4,Irf8,Irf9,Irf7,Irf5,Irf3	Psmb9,Psmb10,Psme1,Psmb8,Ctsc,Cybb,Slco2b1,Cebpa,Slc15a3,Rac2
+79	tfdimers-MD00351	0.0388044	3.41985	M1	Rfx1,Irf8	Serpine2,Slco2b1,Plbd1
+80	encode-UW.Motif.0092	0.0386806	3.40647	M7		Naglu,Tspo,Pgd,Calr,Slco2b1,Spint1,Nt5c
+81	taipale-NWTRMATATKYAWN-Pou2f2-DBD	0.0385815	3.39575	M8	Pou2f1,Pou5f1,Pou2f2,Pou2f3,Pou3f3	Plcb2,Slco2b1,Ctsc,Retnlg,Cybb
+82	homer-M00122	0.038433	3.37969	M4	Nfe2,Nfe2l2,Mafg,Nfe2l1,Mafk,Maf,Nfe2l3,Maff,Bach2,Mafb,Bach1,Mybl2,Mybl1,Snapc4,Myb,Batf,Sfpi1	Psap,Tspo,Cmklr1,Ctsd,Lrp5
+83	flyfactorsurvey-lola-PY_SOLEXA_FBgn0005630	0.0382349	3.35826	M14		Spint1,Capn3,Psap
+84	transfac_public-M00146	0.0382101	3.35559	M18	Hsf1,Hsf2,Hsf4,Hsf3	Serpine2,Capn3,Lrp5,Cebpa,Ctsz,Spint1,Ltf,Laptm5,Psap,Slco2b1,Slc15a3,Ucp2,Erp29,Cmklr1,Tspo,Plau,Fgfr4
+85	transfac_pro-M00303	0.0381606	3.35023	M10	Arnt,Bhlhe40,Usf1,Srebf1,Usf2,Srebf2,Arntl,Arntl2,Mlx,Atf3,Helt	Grn,Serpine2,Erp29
+86	jaspar-PB0189.1	0.0380863	3.3422	M14	Tfap2a,Tfap2c,Tfap2b	Ltf,Cmklr1,Laptm5,Lcn2,Tspo
+87	taipale-NCGAAACCGAAACY-IRF8-DBD	0.0380863	3.3422	M1	Irf8	Psmb9,Psmb8,Psmb10
+88	transfac_pro-M00952	0.0380367	3.33684	M9		Ctsz,Lrp5,Cmklr1
+89	jaspar-CN0027.1	0.0379377	3.32613	M26		Abcc3,Plcb2,Ctsz
+90	swissregulon-SREBF1-2.p2	0.0377644	3.30738	M10	Srebf2,Srebf1,Arnt,Bhlhe40,Usf1,Usf2,Mycn,Atf3,Arntl,Helt,Mlx,Arntl2,Arnt2	Grn,Erp29,Calr,Spint1
+91	tiffin-TIFDMEM0000085	0.037492	3.27793	M27		Tspo,Ctsc,Naglu,Ncf2,Lcn2,Fgfr4,Capn3,Spint1,Slco2b1,Calr
+92	encode-UW.Motif.0385	0.0374424	3.27257	M7		Cmklr1,Hp,Tspo
+93	transfac_pro-M02025	0.0374424	3.27257	M12	Mef2c,Mef2a	Spint1,Cmklr1,Fgfr4
+94	yetfasco-293	0.0374424	3.27257	M6		Laptm5,Slco2b1
+95	taipale-KSYGGAAGTN-ETV6-full	0.0374177	3.26989	M20	Etv6,Spic,Gabpb1,Erf,Elf3,Etv5,Elf2,Ets2,Etv3,Elk3,Elf4,Ehf,Etv2,Spib,Erg,Fli1,Fev,Ets1,Etv1,Gabpa,Elk4,Elf5,Elk1,Elf1,Sfpi1	Pik3cg,Hspbp1,Ddost
+96	swissregulon-SPI1.p2	0.0373929	3.26722	M3	Sfpi1,Irf4,Pura,Myb	Plau,Ucp2,Pik3cg,Psap,Laptm5,Plcb2,Grn,Slco2b1,Ctsz,Hk3,Cybb,Cmklr1,Ctsc,Ncf2,S100a8,Capn3,Abcc3,Erp29,Spint1,Apobr,Calr
+97	factorbook-A-Box	0.0373681	3.26454	M28	Brf1,Brf2,Bdp1,Taf9	Tspo,Ltf,Cebpa,Calr,Spint1,Grn,Lcn2
+98	yetfasco-275	0.0372691	3.25383	M29		Cmklr1,Hp,Cebpa
+99	encode-UW.Motif.0521	0.0369967	3.22437	M11		Slco2b1,Cmklr1,Lrp5
+100	transfac_pro-M01032	0.0368976	3.21366	M30	Hnf4a	Spint1,Lrp5,Lcn2,Slco2b1,Tspo
+101	factorbook-STAT2	0.0368729	3.21098	M1	Stat1,Stat2,Irf8,Irf7,Irf1,Irf2,Irf3,Irf4,Irf6,Irf5,Irf9,Prdm1,Zeb1	Cybb,Cmklr1,Serpine2,Slc15a3,Oas1a,Rac2,Psmb8,Ncf1,Cebpa,Grn,Psmb9,Lgmn,Ucp2,Lrp5,Slco2b1
+102	yetfasco-1011	0.0368481	3.2083	M31		Ltf,Grn,Cybb,Spint1,Cmklr1,Ctsc,Psme1,Lcn2,S100a8,Psmb8,Ctsz,Tspo
+103	transfac_pro-M02063	0.0368233	3.20563	M20	Ets1,Ets2,Etv2,Fev,Elk4,Etv5,Erf,Elk1,Elk3,Erg,Etv1,Fli1,Gabpa,Etv3,Elf2,Elf3,Elf1,Gabpb1,Spic,Spdef,Elf4,Ehf,Spib,Elf5,Sfpi1	Hspbp1,Pik3cg,Ddost
+104	transfac_public-M00254	0.0367986	3.20295	M7	Nfyc,Nfyb,Nfya,Ybx1,Pole3,Gm21827	Serpine2,Calr,Os9,Ucp2,Pik3cg,Grn,Pdia6,Npc2,Plau,Rac2,Lgmn
+105	taipale-NAACCGCAAACCRCAN-RUNX2-DBD	0.0367738	3.20027	M28	Runx2,Cbfb	Apobr,Nmnat2
+106	transfac_pro-M03571	0.0366995	3.19224	M21	Cebpd,Cebpa,Cebpb,Cebpe,Cebpg,Tbp,Sox9,Nr3c1,Sox10	Lcn2,Cmklr1,Plcb2,Hp,Tspo,Ltf,Cybb,Cebpa,Ctsz,Xdh,Nmnat2,Spint1,Slco2b1
+107	encode-UW.Motif.0141	0.03665	3.18688	M4		Calr,Slc15a3,Ncf2
+108	encode-UW.Motif.0377	0.0365262	3.17349	M7		Cmklr1,Slco2b1,Tspo
+109	taipale-NNCACGTGNN-TFE3-DBD	0.0364519	3.16546	M10	Tfe3,Usf1,Arnt,Mycn,Usf2,Bhlhe40,Max,Myc,Srebf1,Tcf4,Bhlhe41,Mxd1,Myf5,Tal2,Nhlh1,Arid5b,Myog,Tal1,Hand1,Ascl1,Mxd4,Mxi1,Hand2,Tcf12,Tfeb,Myod1,Tcf3,Mitf,Mxd3,Myf6,Mlx,Arnt2,Arntl,Arntl2,Atf3,Mnt,Helt,Mycs	Grn,Erp29,Serpine2
+110	flyfactorsurvey-Ets21c_SANGER_5_FBgn0005660	0.0363528	3.15475	M20	Fev,Fli1,Elk3,Gabpa,Etv2,Ets2,Erg,Etv1,Elk4,Elk1,Etv3,Ets1,Erf,Etv5,Elf2,Elf1,Elf3,Gabpb1	Hspbp1,Ddost,Pdia6,Spint1,Lrp5,Tspo,Ifi30
+111	swissregulon-TEAD1.p2	0.0362042	3.13868	M3	Tead3,Tead1,Tead4,Tead2	Naglu,Trem2,Ctsz
+112	transfac_public-M00201	0.0361052	3.12797	M21	Cebpa,Cebpb	Plcb2,Cmklr1,Plau
+113	homer-M00009	0.0360804	3.12529	M10	Atf3,Bhlhe40,Usf1,Arnt,Usf2,Srebf1,Myc,Max,Mycn,Tfeb,Nhlh1,Mxi1,Hand2,Mxd3,Arid5b,Mxd1,Mxd4,Ascl1,Mitf,Tal1,Myog,Myf5,Hand1,Bhlhe41,Tcf4,Tal2,Tcf3,Myf6,Tfe3,Tcf12,Myod1,Arntl,Helt,Arntl2,Mlx,Mycs,Creb3l2,Creb3l1	Erp29,Grn,Calr,Spint1,Serpine2,Capn3,Pik3cg,Ctsd,Cebpa,Hspbp1,Naglu,Ctsz
+114	homer-M00067	0.0360804	3.12529	M32	Gata1,Tal1,Gata6,Nr3c1,Sirt6,Rarb,Rara,Thrb,Thra	Cebpa,Naglu,Ctsz
+115	yetfasco-1311	0.0360557	3.12261	M33		Serpine2,Cndp2,Ctsz
+116	yetfasco-1037	0.0360309	3.11993	M34		Grn,Spint1,Ctsz,Slco2b1,Ucp2,Ltf,Capn3,Cebpa,Tspo,Cybb,Rac2,Ctsc,Calr,Laptm5,Lcn2,Ncf2,Npc2,Cmklr1,Slc15a3,Pik3cg
+117	jaspar-MA0331.1	0.0359814	3.11458	M5	Srf	Plau,Plcb2,Nmnat2
+118	yetfasco-789	0.0359319	3.10922	M10	Arnt,Bhlhe40,Usf1,Myc,Max,Srebf1,Usf2,Pax3,Mycn,Mlx,Arnt2,Atf3,Arntl,Arntl2,Helt	Serpine2,Grn,Calr,Laptm5,Cmklr1
+119	homer-M01524	0.0358576	3.10119	M27	Thoc2,BC005561	Spint1,Serpine2,Ctsz
+120	swissregulon-FOX_I1-J2_.p2	0.0358576	3.10119	M24	Foxj2,Foxi1,Foxf2,Foxj1,Foxd3,Foxf1,Foxh1,Cebpa,Cebpe,Cebpg,Cebpb,Rrn3,Smad1,Hmga1,Hmga1-rs1,Hmga2,Foxc2,Nf1	Nmnat2,Capn3,Grn,Naglu
+121	taipale-NATCAATKNYAGTGATN-SOX9-full	0.035808	3.09583	M35	Sox9,Sox10,Sox8,Sox18,Sox2,Sox7,Sox21,Sox4,Sox15	Cndp2,Capn3,Hp,Plau,Laptm5,Calr
+122	taipale-NRAAGGTCAANNNNRGGTCA-RORA-DBD	0.0357585	3.09048	M2	Rora,Rara,Rxrg	Ncf1,Ctsz,Pgd,Serpine2,Lrp5,Ctsd,Slco2b1,Cmklr1
+123	yetfasco-2018	0.0357337	3.0878	M3		Naglu,Cebpa,Pik3cg,Serpine2
+124	tfdimers-MD00099	0.0356595	3.07977	M7	Gata2,Gata3,Gata4,Gata6,Gata1,Gata5,Mycs,Nr3c1,Smad4,Yy1,Ing4,Elk1	Abcc3,Slco2b1,Spint1
+125	homer-M01549	0.0356099	3.07441	M3		Naglu,Psme1,Abcc3
+126	yetfasco-1884	0.0355356	3.06638	M7		Ucp2,Retnlg,Hk3,Spint1,Naglu,Pik3cg,Slco2b1
+127	tfdimers-MD00122	0.0354366	3.05566	M34	Nr3c1,Trp53,Trp63,Trp73,Hand2,Max,Usf2,Tcf12,Myf6,Myog,Mxi1,Mitf,Hand1,Tfeb,Tal1,Mxd4,Nhlh1,Myc,Myf5,Arid5b,Mxd1,Tal2,Tcf4,Mxd3,Tcf3,Bhlhe41,Mycs,Zbtb14,Hic1,Myb,Smad3,Irx4	Ctsz,Trem2,Plau,Slco2b1
+128	transfac_pro-M00794	0.0354118	3.05299	M15	Nkx2-1,Yy1,Trp53,Crx	Lcn2,Spint1,Grn,Abcc3,Cebpa,Rac2,Retnlg,Hp,Tspo,Lrp5,Ncf1
+129	transfac_pro-M01595	0.0354118	3.05299	M23	Stat3,Stat1,Stat2,Stat5b,Stat6,Stat4,Stat5a	Ltf,Hp,Plau
+130	transfac_pro-M02753	0.0354118	3.05299	M24	Foxl1,Foxk1,Foxa2,Foxj3,Foxj1,Foxf2,Foxo3,Foxa3,Foxa1,Foxo1,Foxo4,Foxd1,Foxj2,Foxp3,Foxc2,Hltf,3110039M20Rik,Foxd2,Nr3c1,Pgr,Foxb1,Smad1,Pdx1	Plau,Spint1,Cebpa,Naglu,Capn3,Plcb2
+131	elemento-CATGCTG	0.0353871	3.05031	M36		Fgfr4,Hp,Plau
+132	transfac_public-M00202	0.0353623	3.04763	M7		Pik3cg,Calr
+133	jaspar-PF0081.1	0.0353128	3.04227	M37		Apobr,Psmb8
+134	homer-M00131	0.0352137	3.03156	M4	Nfe2l2,Nfe2l1,Mafg,Nfe2,Mafk,Maf,Maff,Bach1,Nfe2l3,Mafb,Bach2	Psap,Ctsd,Cmklr1,Ctsz,Pgd,Tspo
+135	yetfasco-1757	0.0352137	3.03156	M10	Usf1,Arnt,Bhlhe40,Max,Myc,Usf2,Mycn,Srebf1,Tcf12,Mitf,Nhlh1,Tal1,Myf6,Tal2,Hand1,Mxd3,Tfe3,Ascl1,Mxd1,Mxi1,Arid5b,Tcf3,Myf5,Myog,Bhlhe41,Myod1,Tfeb,Hand2,Mxd4,Tcf4,Atf3,Mycs,Mnt,Mlx,Arntl,Arntl2,Helt,Clock,Olig2,Hey2,Hey1,Id1,Npas2,Hes6,Olig1,Heyl	Erp29,Grn,Serpine2
+136	taipale-NCGAAANYGAAACY-IRF7-DBD	0.0351147	3.02085	M1	Irf7,Irf2,Zfp683	Psmb10,Psmb9
+137	flyfactorsurvey-Hand_da_SANGER_5_FBgn0032209	0.0350404	3.01282	M38	Hand2,Hand1	Pdia6,Serpine2,Capn3
+138	homer-M00293	0.0350156	3.01014	M11	Rel,Rela,Nfkb1,Nfkb2,Deaf1,Bcl3,Ovol2,Relb,Ebf1,Stat6,Yy1,Zbtb7a,Churc1,Ap3b1	Spint1,Rac2,Laptm5,Ctsh,Ctsz,Plcb2,Lgmn,Plau,Calr,Slco2b1,Nmnat2,Abcc3,Ltf,Ncf1,Lrp5,Cebpa
