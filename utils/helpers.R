@@ -38,3 +38,19 @@ load_tf_network <- function(edges_file = "reformatted_edges.csv") {
   }
   list(edges = edges, all_tfs = all_tfs, tf_targets = tf_targets)
 }
+
+
+
+read_GO <- function(go_analysis){
+
+  all_BP <- go_analysis %>%
+    dplyr::filter(source == "GO:BP") %>%
+    dplyr::arrange(desc(negative_log10_of_adjusted_p_value))%>%
+    dplyr::mutate(
+      term_name = reorder(term_name, -negative_log10_of_adjusted_p_value)
+    ) %>%
+    dplyr::select(
+      term_name, negative_log10_of_adjusted_p_value,intersections,term_id
+    )
+  return (all_BP)
+}

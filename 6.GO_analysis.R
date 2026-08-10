@@ -9,37 +9,30 @@ library(gridExtra)
 
 #GEO Plot
 #region
-#Export Ensemble IDs for gprofiler use
-write(intersected_genes, "intersected_upregulated_IDs.txt")
-print(paste("Number of overlapping genes:", length(intersected_genes)))
 
 #Run gprofiler analysis in web
 
 #Import the .csv from gprofiler into R
 go_analysis <- read.csv("GO_results.csv")
-
-all_BP <- go_analysis %>%
-  dplyr::filter(source == "GO:BP") %>%
-  arrange(desc(negative_log10_of_adjusted_p_value))%>%
-  mutate(
-    term_name = reorder(term_name, -negative_log10_of_adjusted_p_value)
-  ) %>%
-  dplyr::select(
-    term_name, negative_log10_of_adjusted_p_value
-  )
-#export as txt
-write.table(all_BP, "all_BP_terms.txt", row.names = FALSE, quote = FALSE)
+source("utils/helpers.R")
+all_BP <- read_GO(go_analysis)
+#export as csv
+all_bp_terms <- all_BP %>%
+  dplyr::select(-intersections)
+#write.csv(all_bp_terms, "all_BP_terms.csv")
 
 gprofiler_selected <- go_analysis %>%
 dplyr::filter(source == "GO:BP") %>%
 arrange(desc(negative_log10_of_adjusted_p_value))%>%
 mutate(
 term_name = reorder(term_name, -negative_log10_of_adjusted_p_value)
-) %>%
-slice_head(n = 20) 
+) 
+
+gprofiler_selected_t20 <- gprofiler_selected %>%
+  dplyr::slice_head(n = 20)
 
 # Plot top 20 enriched terms
-print(ggplot(gprofiler_selected, aes(x = term_name, y = negative_log10_of_adjusted_p_value)) +
+print(ggplot(gprofiler_selected_t20, aes(x = term_name, y = negative_log10_of_adjusted_p_value)) +
   geom_point(aes(size = intersection_size), color = "#f8766d") +
   scale_size_continuous(range = c(3, 10), name = "Count") +
     labs(
@@ -58,6 +51,8 @@ print(ggplot(gprofiler_selected, aes(x = term_name, y = negative_log10_of_adjust
     panel.grid.minor = element_blank(),
     legend.position = "right"
   ))
+
+
 
 # ==============================================================================
 # USER CHOICE: ReviGO vs simplifyEnrichment
@@ -390,7 +385,7 @@ if (method == "2") {
   
 }
 
-cat("\n====================================================================\n")
-cat("✓ Script 6 complete. reducedTerms and parent_summary ready.\n")
-cat("  Proceed to script 7 (Cytoscape output) and scripts 8-9 (subnetworks).\n")
-cat("====================================================================\n")
+
+
+
+

@@ -1,0 +1,127 @@
+; Name	LLM_cell_death_genes.txt
+; Species and nomenclature	Mus musculus, MGI symbols
+; Motif collection	10K (9713 PWMs)
+; Minimum NEScore	3.0
+; Rank threshold for visualization	5000
+; ROC threshold for AUC calculation (%)	0.03
+; Minimum identity between orthologous genes	0.0
+; Maximum false discovery rate (FDR) on motif similarity	0.001
+; Motif rankings database	20kb centered around TSS (7 species)
+; Number of valid nodes	45
+; iRegulon version	iRegulon v1.3 (build: 2015-02-12)
+# Rank	Motif id	AUC	NES	ClusterCode	Transcription factor	Target genes
+1	factorbook-NFKB1	0.120208	7.01864	M1	Nfkb1,Bcl3,Nfkb2,Rela,Rel,Mzf1,Nfatc3,Zbtb7a,Ebf1,Relb,Ovol2,Churc1,Ap3b1,Ikzf2	Nfkbia,Il1b,Bcl2a1b,Junb,Rac2,Stat1,Prkcd,Kcnk6,Tlr2,Socs3,Calr,Atf3,Ncf2,Lcn2,Tnf,Tlr7,Nmnat2,Ncf1,C3
+2	transfac_public-M00054	0.11383	6.59468	M1	Rela,Nfkb1,Nfkb2,Rel,Ovol2,Bcl3,Relb,Churc1,Ap3b1,Ebf1,Stat6	Nfkbia,Rac2,Il1b,Junb,Kcnk6,Bcl2a1b,Tnf,Prkcd,Socs3,Stat1,Tlr7
+3	jaspar-MA0061.1	0.109466	6.3046	M1	Rela,Nfkb1,Nfkb2,Rel,Ovol2,Bcl3,Relb,Churc1,Ap3b1,Ebf1,Stat6,Mzf1	Nfkbia,Rac2,Junb,Il1b,Kcnk6,Bcl2a1b,Tnf,Prkcd,Socs3,Stat1,Tlr7
+4	transfac_pro-M03557	0.106982	6.13948	M1	Nfkb1,Rela,Rel,Nfkb2,Relb,Ovol2,Mzf1,Stat6	Nfkbia,Kcnk6,Rac2,Socs3,Junb,Atf3,Tlr7,Lgmn,Prkcd,Bcl2a1b,Tnf,Tspo,Il1b,Cybb,S100a8,C3,C1qb,Ncf2,Nmnat2,Trem2
+5	homer-M00159	0.106378	6.09932	M2	Irf4,Sfpi1,Gabpb1,Pura	Pik3cg,Prkcd,Junb,Il1b,Bcl2a1b,Ncf2
+6	jaspar-PB0058.1	0.102551	5.84494	M3	Sfpi1,Spib,Spic,Ehf,Elf3,Elk1,Ets1,Gabpb1,Elf5,Gata2,Gata3,Gata4,Gata6,Gata1,Gata5,Myb,Pura,Mzf1,Ltf	Bcl2a1b,Pik3cg,C1qc,Junb,Cybb,Ncf2,C1qb,Il1b,Prkcd,Grn,Calr
+7	tfdimers-MD00336	0.101913	5.80255	M4	Stat1,Irf8,Prdm1,Irf6,Irf7,Irf5,Irf2,Irf3,Irf1,Irf4,Pura	Tlr7,Atf3,Cybb,Rac2,Il1b
+8	yetfasco-1548	0.101276	5.76015	M5		Junb,Prkcd,C1qb,Tnf,Rac2,Lcn2,Kcnk6
+9	transfac_pro-M01224	0.100101	5.68206	M1	Rela,Nfkb1,Nfkb2,Ovol2,Churc1,Ap3b1,Ebf1,Mzf1,Relb	Nfkbia,Kcnk6,Junb,Socs3,Rac2,Prkcd,Atf3,Bcl2a1b,Il1b,C1qb,Tnf,Tspo,Stat1,C1qc,Tyrobp,Tlr2,Nmnat2,Tlr7,Pik3cg,S100a8,Lgmn,Tmbim6,C1qa
+10	homer-M00019	0.0939577	5.27372	M6		Nfkbia,Tlr7,Il1b,Tmbim6,Xdh,Tspo,Prkcd,Lcn2,Cybb,Stat1,Socs3,Nmnat2,Trem2
+11	transfac_pro-M00774	0.0931185	5.21793	M1	Nfkb1,Nfkb2,Rela,Rel,Bcl3,Ovol2,Relb,Ebf1,Mzf1,Churc1,Ap3b1,Ikzf2,Zbtb7a	Nfkbia,Rac2,Kcnk6,Junb,Il1b,Stat1,Prkcd,Bcl2a1b,Tnf,C3,Atf3
+12	transfac_pro-M03563	0.0928499	5.20008	M1	Rela,Nfkb2,Nfkb1,Rel,Bcl3,Ovol2,Churc1,Ap3b1,Relb,Ebf1,E2f1,Mzf1,Irf1	Nfkbia,Kcnk6,Rac2,Junb,Il1b,Stat1,Prkcd,C3,Atf3
+13	homer-M00158	0.092145	5.15323	M4	Irf4,Sfpi1,Prdm1,E2f1,Ep300,Zeb1,Myb	Rac2,Il1b,Junb,Kcnk6,Grn
+14	yetfasco-391	0.0869755	4.8096	M7		Nmnat2,Atf3,Tmbim6,Socs3
+15	transfac_pro-M01239	0.0868412	4.80067	M1	Rel,Rela,Bcl3,Ebf1,E2f1,Relb,Stat6,Ovol2,Yy1,Mzf1,Zbtb7a,Nfatc3	Nfkbia,Bcl2a1b,Rac2,Kcnk6,Prkcd,Atf3,Il1b,Stat1,Tlr7,Tlr2
+16	factorbook-STAT2	0.0862034	4.75828	M4	Stat1,Stat2,Irf8,Irf7,Irf1,Irf2,Irf3,Irf4,Irf6,Irf5,Irf9,Prdm1,Zeb1	Cybb,Junb,Atf3,Tlr7,Stat1,Oas1a,Tlr2,Il1b,Rac2,C1qb,Ncf1,Grn,Lgmn,Ucp2,Prkcd
+17	flyfactorsurvey-CG32830_SANGER_10_FBgn0052830	0.0844243	4.64001	M3	Spic	Prkcd,Junb,Cybb,Pik3cg,Il1b
+18	homer-M00293	0.0834508	4.5753	M1	Rel,Rela,Nfkb1,Nfkb2,Deaf1,Bcl3,Ovol2,Relb,Ebf1,Stat6,Yy1,Zbtb7a,Churc1,Ap3b1	Nfkbia,Socs3,Kcnk6,Rac2,Stat1,Bcl2a1b,Junb,Tlr2,Il1b,Atf3,Prkcd,Tnf,Tlr7,Lgmn,Tmbim6,Calr,Nmnat2
+19	transfac_pro-M03545	0.0832158	4.55969	M1	Rel,Nfkb2,Rela,Nfkb1,Bcl3,Ebf1,Stat6,Ovol2,Relb	Nfkbia,Rac2,Kcnk6,Bcl2a1b,Atf3,Tnf,Prkcd,C3,Cybb,Socs3,Tlr7,Junb,Il1b
+20	homer-M00142	0.0830144	4.5463	M1	Nfkb1,Rela,Rel,Nfkb2,Bcl3,Mzf1,Churc1,Ap3b1,Yy1,Relb,Ovol2,Ebf1,E2f1,Usf2,Stat1	Nfkbia,Kcnk6,Bcl2a1b,Rac2,Junb,Il1b,Stat1,Atf3,Tlr7
+21	transfac_public-M00208	0.0829809	4.54407	M1	Nfkb1,Nfkb2,Rela,Rel,Bcl3	Nfkbia,Rac2,Il1b,Prkcd,Kcnk6,Cybb,Bcl2a1b,Junb,C1qb,Stat1,Atf3,Socs3,Tmbim6
+22	jaspar-MF0003.1	0.0828466	4.53514	M1	Rel,Rela,Nfkb2,Nfkb1,Deaf1,Bcl3,Ovol2,Relb,Yy1,Ebf1,Stat6,Zbtb7a,Churc1,Ap3b1	Nfkbia,Socs3,Kcnk6,Rac2,Stat1,Bcl2a1b,Junb,Tlr2,Il1b,Atf3,Tnf,Prkcd,Lgmn,Tlr7,Nmnat2,Calr,Tmbim6
+23	swissregulon-NFKB1_REL_RELA.p2	0.0824102	4.50613	M1	Rela,Nfkb1,Rel,Nfkb2,Bcl3,Ovol2,Zbtb7a,Nfatc3,Cd59b,Cd59a	Il1b,Rac2,Junb,Stat1,Bcl2a1b,Prkcd,Tnf,Kcnk6,Atf3,Nfkbia,Socs3
+24	homer-M00697	0.0815374	4.44812	M8		Rac2,Kcnk6,Grn,Lcn2,Il1b,Prkcd,Tspo,Socs3,Junb,Lgals9,Rps6ka1,Ucp2,Ncf2,Atf3,Tmbim6,Stat1
+25	hdpi-PIK3C3	0.0802283	4.3611	M5	Pik3c3	Prkcd,C1qb,Lcn2,C3,Tspo,Kcnk6,Junb,Ncf2,Tnf,Atf3,Lgals9,Trem2,Il1b,Ucp2,Grn,C1qc,Socs3,Tmbim6
+26	homer-M01539	0.0787513	4.26292	M7		Atf3,Socs3,Tmbim6,Nmnat2
+27	yetfasco-1068	0.0773078	4.16697	M9		Junb,Socs3,Tspo,Ncf2,Atf3,Tmbim6
+28	encode-UW.Motif.0084	0.0763343	4.10226	M10		Socs3,Atf3,Prkcd
+29	hdpi-HCFC2	0.0754616	4.04424	M11	Hcfc2	Socs3,Atf3,Tspo,Kcnk6,Lgmn
+30	transfac_pro-M00771	0.0751595	4.02416	M2	Elk4,Elf2,Erf,Fli1,Ets2,Ets1,Elk1,Erg,Elf1,Spib,Gabpa,Elf4,Etv6,Gabpb1,Etv4,Sfpi1,Elk3,Tcf4,Gata2,Gata3,Gata4,Gata6,Gata1,Gata5,Runx2,Cbfb,Pura,Nr3c1,Bptf,Vdr,Runx3,Gabpb2,Nf1	Pik3cg,Junb,Prkcd,Il1b,Bcl2a1b,Rps6ka1,Ncf1,C1qb,Rac2,Cybb,C1qc,Grn,Atf3,Ncf2
+31	jaspar-PF0086.1	0.0750923	4.0197	M1	Rela,Rel,Nfkb2,Nfkb1,Bcl3,Ebf1,Ovol2,Zbtb7a,Relb	Nfkbia,Rac2,Prkcd,Il1b,Stat1
+32	homer-M00320	0.0747902	3.99962	M1	Rela,Rel,Relb,Nfkb1,Ovol2,Stat6,Mzf1	Nfkbia,Kcnk6,Socs3,Atf3
+33	selexconsensus-dl-B	0.0747902	3.99962	M1	Nfkb1,Relb,Ovol2,Stat6,Mzf1	Nfkbia,Kcnk6,Socs3,Atf3
+34	tfdimers-MD00029	0.0746559	3.99069	M3	Ikzf2	Junb,Prkcd,Socs3,Nfkbia,Bcl2a1b,Calr
+35	encode-UW.Motif.0326	0.0736489	3.92375	M12		Prkcd,Rac2,Ucp2,C3
+36	encode-UW.Motif.0052	0.073481	3.91259	M1	Nfkb1,Rela,Nfkb2,Rel,Deaf1,Bcl3,Ebf1,Ovol2,Zbtb7a	Nfkbia,Rac2,Prkcd,Socs3,Kcnk6,Atf3,Stat1,Il1b,Pdia6,Bcl2a1b,Tmbim6,Tlr2,Tnf,Calr,Tlr7
+37	swissregulon-KLF12.p2	0.0729439	3.87689	M13	Klf12	Il1b,Prkcd,Junb,Socs3
+38	jaspar-MA0101.1	0.0726083	3.85458	M1	Rel,Rela,Nfkb2,Nfkb1,Yy1,Bcl3,Relb,Ovol2,Ebf1,Zbtb7a	Nfkbia,Socs3,Rac2,Atf3,Tlr2,Bcl2a1b,Kcnk6,Tmbim6,Lgmn,Junb,Prkcd,Il1b,Stat1,Nmnat2,Ncf1,Tnf,Tlr7
+39	transfac_pro-M02078	0.0721383	3.82334	M2	Sfpi1,Spib,Spic,Nfatc3	Junb,Prkcd,C1qc,Pik3cg,Grn,C1qb,Bcl2a1b,Lgals9,Tnf,Il1b,Ucp2,Cybb,S100a8,Socs3,Ncf2,Nfkbia,Calr
+40	transfac_public-M00194	0.0720712	3.81888	M1	Nfkb1,Rel,Rela,Nfkb2,E2f1,Mzf1,Bcl3,Ovol2,Ebf1,Stat6	Nfkbia,Rac2,Junb,Prkcd,Socs3,C3,Il1b,Bcl2a1b,C1qa,Atf3,Ncf2,Tlr2,Tspo,Tlr7,Kcnk6
+41	tfdimers-MD00431	0.0718698	3.80549	M2	Zbtb14,Elf5,Ets1,Elf2,Etv4,Ovol2,Vdr,Gli3,Runx2,Cbfb,Gata2,Gata3,Gata4,Gata6,Gata1,Gata5,Runx1	Junb,Prkcd,Bcl2a1b,Pik3cg
+42	transfac_public-M00053	0.0718026	3.80103	M1	Rel,Rela,Nfkb1,Nfkb2,Yy1,Bcl3,Relb,Ovol2,Ebf1,Zbtb7a	Nfkbia,Socs3,Rac2,Atf3,Tlr2,Bcl2a1b,Kcnk6,Tmbim6,Prkcd,Junb,Lgmn,Il1b,Nmnat2,Stat1,Ncf1,Tnf
+43	encode-UW.Motif.0431	0.0715005	3.78094	M14		Junb,Prkcd,Xdh,Tspo,Il1b,Lgals9
+44	jaspar-MA0102.2	0.0708963	3.74078	M6	Cebpa,Cebpb	Lcn2,Nfkbia,S100a8,Tspo,Il1b,Tlr7,Atf3,Xdh,Junb,Tmbim6,Prkcd,C3,Nmnat2
+45	swissregulon-SPI1.p2	0.0706949	3.72739	M2	Sfpi1,Irf4,Pura,Myb	Junb,Prkcd,Ucp2,Pik3cg,Bcl2a1b,Il1b,Socs3,Grn,Cybb,Ncf2,S100a8,Calr,C1qa,C1qc,Xdh,Tnf,Rac2,Tmbim6,Atf3,Lcn2
+46	yetfasco-1494	0.0703256	3.70285	M10		Prkcd,Junb,Tlr2,Atf3,Rac2
+47	transfac_pro-M01223	0.0702249	3.69615	M1	Nfkb1,Rel,Rela,Nfkb2,Ovol2,Ebf1,Mzf1,Relb,Stat6	Rac2,Nfkbia,Kcnk6,Socs3,Prkcd,Tnf,Tlr7,Lgmn
+48	hdpi-EIF5A2	0.0701578	3.69169	M15	Eif5a2	Junb,C1qc,Prkcd,C1qb,Tspo,Atf3,Rac2,Lcn2,C3,Lgals9,Calr,Grn,Rps6ka1,Socs3,Lgmn,Xdh,Kcnk6,Nfkbia,Ctsd
+49	tfdimers-MD00021	0.0701578	3.69169	M1	Zbtb7a,Nfatc3,Rel,Bcl3,Relb,Ebf1,Stat6	Nfkbia,Rac2,Stat1,Tmbim6,Il1b,Prkcd,Calr,Tnf,Kcnk6,Bcl2a1b,Atf3
+50	yetfasco-1299	0.0700571	3.685	M13		Junb,Stat1,Prkcd,Lcn2
+51	yetfasco-963	0.0696878	3.66045	M16	Gata5,Gata1,Gata4,Gata2,Gata3,Gata6	Junb,Tnf,Prkcd,Atf3,Bcl2a1b,Lcn2,C1qb
+52	transfac_pro-M02278	0.0693857	3.64037	M3	Sfpi1,Etv4,Ets1,Erg,Gabpb1,Spib,Elf2,Ets2,Elf1,Elk4,Gabpa,Elf4,Etv6,Elk3,Elk1,Fli1	Junb,Cybb,Prkcd,Pik3cg,Bcl2a1b,Atf3,Tnf,Ucp2
+53	encode-UW.Motif.0286	0.0693521	3.63814	M17		Junb,Prkcd,C1qc,Trem2,Lgals9,Lcn2,Ncf2,Il1b,Cybb,C1qb,Grn,Rac2
+54	transfac_pro-M00792	0.0689493	3.61136	M14	Smad4,Smad3,Smad2,Smad1	C3,Tspo,Prkcd,Tnf,Il1b,Junb,Lcn2,Ncf2,Atf3,C1qb,Socs3,Ncf1,Ucp2,Pgd,Kcnk6
+55	taipale-AAAAAGMGGAAGTN-SPIB-DBD	0.0689157	3.60913	M3	Spib,Sfpi1,Spic,Gabpb1,Yy1,Nfatc3,Sirt6,Tcf4,Tbp	C1qc,Junb,Pik3cg,Il1b,C1qb,Ncf1,Bcl2a1b,Grn,Ucp2,Prkcd,Cybb,Rac2,Tlr7,Tyrobp,Ncf2,Tmbim6,Atf3,Nmnat2
+56	swissregulon-FOX_I1-J2_.p2	0.0686808	3.59351	M16	Foxj2,Foxi1,Foxf2,Foxj1,Foxd3,Foxf1,Foxh1,Cebpa,Cebpe,Cebpg,Cebpb,Rrn3,Smad1,Hmga1,Hmga1-rs1,Hmga2,Foxc2,Nf1	Tnf,Nmnat2,Lgals9,Grn,C1qa
+57	transfac_pro-M00655	0.0679423	3.54442	M2	Etv4,Elk1,Fli1	Junb,Prkcd,Pik3cg,Cybb,Il1b,Ctsd,Kcnk6,Bcl2a1b,Calr,Tmbim6,Atf3,Grn,Lcn2,Tnf
+58	elemento-AGCTCCT	0.0677744	3.53326	M18		C1qa,Prkcd,Socs3,Lcn2,Rps6ka1
+59	hdpi-H1FX	0.0676401	3.52434	M19	H1fx	Socs3,Atf3,Nfkbia
+60	homer-M00053	0.0675394	3.51764	M2	Ets1,Gabpb1,Elk3,Elk1,Ets2,Elf1,Erf,Erg,Elk4,Fli1,Elf2,Gabpa,Etv2,Gli3	Pik3cg,Prkcd,Il1b,Ctsd,Junb,Bcl2a1b,Cybb,Tnf,Rps6ka1,Ncf1,C1qb
+61	yetfasco-1239	0.0674052	3.50872	M9	Mef2a,Mef2c,Mef2d,2310045N01Rik,Mef2b,Zfp683,Prdm1,Prdm2,E2f1,Tcf3,Stat1,Tgif1,Tgif2,Gm7148,Rfx2,Rfx3,Rfx6,Mybl2,Rfx1,Mybl1,Snapc4,Rfx4,Myb,Rfx8	Socs3,Tmbim6,Pgd
+62	taipale-NCGAAANYGAAACY-IRF7-DBD	0.0671702	3.4931	M4	Irf7,Irf2,Zfp683	Atf3,Tmbim6,Stat1
+63	yetfasco-1275	0.0671366	3.49087	M9	Mef2a,Mef2d,Mef2c,2310045N01Rik,Mef2b,Rfx2,Rfx3,Rfx1,Rfx6,Rfx4,Rfx8,Tgif1,Tgif2,Gm7148,Smad1,Nr3c1,Irf1,Foxi1	Socs3,Tmbim6,Pgd
+64	jaspar-MA0105.1	0.0669352	3.47748	M1	Nfkb1,Ovol2,Churc1,Ap3b1	Nfkbia,Prkcd,Trem2,Tlr7,Atf3,Kcnk6,Tnf,Junb,Socs3
+65	hdpi-GTF3C2	0.0658275	3.40385	M5	Gtf3c2	Trem2,C3,Prkcd,C1qb,Junb,Il1b,Atf3,Kcnk6,Tspo,Grn,Rac2,Ncf2,Ucp2,Stat1,Socs3,Tlr7,Lcn2,Tmbim6,Tnf
+66	swissregulon-TBP.p2	0.065626	3.39046	M20	Tbp,Polr2a,Taf1,Tbpl2	Atf3,Junb,Calr,S100a8,Prkcd,Il1b,Socs3,Rac2,Tspo,Tmbim6
+67	swissregulon-IRF1-2-7.p3	0.0653911	3.37484	M4	Irf2,Irf1,Irf7,Irf5,Irf8,Irf4,Irf3,Irf6,Irf9,Prdm1,Stat1,Stat2,Zfp683,Myb,E2f1,Pura	Cybb,Stat1,Tmbim6,Atf3,Tlr2
+68	transfac_pro-M01776	0.0653575	3.37261	M19	Nr2c2,Elf5,Ehf,Elf3	Trem2,Junb,Socs3,Atf3
+69	transfac_pro-M02075	0.0652568	3.36591	M2	Spdef,Ets1,Etv5,Etv1,Etv2,Ets2,Elk1,Elk4,Elf1,Fev,Elf2,Erf,Elk3,Elf3,Elf5,Erg,Ehf,Gabpa,Elf4	Tnf,Junb,Tmbim6
+70	transfac_public-M00007	0.0652232	3.36368	M3	Elk1,Ets1,Ets2,Gabpb1,Etv2,Gabpa,Elk4,Etv5,Spib,Elk3,Erg,Erf,Fli1,Sfpi1,Etv1,Fev,Etv3,Spic,Ehf,Etv4,Elf1,Elf2,Gata2,Gata3,Gata4,Gata6,Gata1,Gata5,Stat1,Nr3c1,Pura	Junb,Il1b,C1qb,Tmbim6,Rac2,Grn,Bcl2a1b,Atf3,Ctsd,Ucp2,Cybb,Pik3cg,S100a8,C1qa,C1qc,Prkcd,Tlr2,Nfkbia
+71	factorbook-UA12	0.0648875	3.34137	M12		Prkcd,Socs3,Junb,Tspo
+72	flyfactorsurvey-CG7928_SOLEXA_5_FBgn0039740	0.064854	3.33914	M11		Trem2,Prkcd,Socs3,Junb,Il1b
+73	taipale-NNACGCCCACGCANN-EGR3-DBD	0.0647868	3.33467	M21	Egr3,Egr2,Egr1,Egr4,Sp8,Sp9,Sp6,Sp7,Sp5	Stat1,Tnf,Lcn2,Junb,Atf3
+74	encode-UW.Motif.0238	0.064619	3.32352	M20		Pgd,Ncf1,Tspo,Socs3
+75	swissregulon-YY1.p2	0.064619	3.32352	M22	Yy1	Tlr2,Pdia6,Prkcd,Calr,Nmnat2,Atf3
+76	yetfasco-588	0.0644176	3.31013	M13		Socs3,C1qa,Junb,Atf3,Prkcd
+77	transfac_pro-M01881	0.0642497	3.29897	M4	Irf1,Irf2,Irf4,Irf9,Irf3,Irf8,Irf5,Irf7,Irf6,Prdm1,Zfp683,Jun,Fos,E2f1,Stat1,Stat2,Zeb1,Churc1,Pura,Pou5f1,Myb	Atf3,Bcl2a1b,Cybb
+78	tfdimers-MD00009	0.0639141	3.27666	M2	Ets1,Zfp354c,Gli3,Runx1	Tnf,Bcl2a1b,Ctsd,Atf3,Prkcd
+79	transfac_pro-M01429	0.0635448	3.25211	M20	Homez	Prkcd,Atf3,Socs3,Calr
+80	yetfasco-634	0.0635112	3.24988	M1		Atf3,Socs3,Junb,Nfkbia,Nmnat2
+81	encode-UW.Motif.0067	0.0634777	3.24765	M17		Prkcd,Grn,Socs3,Tspo,Atf3,Pgd,Ncf1,Tyrobp,Junb,Calr,Nfkbia,C1qa,Nmnat2,C1qb,Lgals9,Il1b,Kcnk6,C1qc
+82	jaspar-MA0023.1	0.0632763	3.23426	M1	Rela,Rel,Relb,Bcl3,Zbtb7a	Nfkbia,Socs3,Atf3,Rac2,Kcnk6,Stat1,Pdia6,Lgmn,Tlr7,Pik3cg,Ncf1,Tlr2,Prkcd
+83	yetfasco-1086	0.0632763	3.23426	M23	Kdm4d,Kdm4c,Kdm4b,Kdm4a	Atf3,Tmbim6
+84	homer-M00051	0.0632427	3.23203	M2	Runx1,Ing4,Zfp354c,Gli3,Zbtb14,Elf5	Bcl2a1b,Prkcd,Cybb
+85	jaspar-MA0050.1	0.0631756	3.22757	M4	Irf1,Irf2,Irf5,Irf8,Irf3,Irf9,Irf7,Irf4,Irf6,Stat1,Stat2,E2f1,Zfp683	Atf3,Cybb,Stat1,Tmbim6,Il1b
+86	transfac_pro-M02063	0.0630749	3.22087	M2	Ets1,Ets2,Etv2,Fev,Elk4,Etv5,Erf,Elk1,Elk3,Erg,Etv1,Fli1,Gabpa,Etv3,Elf2,Elf3,Elf1,Gabpb1,Spic,Spdef,Elf4,Ehf,Spib,Elf5,Sfpi1	Pik3cg,Prkcd,Tmbim6,Junb,Tnf,Ctsd,C1qb
+87	transfac_pro-M02040	0.0628734	3.20749	M2	Spdef,Ets1,Etv1,Etv5,Etv2,Ets2,Fev,Erf,Elf3,Elk1,Elk3,Erg,Elk4,Elf2,Gabpa,Elf1,Etv3,Fli1,Elf5,Elf4,Ehf	Tnf,Tmbim6,Junb
+88	jaspar-MA0144.1	0.0624371	3.17848	M19	Stat3,Stat1	Socs3,Junb
+89	encode-UW.Motif.0023	0.0624035	3.17625	M5		Prkcd,Socs3,Rps6ka1,Junb,Tspo,Lgals9,C1qa,Lcn2,Atf3,C1qb,Ctsd,Rac2,Tyrobp,Grn,Kcnk6,Tnf,Tmbim6,Ncf2
+90	yetfasco-1268	0.0623699	3.17402	M9	Foxp3,Tgif2,Gm7148,Tgif1,Mef2a,Mef2c,Mef2d,Mef2b,2310045N01Rik	Socs3,Tmbim6,Tspo,Calr,Ncf1,Pgd,Ncf2,Kcnk6,Bcl2a1b
+91	factorbook-TBP	0.0623028	3.16955	M20	Polr2a,Tbp,Taf1,Tbpl2	Junb,Atf3,Prkcd,Calr,S100a8,Il1b,Socs3,Rac2,Cybb,Tnf,Nfkbia,Grn,Kcnk6,Tspo
+92	homer-M00186	0.0623028	3.16955	M19	Stat3,Stat1,Stat5a,Stat5b,Stat2,Stat4,Stat6	Socs3,Junb,Atf3
+93	elemento-TCCTTGTC	0.0620007	3.14947	M24		Junb,Prkcd,Socs3,Nmnat2,Tspo,Cybb,Tmbim6
+94	iDMMPMM-DL	0.0617657	3.13385	M1	Rela,Rel,Relb,Nfkb2,Nfkb1,Ovol2,Yy1	Nfkbia,Kcnk6,Tmbim6,Bcl2a1b,Socs3,Atf3,Tnf,Rac2
+95	wolfe-lola-PQPJ_SOLEXA_5	0.0615307	3.11823	M20		Atf3,Tmbim6,Socs3
+96	tfdimers-MD00192	0.0614971	3.116	M1	Churc1,Irf1,Irf2,Irf4,Irf9,Irf8,Irf5,Irf3,Irf7,Rela,Pura	Nfkbia,Bcl2a1b,Prkcd,Atf3
+97	transfac_pro-M01595	0.0612286	3.09815	M19	Stat3,Stat1,Stat2,Stat5b,Stat6,Stat4,Stat5a	Socs3,Junb
+98	encode-UW.Motif.0369	0.0610943	3.08922	M25		Atf3,Junb,Nfkbia,Il1b,Rac2,Socs3,Lcn2,Lgals9,Tmbim6,Prkcd,Stat1,Tlr7,Calr
+99	tfdimers-MD00012	0.0609265	3.07807	M3	Yy1,Ets1,Sfpi1,Spib,Rel,Nfatc3,Hoxd10,Dbp,Stat1	C1qc,Junb,Prkcd,C1qb,Bcl2a1b,Atf3
+100	transfac_pro-M01220	0.0609265	3.07807	M19		Socs3,Stat1,Bcl2a1b
+101	encode-UW.Motif.0305	0.0608929	3.07584	M1		Atf3,Prkcd,Nmnat2,S100a9
+102	homer-M01766	0.0608258	3.07137	M1		Atf3,Junb,Nmnat2,Socs3
+103	yetfasco-1186	0.0607922	3.06914	M9	Mybl2,Myb,Mybl1,Snapc4,Gm7148,Tgif2,Tgif1	Socs3,Tmbim6,Tspo
+104	taipale-RRGWACANNNTGTWCYY-AR-full	0.0606915	3.06245	M14	Ar,Pgr,Nr3c1,Nr3c2	Nfkbia,Prkcd,Grn,Rac2,C1qb
+105	transfac_pro-M02041	0.0606579	3.06022	M2	Spib,Spic,Sfpi1,Elf3,Erf,Etv2,Ets2,Etv5,Ets1,Ehf,Etv3,Gabpb1,Elf5,Etv1,Fev,Elf4,Gabpa,Etv4,Elf1,Elk4,Fli1,Elk3,Elf2,Etv6,Elk1,Erg,Nfatc3,Tcf4	Junb,Pik3cg,Prkcd
+106	encode-UW.Motif.0542	0.0605908	3.05575	M10		Prkcd,C1qa,Socs3
+107	yetfasco-1251	0.0604901	3.04906	M9	Yod1,Mef2a,Mef2c,Mef2d,2310045N01Rik,Mef2b,Zfp683,Prdm1,Prdm2,Tgif1,Tgif2,Gm7148,Gata3,Gata6,Gata5,Gata2,Gata4,Gata1,Rfx2,Rfx3,Rfx4,Rfx6,Rfx8,Rfx1	Socs3,Tspo,Tmbim6
+108	homer-M00529	0.0603894	3.04237	M1	Rela,Rel,Relb,Ikzf2,Zbtb7a	Nfkbia,Kcnk6,Socs3
+109	swissregulon-AR.p2	0.0603558	3.04013	M14	Ar,Pgr,Nr3c1,Nr3c2,Hsf1	Prkcd,Nfkbia,Grn,Rac2
+110	tfdimers-MD00455	0.0603223	3.0379	M13	Ets1,Mzf1,Ovol2	Tnf,Cybb,Prkcd
+111	tfdimers-MD00285	0.060188	3.02898	M9	Smad1,Pdx1,Foxa2,Foxj3,Foxa3,Foxa1,Foxj1,Foxk1,Foxl1,Nr3c1,Pgr,Hltf	Tmbim6,Pik3cg,Socs3,Tspo,Ncf2
+112	homer-M00187	0.0601208	3.02452	M19	Stat3,Stat1,Stat5a,Stat4,Stat2,Stat5b,Stat6	Socs3,Junb,Atf3
+113	transfac_pro-M02071	0.0599866	3.01559	M2	Elf5,Elf3,Elf4,Ehf,Elf2,Etv2,Etv5,Elf1,Etv1,Ets2,Gabpa,Fli1,Ets1,Erf,Erg,Fev,Etv3,Elk3,Elk1,Spic,Elk4,Gabpb1,Nr2c2	Socs3,Pik3cg,Prkcd
+114	transfac_pro-M01647	0.0598859	3.0089	M13		Socs3,C1qa,Junb,Prkcd
+115	selexconsensus-shn-ZFP1	0.0597852	3.0022	M26	Hivep1,Hivep3,Hivep2,Zfp831	Socs3,Atf3,Nfkbia,Junb

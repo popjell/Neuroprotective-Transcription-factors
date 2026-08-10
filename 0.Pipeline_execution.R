@@ -1,94 +1,82 @@
-
-#utility function to run whole pipeline
-
-
-# 1. Run the package installation script first
-install_script <- "install_packages.R"
-
-if (file.exists(install_script)) {
-  message("=== Step 0: Running Package Installation ===")
-  tryCatch({
-    source(install_script, local = FALSE, print.eval = TRUE)
-  }, error = function(e) {
-    beep(10)
-    stop("CRITICAL: Package installation failed or threw an error. Halting pipeline execution.\nError details: ", conditionMessage(e))
-  })
-} else {
-  beep(10)
-  stop("CRITICAL: '", install_script, "' not found in the root directory. Halting execution.")
-}
-
+# Setup dependencies early
 library(beepr)
+library(tidyverse)
+library(stringr)
+
 if (!requireNamespace("gtools", quietly = TRUE)) {
-  message("gtools package not found. Installing it now...")
   install.packages("gtools", repos = "https://cloud.r-project.org")
 }
 
+# Helper to run scripts safely with beep error alert
+run_script_safely <- function(script_path, work_dir = NULL) {
+  message("\n=== Executing: ", script_path, " ===")
+  
+  run_code <- function() {
+    target_file <- if (!is.null(work_dir)) basename(script_path) else script_path
+    source(target_file, local = FALSE, print.eval = TRUE)
+  }
+  
+  tryCatch({
+    if (!is.null(work_dir)) {
+      if (requireNamespace("withr", quietly = TRUE)) {
+        withr::with_dir(work_dir, run_code())
+      } else {
+        old_wd <- getwd()
+        on.exit(setwd(old_wd))
+        setwd(work_dir)
+        run_code()
+      }
+    } else {
+      run_code()
+    }
+  }, error = function(e) {
+    beep(10)
+    stop("CRITICAL: Script '", script_path, "' failed.\nError details: ", conditionMessage(e), call. = FALSE)
+  })
+}
+
+# 1. Package Installation
+install_script <- "install_packages.R"
+if (file.exists(install_script)) {
+  run_script_safely(install_script)
+} else {
+  beep(10)
+  stop("CRITICAL: '", install_script, "' not found in root.", call. = FALSE)
+}
+
+# 2. iRegulon Reformatting
 iregulon_refomat <- "iregulon_reformat.R"
 if (file.exists(iregulon_refomat)) {
-  message("=== Step 1: Running iRegulon Reformatting ===")
-  tryCatch({
-    source(iregulon_refomat, local = FALSE, print.eval = TRUE)
-  }, error = function(e) {
-    stop("CRITICAL: iRegulon reformatting failed or threw an error. Halting pipeline execution.\nError details: ", conditionMessage(e))
-  })
+  run_script_safely(iregulon_refomat)
 } else {
-  stop("CRITICAL: '", iregulon_refomat, "' not found in the root directory. Halting execution.")
+  beep(10)
+  stop("CRITICAL: '", iregulon_refomat, "' not found in root.", call. = FALSE)
 }
-# Define the two parallel analysis directories
+
+# 3. Sub-directory execution (Scripts 1-4)
 sub_dirs <- c("Motor Neuron Analysis", "RGC analysis")
 
-# 2. Run the nested scripts (1 to 4) in their respective directories
 for (dir in sub_dirs) {
-  message("\n=== Running pipeline for: ", dir, " ===")
-  
   if (!dir.exists(dir)) {
     warning("Directory '", dir, "' not found. Skipping.")
     next
   }
   
-  sub_scripts <- list.files(path = dir, pattern = "^[1-4]\\..*\\.R$", full.names = TRUE)
+  sub_scripts <- list.files(path = dir, pattern = "^[1-4]\\..*\\.[Rr](md)?$", full.names = TRUE)
   sub_scripts <- gtools::mixedsort(sub_scripts)
   
   for (script in sub_scripts) {
-    message("Executing: ", script)
-    
-    if (requireNamespace("withr", quietly = TRUE)) {
-      withr::with_dir(dir, source(basename(script), local = FALSE, print.eval = TRUE))
-    } else {
-      old_wd <- getwd()
-      setwd(dir)
-      tryCatch(source(basename(script), local = FALSE, print.eval = TRUE), finally = setwd(old_wd))
-    }
+    run_script_safely(script, work_dir = dir)
   }
 }
 
-# 3. Always run scripts 5 (gene intersection) and 6 (GO analysis)
-message("\n=== Running scripts 5-6 (gene intersection + GO analysis) ===")
+# 4. Root scripts (> 4)
+root_scripts <- list.files(".", pattern = "\\.[Rr]$|\\.[Rr]md$", full.names = TRUE) %>% 
+  .[suppressWarnings(as.numeric(str_extract(basename(.), "^\\d+"))) > 4 %in% TRUE] %>% 
+  str_sort(numeric = TRUE)
 
-for (script in c("5.gene_intersection.R", "6.GO_analysis.R")) {
-  if (file.exists(script)) {
-    message("Executing: ", script)
-    source(script, local = FALSE, print.eval = TRUE)
-  } else {
-    warning("Script not found: ", script)
-  }
-}
-
-# 4. Run scripts 7-9 (Cytoscape output analysis, subnetwork generation, visualization)
-
-if (file.exists("7.cytoscape_output_analysis.R")) {
-  message("Executing: 7.cytoscape_output_analysis.R")
-  source("7.cytoscape_output_analysis.R", local = FALSE, print.eval = TRUE)
-}
-
-for (script in c("8.generate_subregulatory_networks.R", "9.visualize_subnetworks.R", "10.tf_cluster_analysis.R", "11.cluster_deep_dive.R")) {
-  if (file.exists(script)) {
-    message("Executing: ", script)
-    source(script, local = FALSE, print.eval = TRUE)
-  } else {
-    warning("Script not found: ", script)
-  }
+for (script in root_scripts) {
+  run_script_safely(script)
 }
 
 beep(1)
