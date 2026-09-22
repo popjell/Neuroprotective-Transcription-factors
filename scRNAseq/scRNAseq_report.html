@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><title>Neuronal MS single-cell analysis</title>
+<style>body{font-family:Arial,sans-serif;max-width:1000px;margin:40px auto;line-height:1.5;color:#222}img{max-width:100%;border:1px solid #ddd;margin:8px 0 24px}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:6px 10px;text-align:left}.note{background:#f5f5f5;padding:12px}</style>
+</head>
+<body>
+<h1>Neuronal MS single-cell analysis</h1>
+<p>This report summarizes the current Schirmer 2019 and Jäkel 2019 analyses. Counts were summed per patient and neuronal subtype or corrected neuron cluster before testing MS versus control with DESeq2. FDR means the false-discovery-rate-adjusted p value.</p>
+
+<h2>Summary</h2>
+<ul>
+<li>Schirmer is ready within the reviewed scope: the UMAP shows the biological neuronal subtypes used for pseudobulk, and the analysis found 555 genes with FDR &lt; 0.05.</li>
+<li>Jäkel is ready within the reviewed scope: it has a full-atlas UMAP plus a separate neuron reclustering used for pseudobulk. It found 34 genes with FDR &lt; 0.05 in replicated neuron clusters.</li>
+<li>The results are exploratory, not a final cross-dataset signature. The datasets use different subtype definitions and have different donor and tissue-processing designs.</li>
+</ul>
+
+<h2>Schirmer 2019</h2>
+<p>The Schirmer workflow keeps the author-provided neuronal subtype labels, merges the condition-specific EN-L2-3 labels into one EN-L2-3 group, and merges IN-PV into IN-PVALB. This avoids using a disease label as a cell subtype.</p>
+<img src="Schirmer_2019/plots/umap.png" alt="Schirmer neuronal subtype UMAP">
+<img src="Schirmer_2019/plots/pseudobulk_pca.png" alt="Schirmer pseudobulk PCA">
+<img src="Schirmer_2019/plots/volcano.png" alt="Schirmer volcano plot">
+<p>The largest Schirmer signal is in EN-L2-3 (326 significant genes), followed by EN-L4 (73) and EN-L5-6 (53). These counts describe within-subtype MS-versus-control tests; they should not be interpreted as one universal neuronal signature.</p>
+
+<h2>Jäkel 2019</h2>
+<p>The Jäkel workflow first makes a full-atlas UMAP, then reclusters the author-labeled neurons separately. The pseudobulk analysis uses those corrected neuron clusters, not the original broad Neuron1–Neuron5 labels.</p>
+<img src="Jakel_2019/plots/umap.png" alt="Jäkel full atlas UMAP">
+<img src="Jakel_2019/plots/umap_neurons.png" alt="Jäkel neuron cluster UMAP">
+<img src="Jakel_2019/plots/pseudobulk_pca.png" alt="Jäkel pseudobulk PCA">
+<img src="Jakel_2019/plots/volcano.png" alt="Jäkel volcano plot">
+<p>Four replicated neuron clusters produced significant genes: N2 (5), N5 (7), N6 (17), and N7 (5). Other neuron clusters were not tested because they did not have enough control and MS patient-level pseudobulk samples.</p>
+
+<h2>Interpretation</h2>
+<p>Both analyses now use a consistent patient-level pseudobulk design, but their subtype spaces are not identical. The safest next comparison is to inspect genes that recur with the same direction across datasets or to compare pathway-level signals. A gene appearing in only one dataset is not automatically a false positive, but it is not independently replicated here.</p>
+
+<h2>Files and limitations</h2>
+<p>The scripts are in the <code>Schirmer_2019</code> and <code>Jakel_2019</code> folders. Fagiani is not included as a validated UMAP analysis: its full neuronal UMAP exceeded the available memory, although its published subtype pseudobulk calculation completed.</p>
+</body></html>

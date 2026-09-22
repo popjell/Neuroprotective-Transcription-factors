@@ -52,7 +52,31 @@ intersected_combined_df <- merge(MN_results.df, RGC_results.df, by = "ensembl_id
 intersected_combined_df <- intersected_combined_df %>%
  dplyr::mutate(symbol = ifelse(!is.na(symbol_MN) & symbol_MN != "", symbol_MN, symbol_RGC))  %>%
 #remove the old symbol columns
-  dplyr::select(-symbol_MN, -symbol_RGC)
+  dplyr::select(-symbol_MN, -symbol_RGC) %>%
+  dplyr::mutate(
+    log2FoldChange_MN = ifelse(is.na(log2FoldChange_MN), 0, log2FoldChange_MN),
+    log2FoldChange_RGC = ifelse(is.na(log2FoldChange_RGC), 0, log2FoldChange_RGC),
+
+    is_sig_RGC = !is.na(pvalue_RGC) & !is.na(log2FoldChange_RGC) & pvalue_RGC < 0.05 & abs(log2FoldChange_RGC) > 0.58,
+    is_sig_MN  = !is.na(pvalue_MN)  & !is.na(log2FoldChange_MN)  & pvalue_MN  < 0.05 & abs(log2FoldChange_MN)  > 0.58,
+
+    log2FoldChange_MN = ifelse(is.na(log2FoldChange_MN), 0, log2FoldChange_MN),
+    log2FoldChange_RGC = ifelse(is.na(log2FoldChange_RGC), 0, log2FoldChange_RGC),
+
+    Specificity = case_when(
+        is_sig_RGC & is_sig_MN & (sign(log2FoldChange_RGC) != sign(log2FoldChange_MN)) ~ "Opposite",
+        is_sig_RGC & is_sig_MN ~ "Both",
+        is_sig_RGC ~ "RGC_Only",
+        is_sig_MN  ~ "MN_Only"
+    ),
+
+    `EAE_Combined_Score` = case_when(
+        Specificity == "Opposite" ~ 0,
+        Specificity == "Both"     ~ (log2FoldChange_RGC + log2FoldChange_MN) / 2,
+        Specificity == "RGC_Only" ~ log2FoldChange_RGC,
+        Specificity == "MN_Only"  ~ log2FoldChange_MN
+    )
+  )
 
 #write as .txt file with no commas
 write.table(intersected_combined_df, "Expression_data.txt", sep = "\t", row.names = FALSE, quote = FALSE)
