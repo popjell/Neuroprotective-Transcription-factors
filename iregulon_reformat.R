@@ -8,26 +8,6 @@ reformat_networks <- function(iregulon_results, gene_list_file, expression_file 
   all_upregulated_genes <- readLines(gene_list_file)
   expression_data <<- read.csv(expression_file, sep = "\t", stringsAsFactors = FALSE, check.names = FALSE)
 
-  expression_data <- expression_data %>%
-    mutate(
-      is_sig_RGC = !is.na(pvalue_RGC) & !is.na(log2FoldChange_RGC) & pvalue_RGC < 0.05 & abs(log2FoldChange_RGC) > 0.58,
-      is_sig_MN  = !is.na(pvalue_MN)  & !is.na(log2FoldChange_MN)  & pvalue_MN  < 0.05 & abs(log2FoldChange_MN)  > 0.58,
-
-      Specificity = case_when(
-        is_sig_RGC & is_sig_MN & (sign(log2FoldChange_RGC) != sign(log2FoldChange_MN)) ~ "Opposite",
-        is_sig_RGC & is_sig_MN ~ "Both",
-        is_sig_RGC ~ "RGC_Only",
-        is_sig_MN  ~ "MN_Only"
-      ),
-
-      `EAE_Combined_Score` = case_when(
-        Specificity == "Opposite" ~ 0,
-        Specificity == "Both"     ~ (log2FoldChange_RGC + log2FoldChange_MN) / 2,
-        Specificity == "RGC_Only" ~ log2FoldChange_RGC,
-        Specificity == "MN_Only"  ~ log2FoldChange_MN
-      )
-    )
-
   edges <- df %>%
     dplyr::filter(!is.na(`Transcription factor`) & `Transcription factor` != "") %>%
     dplyr::select(`Transcription factor`, `Target genes`, `Motif id`, `NES`) %>%

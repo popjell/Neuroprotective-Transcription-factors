@@ -6,11 +6,13 @@
 # from script 10.
 #
 # For each (TF cluster × gene list) pair it collects the target genes of the
-# cluster TFs that appear in that gene list, then plots a bubble chart with:
+# cluster TFs from that gene list's own iRegulon subnetwork (edges.tsv), then
+# plots a bubble chart with:
 #   x    = gene list
 #   y    = TF cluster / family
-#   size = % out-degree (targets in the gene list / total cluster targets)
-#   color= NES (fgsea enrichment of those targets, averaged MN + RGC)
+#   size = % out-degree (targets in that gene list's subnetwork / # genes in the list)
+#   color= NES (fgsea enrichment of those targets, averaged MN + RGC; for
+#          clusters, the mean of each member TF's NES — same logic as script 10)
 #   label= number of targets in the bubble
 #
 # A per-TF version of the same plot is also produced.
@@ -78,7 +80,14 @@ cluster_order <- unique(cluster_order)
 # SECTION 3: BUILD BUBBLE DATA (one row per unit × gene list)
 # ==============================================================================
 
-fgsea_nes <- function(targets, mn_ranked, rgc_ranked) {
+# Within-list NES: rank only the genes in the gene list, then test whether the
+# TF's targets are enriched among the most up-regulated genes of that list.
+# Compared to the rest of the gene list, not the whole genome.
+fgsea_nes <- function(targets, mn_ranked, rgc_ranked, background = NULL) {
+  if (!is.null(background)) {
+    mn_ranked  <- mn_ranked[intersect(names(mn_ranked), background)]
+    rgc_ranked <- rgc_ranked[intersect(names(rgc_ranked), background)]
+  }
   pathway <- list(unit = targets)
   mn_res  <- tryCatch(fgsea::fgsea(pathways = pathway, stats = mn_ranked,
                                    minSize = 1, maxSize = 500, scoreType = "std"),
@@ -100,39 +109,43 @@ build_plot_df <- function(group_by = c("cluster", "tf")) {
       stop(sprintf("'%s' not found in environment. Run script 13 first.", obj_name))
     }
     cyto  <- get(obj_name)
+    edges <- read.delim(file.path("filtered_genelists/iregulon_graphs", name, "edges.tsv"),
+                        stringsAsFactors = FALSE, check.names = FALSE)
     genelist <- readLines(file.path("filtered_genelists", paste0(name, "_genes.txt")))
 
     regs <- intersect(unique(cyto$name[cyto$`Regulatory function` == "Regulator"]),
-                      names(cl))
+                      intersect(edges$`Regulator Gene`, names(cl)))
     if (length(regs) == 0) next
 
     if (group_by == "cluster") {
       for (cid in sort(unique(cl[regs]))) {
         members <- regs[cl[regs] == cid]
-        total   <- unique(unlist(tf_targets[members]))
-        targets <- intersect(total, genelist)
+        targets <- unique(edges$`Target Gene`[edges$`Regulator Gene` %in% members])
+        per_tf_nes <- sapply(members, function(tf) {
+          tt <- unique(edges$`Target Gene`[edges$`Regulator Gene` == tf])
+          if (length(tt) >= 5) fgsea_nes(tt, mn_ranked, rgc_ranked, background = genelist) else NA_real_
+        })
         rows[[length(rows) + 1]] <- data.frame(
           gene_list = name,
           label     = cluster_label(cid),
           n_tfs     = length(members),
           n_targets = length(targets),
-          pct_outdeg = if (length(total) > 0) length(targets) / length(total) * 100 else 0,
-          NES       = if (length(targets) >= 5) fgsea_nes(targets, mn_ranked, rgc_ranked) else NA_real_,
+          pct_outdeg = if (length(genelist) > 0) length(targets) / length(genelist) * 100 else 0,
+          NES       = if (length(targets) >= 5) mean(per_tf_nes, na.rm = TRUE) else NA_real_,
           targets   = I(list(targets)),
           stringsAsFactors = FALSE
         )
       }
     } else {
       for (tf in regs) {
-        total   <- unique(tf_targets[[tf]])
-        targets <- intersect(total, genelist)
+        targets <- unique(edges$`Target Gene`[edges$`Regulator Gene` == tf])
         rows[[length(rows) + 1]] <- data.frame(
           gene_list = name,
           label     = tf,
           n_tfs     = 1,
           n_targets = length(targets),
-          pct_outdeg = if (length(total) > 0) length(targets) / length(total) * 100 else 0,
-          NES       = if (length(targets) >= 5) fgsea_nes(targets, mn_ranked, rgc_ranked) else NA_real_,
+          pct_outdeg = if (length(genelist) > 0) length(targets) / length(genelist) * 100 else 0,
+          NES       = if (length(targets) >= 5) fgsea_nes(targets, mn_ranked, rgc_ranked, background = genelist) else NA_real_,
           targets   = I(list(targets)),
           stringsAsFactors = FALSE
         )
@@ -183,9 +196,8 @@ print(p_tf)
 ggsave(file.path(out_dir, "tfs_by_genelist.png"), p_tf,
        width = 10, height = max(6, nrow(plot_df_tf) * 0.28), dpi = 300)
 
-# ==============================================================================
-# SECTION 5: SAVE DATA (targets stored per bubble)
-# ==============================================================================
+
+
 
 write_units <- function(plot_df, file_name) {
   out <- plot_df %>%

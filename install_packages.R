@@ -123,7 +123,7 @@ bioc_packages <- c(
   "DESeq2", "GEOquery", "EnsDb.Mmusculus.v79", "biomaRt",
   "rrvgo", "org.Mm.eg.db", "GSEABase", "ExperimentHub", 
   "msigdbr", "GSVA", "RCy3", "simplifyEnrichment", "fgsea",
-  "clusterProfiler"
+  "clusterProfiler", "nichenetr"
 )
 
 # Identify which ones are actually missing

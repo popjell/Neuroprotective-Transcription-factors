@@ -44,6 +44,8 @@ if (file.exists(install_script)) {
   stop("CRITICAL: '", install_script, "' not found in root.", call. = FALSE)
 }
 
+
+
 # 2. iRegulon Reformatting
 iregulon_refomat <- "iregulon_reformat.R"
 if (file.exists(iregulon_refomat)) {
@@ -52,7 +54,6 @@ if (file.exists(iregulon_refomat)) {
   beep(10)
   stop("CRITICAL: '", iregulon_refomat, "' not found in root.", call. = FALSE)
 }
-
 # 3. Sub-directory execution (Scripts 1-4)
 sub_dirs <- c("Motor Neuron Analysis", "RGC analysis")
 
