@@ -6,6 +6,7 @@ neurite_outgrowth_plate_analysis/
 # Ignore all heavy RDS and compressed files
 *.rds
 *.gz
+*.mtx
 
 
 # GO reduction and category-based analysis
@@ -19,6 +20,5 @@ all_clusters_analysis/
 # Visualization outputs
 *.png
 *.pdf
-*.mtx
 
 
