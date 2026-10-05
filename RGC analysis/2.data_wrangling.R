@@ -13,7 +13,6 @@ dds_RGC$condition <- factor(dds_RGC$condition, levels = c("Healthy", "EAE"))
 dds_RGC <- estimateSizeFactors(dds_RGC)
 normalized_count <- counts(dds_RGC, normalized = TRUE)
 
-
 #Run DESeq2
 dds_RGC_analysis <- DESeq(dds_RGC)
 RGC_results_raw <- results(dds_RGC_analysis, contrast = c("condition", "EAE", "Healthy"), )

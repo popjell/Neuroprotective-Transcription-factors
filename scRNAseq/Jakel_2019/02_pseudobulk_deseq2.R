@@ -1,20 +1,39 @@
-# Patient-level pseudobulk using the reclustered neurons.
+# Donor-level pseudobulk using CellTypist neuronal subtypes.
 library(Matrix)
 library(DESeq2)
 library(ggplot2)
 
-x <- readRDS("data/neuron_counts.rds")
+x <- readRDS("data/all_counts.rds")
 counts <- x$counts
 meta <- x$meta
-clusters <- read.csv("results/neuron_clusters.csv")
+labels <- read.csv("results/celltypist_annotations.csv")
+rownames(meta) <- colnames(counts)
+meta$nFeature_RNA <- colSums(counts > 0)
 
-# Keep the QC-passing neurons and attach their new Seurat cluster.
-meta$subtype <- clusters$neuron_cluster[match(colnames(counts), clusters$cell)]
-keep <- !is.na(meta$subtype)
+# Collapse detailed CellTypist labels into neuronal subtypes.
+x <- labels$predicted_labels[match(colnames(counts), labels$cell)]
+meta$subtype <- NA_character_
+meta$subtype[grepl("^L2-3", x)] <- "EX-L2-3"
+meta$subtype[grepl("^L2-4", x)] <- "EX-L2-4"
+meta$subtype[grepl("^L3-5", x)] <- "EX-L3-5"
+meta$subtype[grepl("^L5", x)] <- "EX-L5-6"
+meta$subtype[grepl("^L6 FEZF2", x)] <- "EX-L6-FEZF2"
+meta$subtype[grepl("^L6 OPRK1", x)] <- "EX-L6-OPRK1"
+meta$subtype[grepl("^InN ADARB2", x)] <- "IN-ADARB2"
+meta$subtype[grepl("^InN LAMP5", x)] <- "IN-LAMP5"
+meta$subtype[grepl("^InN PVALB", x)] <- "IN-PVALB"
+meta$subtype[grepl("^InN SST", x)] <- "IN-SST"
+meta$subtype[grepl("^InN VIP", x)] <- "IN-VIP"
+meta$subtype[grepl("^InN LHX6", x)] <- "IN-LHX6"
+
+# Merge lesion samples from the same MS donor.
+meta$patient <- ifelse(grepl("^MS", meta$Sample), sub("_.*", "", meta$Sample),
+                       meta$Sample)
+keep <- !is.na(meta$subtype) & meta$nFeature_RNA >= 200
 meta <- meta[keep, ]
 counts <- counts[, keep]
 
-# Sum raw counts for every patient and new neuronal cluster.
+# Sum raw counts for every donor and CellTypist subtype.
 group <- paste(meta$patient, meta$subtype, sep = "__")
 samples <- sort(unique(group))
 membership <- sparseMatrix(i = seq_along(group), j = match(group, samples), x = 1,

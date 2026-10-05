@@ -7,6 +7,7 @@ x <- readRDS("data/neuron_counts.rds")
 counts <- x$counts
 meta <- x$meta
 gene_map <- x$genes
+stopifnot(all(counts@x == round(counts@x)))
 
 # Use the author labels, combining the two layer 2/3 labels.
 meta$subtype <- as.character(meta$cell_type)
@@ -37,7 +38,7 @@ for (subtype in unique(sample_info$subtype)) {
   use <- sample_info$subtype == subtype & sample_info$cells >= 20
   info <- sample_info[use, ]
   info$condition <- factor(info$diagnosis, levels = c("Control", "MS"))
-  y <- round(as.matrix(pseudobulk[, use]))
+  y <- as.matrix(pseudobulk[, use])
   y <- y[rowSums(y >= 10) >= 2, ]
 
   dds <- DESeqDataSetFromMatrix(y, info, design = ~condition)

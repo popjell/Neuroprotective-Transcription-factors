@@ -1,0 +1,19 @@
+"region","subtype","rank","sample_id","condition","cells","score"
+"Cerebellum","GRAN-EN","Rank 1","CB_ctrl1","Control",1243,4.10686607608322
+"Cerebellum","GRAN-EN","Rank 1","CB_ctrl2","Control",1805,4.32286510331327
+"Cerebellum","GRAN-EN","Rank 1","CB_ctrl3","Control",1684,4.30712840221512
+"Cerebellum","GRAN-EN","Rank 1","CB_ms1","MS",1655,4.40516094851141
+"Cerebellum","GRAN-EN","Rank 1","CB_ms2","MS",3001,4.32467180832408
+"Cerebellum","GRAN-EN","Rank 1","CB_ms3","MS",1781,4.37816736139776
+"Cerebellum","GRAN-EN","Rank 2","CB_ctrl1","Control",1243,2.88910696739809
+"Cerebellum","GRAN-EN","Rank 2","CB_ctrl2","Control",1805,2.82421420049866
+"Cerebellum","GRAN-EN","Rank 2","CB_ctrl3","Control",1684,3.05331988024769
+"Cerebellum","GRAN-EN","Rank 2","CB_ms1","MS",1655,3.06248020764341
+"Cerebellum","GRAN-EN","Rank 2","CB_ms2","MS",3001,3.10356376784065
+"Cerebellum","GRAN-EN","Rank 2","CB_ms3","MS",1781,3.22287825358743
+"Cerebellum","VIP-IN","Rank 1","CB_ctrl1","Control",38,7.16373017135051
+"Cerebellum","VIP-IN","Rank 1","CB_ctrl2","Control",34,7.09243996639608
+"Cerebellum","VIP-IN","Rank 1","CB_ctrl3","Control",19,7.29586970398483
+"Cerebellum","VIP-IN","Rank 1","CB_ms1","MS",43,7.22134256449252
+"Cerebellum","VIP-IN","Rank 1","CB_ms2","MS",44,7.13537898857527
+"Cerebellum","VIP-IN","Rank 1","CB_ms3","MS",22,7.53547935193022

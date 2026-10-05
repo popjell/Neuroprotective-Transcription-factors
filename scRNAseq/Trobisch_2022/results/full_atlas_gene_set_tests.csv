@@ -1,0 +1,81 @@
+"scope","subtype","rank","method","total_cells","small_groups","control_donors","ms_donors","regions","genes_tested","direction","effect","p_value","status","q_method"
+"Combined","CXCL14-IN","Rank 1","GSEA",292,0,4,4,"Cortex",3,"MS-up",1.35725523814622,0.124031007751938,"Tested",0.17984496124031
+"Combined","CXCL14-IN","Rank 1","ROAST",292,0,4,4,"Cortex",3,"MS-up",NA,0.0038,"Tested",0.01102
+"Combined","CXCL14-IN","Rank 2","GSEA",292,0,4,4,"Cortex",1,NA,NA,NA,"Fewer than three expressed list genes",NA
+"Combined","CXCL14-IN","Rank 2","ROAST",292,0,4,4,"Cortex",1,NA,NA,NA,"Fewer than three expressed list genes",NA
+"Combined","GRAN-EN","Rank 1","GSEA",11307,8,3,6,"Cerebellum, Cortex",11,"MS-up",0.870094423160517,0.633962264150943,"Tested",0.633962264150943
+"Combined","GRAN-EN","Rank 1","ROAST",11307,8,3,6,"Cerebellum, Cortex",11,"MS-up",NA,0.5604,"Tested",0.5604
+"Combined","GRAN-EN","Rank 2","GSEA",11307,8,3,6,"Cerebellum, Cortex",15,"MS-up",1.32248514141585,0.134874759152216,"Tested",0.186255619781631
+"Combined","GRAN-EN","Rank 2","ROAST",11307,8,3,6,"Cerebellum, Cortex",15,"MS-up",NA,0.1574,"Tested",0.163021428571429
+"Combined","KIT-IN","Rank 1","GSEA",373,4,4,4,"Cortex",3,"MS-up",1.47336815899704,0.0352068450854461,"Tested",0.092818046134358
+"Combined","KIT-IN","Rank 1","ROAST",373,4,4,4,"Cortex",3,"MS-up",NA,0.0102,"Tested",0.01972
+"Combined","KIT-IN","Rank 2","GSEA",373,4,4,4,"Cortex",3,"MS-up",1.43507488702946,0.0595238095238095,"Tested",0.123299319727891
+"Combined","KIT-IN","Rank 2","ROAST",373,4,4,4,"Cortex",3,"MS-up",NA,0.0128,"Tested",0.0206222222222222
+"Combined","L2-EN","Rank 1","GSEA",1619,7,4,4,"Cortex",5,"MS-up",1.40466014737642,0.0819047619047619,"Tested",0.148452380952381
+"Combined","L2-EN","Rank 1","ROAST",1619,7,4,4,"Cortex",5,"MS-up",NA,0.0066,"Tested",0.0147230769230769
+"Combined","L2-EN","Rank 2","GSEA",1619,7,4,4,"Cortex",8,"MS-up",1.85113547595358,0.00165777026824782,"Tested",0.013560973754844
+"Combined","L2-EN","Rank 2","ROAST",1619,7,4,4,"Cortex",8,"MS-up",NA,0.0027,"Tested",0.0087
+"Combined","L2-L3-EN","Rank 1","GSEA",943,0,4,4,"Cortex",5,"MS-up",1.30728923214086,0.186234817813765,"Tested",0.223667296786389
+"Combined","L2-L3-EN","Rank 1","ROAST",943,0,4,4,"Cortex",5,"MS-up",NA,0.0027,"Tested",0.0087
+"Combined","L2-L3-EN","Rank 2","GSEA",943,0,4,4,"Cortex",9,"MS-up",1.91310105707391,0.00187047913859917,"Tested",0.013560973754844
+"Combined","L2-L3-EN","Rank 2","ROAST",943,0,4,4,"Cortex",9,"MS-up",NA,0.0016,"Tested",0.0087
+"Combined","L3-EN","Rank 1","GSEA",1072,1,4,4,"Cortex",6,"MS-up",1.34818580289418,0.161417322834646,"Tested",0.203526189661075
+"Combined","L3-EN","Rank 1","ROAST",1072,1,4,4,"Cortex",6,"MS-up",NA,0.032,"Tested",0.0441904761904762
+"Combined","L3-EN","Rank 2","GSEA",1072,1,4,4,"Cortex",9,"MS-up",1.96794349564896,0.000780812784053185,"Tested",0.013560973754844
+"Combined","L3-EN","Rank 2","ROAST",1072,1,4,4,"Cortex",9,"MS-up",NA,0.0063,"Tested",0.0147230769230769
+"Combined","L4-GABRG1-EN","Rank 1","GSEA",431,1,4,4,"Cortex",3,"MS-up",1.15657585346921,0.319926873857404,"Tested",0.331352833638026
+"Combined","L4-GABRG1-EN","Rank 1","ROAST",431,1,4,4,"Cortex",3,"MS-up",NA,0.0532,"Tested",0.0670782608695652
+"Combined","L4-GABRG1-EN","Rank 2","GSEA",431,1,4,4,"Cortex",3,"MS-up",1.55812969727176,0.0161518523744952,"Tested",0.0520448576511511
+"Combined","L4-GABRG1-EN","Rank 2","ROAST",431,1,4,4,"Cortex",3,"MS-up",NA,0.0013,"Tested",0.0087
+"Combined","L4-LRRK1-EN","Rank 1","GSEA",582,2,4,4,"Cortex",6,"MS-up",1.6357033698027,0.0238666295231248,"Tested",0.0692132256170618
+"Combined","L4-LRRK1-EN","Rank 1","ROAST",582,2,4,4,"Cortex",6,"MS-up",NA,0.0284,"Tested",0.04118
+"Combined","L4-LRRK1-EN","Rank 2","GSEA",582,2,4,4,"Cortex",7,"MS-up",1.72958178972778,0.00941778914558138,"Tested",0.0390165550316943
+"Combined","L4-LRRK1-EN","Rank 2","ROAST",582,2,4,4,"Cortex",7,"MS-up",NA,3e-04,"Tested",0.00435
+"Combined","L4-MME-EN","Rank 1","GSEA",198,0,4,4,"Cortex",3,"MS-up",1.23403468596802,0.214689265536723,"Tested",0.239461103867884
+"Combined","L4-MME-EN","Rank 1","ROAST",198,0,4,4,"Cortex",3,"MS-up",NA,0.0043,"Tested",0.0113363636363636
+"Combined","L4-MME-EN","Rank 2","GSEA",198,0,4,4,"Cortex",2,NA,NA,NA,"Fewer than three expressed list genes",NA
+"Combined","L4-MME-EN","Rank 2","ROAST",198,0,4,4,"Cortex",2,NA,NA,NA,"Fewer than three expressed list genes",NA
+"Combined","L4-NPFFR2-EN","Rank 1","GSEA",125,1,4,3,"Cortex",3,"MS-up",1.27695910522329,0.192816635160681,"Tested",0.223667296786389
+"Combined","L4-NPFFR2-EN","Rank 1","ROAST",125,1,4,3,"Cortex",3,"MS-up",NA,0.1205,"Tested",0.132218518518519
+"Combined","L4-NPFFR2-EN","Rank 2","GSEA",125,1,4,3,"Cortex",2,NA,NA,NA,"Fewer than three expressed list genes",NA
+"Combined","L4-NPFFR2-EN","Rank 2","ROAST",125,1,4,3,"Cortex",2,NA,NA,NA,"Fewer than three expressed list genes",NA
+"Combined","L5-L6-FRMD6-EN","Rank 1","GSEA",482,0,4,4,"Cortex",4,"MS-up",1.41217752990689,0.095703125,"Tested",0.154188368055556
+"Combined","L5-L6-FRMD6-EN","Rank 1","ROAST",482,0,4,4,"Cortex",4,"MS-up",NA,0.0117,"Tested",0.0203
+"Combined","L5-L6-FRMD6-EN","Rank 2","GSEA",482,0,4,4,"Cortex",5,"MS-up",1.40401903638114,0.0912778904665314,"Tested",0.154188368055556
+"Combined","L5-L6-FRMD6-EN","Rank 2","ROAST",482,0,4,4,"Cortex",5,"MS-up",NA,0.0084,"Tested",0.0174
+"Combined","L5-L6-HTR2C-EN","Rank 1","GSEA",103,3,4,1,"Cortex",NA,NA,NA,NA,"Too few donors",NA
+"Combined","L5-L6-HTR2C-EN","Rank 1","ROAST",103,3,4,1,"Cortex",NA,NA,NA,NA,"Too few donors",NA
+"Combined","L5-L6-HTR2C-EN","Rank 2","GSEA",103,3,4,1,"Cortex",NA,NA,NA,NA,"Too few donors",NA
+"Combined","L5-L6-HTR2C-EN","Rank 2","ROAST",103,3,4,1,"Cortex",NA,NA,NA,NA,"Too few donors",NA
+"Combined","L5-L6-NTNG2-EN","Rank 1","GSEA",139,0,4,4,"Cortex",3,"MS-up",1.23534924777469,0.24,"Tested",0.257777777777778
+"Combined","L5-L6-NTNG2-EN","Rank 1","ROAST",139,0,4,4,"Cortex",3,"MS-up",NA,0.1231,"Tested",0.132218518518519
+"Combined","L5-L6-NTNG2-EN","Rank 2","GSEA",139,0,4,4,"Cortex",1,NA,NA,NA,"Fewer than three expressed list genes",NA
+"Combined","L5-L6-NTNG2-EN","Rank 2","ROAST",139,0,4,4,"Cortex",1,NA,NA,NA,"Fewer than three expressed list genes",NA
+"Combined","L5-L6-SEMA3E-EN","Rank 1","GSEA",521,3,4,4,"Cortex",3,"MS-up",1.35368273192538,0.111561866125761,"Tested",0.170278637770898
+"Combined","L5-L6-SEMA3E-EN","Rank 1","ROAST",521,3,4,4,"Cortex",3,"MS-up",NA,0.0464,"Tested",0.0611636363636364
+"Combined","L5-L6-SEMA3E-EN","Rank 2","GSEA",521,3,4,4,"Cortex",4,"MS-up",1.48755608052446,0.05859375,"Tested",0.123299319727891
+"Combined","L5-L6-SEMA3E-EN","Rank 2","ROAST",521,3,4,4,"Cortex",4,"MS-up",NA,0.0161,"Tested",0.0245736842105263
+"Combined","motoEN","Rank 1","GSEA",488,12,1,5,"Cortex, Spinal_cord",NA,NA,NA,NA,"Too few donors",NA
+"Combined","motoEN","Rank 1","ROAST",488,12,1,5,"Cortex, Spinal_cord",NA,NA,NA,NA,"Too few donors",NA
+"Combined","motoEN","Rank 2","GSEA",488,12,1,5,"Cortex, Spinal_cord",NA,NA,NA,NA,"Too few donors",NA
+"Combined","motoEN","Rank 2","ROAST",488,12,1,5,"Cortex, Spinal_cord",NA,NA,NA,NA,"Too few donors",NA
+"Combined","MYO5B-IN","Rank 1","GSEA",655,5,4,6,"Cerebellum, Cortex",5,"MS-up",1.48877187723608,0.0684647302904564,"Tested",0.132365145228216
+"Combined","MYO5B-IN","Rank 1","ROAST",655,5,4,6,"Cerebellum, Cortex",5,"MS-up",NA,0.0119,"Tested",0.0203
+"Combined","MYO5B-IN","Rank 2","GSEA",655,5,4,6,"Cerebellum, Cortex",3,"MS-up",1.64460891416128,0.00490900888012257,"Tested",0.0284722515047109
+"Combined","MYO5B-IN","Rank 2","ROAST",655,5,4,6,"Cerebellum, Cortex",3,"MS-up",NA,3e-04,"Tested",0.00435
+"Combined","NPNT-IN","Rank 1","GSEA",136,3,3,2,"Cortex",3,"MS-up",1.29830794566804,0.15009746588694,"Tested",0.197855750487329
+"Combined","NPNT-IN","Rank 1","ROAST",136,3,3,2,"Cortex",3,"MS-up",NA,0.1019,"Tested",0.118204
+"Combined","NPNT-IN","Rank 2","GSEA",136,3,3,2,"Cortex",1,NA,NA,NA,"Fewer than three expressed list genes",NA
+"Combined","NPNT-IN","Rank 2","ROAST",136,3,3,2,"Cortex",1,NA,NA,NA,"Fewer than three expressed list genes",NA
+"Combined","PC","Rank 1","GSEA",22,9,0,0,"",NA,NA,NA,NA,"Too few donors",NA
+"Combined","PC","Rank 1","ROAST",22,9,0,0,"",NA,NA,NA,NA,"Too few donors",NA
+"Combined","PC","Rank 2","GSEA",22,9,0,0,"",NA,NA,NA,NA,"Too few donors",NA
+"Combined","PC","Rank 2","ROAST",22,9,0,0,"",NA,NA,NA,NA,"Too few donors",NA
+"Combined","SST-IN","Rank 1","GSEA",548,9,4,4,"Cortex",3,"MS-up",1.53485167700398,0.0150027585863159,"Tested",0.0520448576511511
+"Combined","SST-IN","Rank 1","ROAST",548,9,4,4,"Cortex",3,"MS-up",NA,0.0735,"Tested",0.0888125
+"Combined","SST-IN","Rank 2","GSEA",548,9,4,4,"Cortex",3,"MS-up",1.63436097223549,0.00113076048527448,"Tested",0.013560973754844
+"Combined","SST-IN","Rank 2","ROAST",548,9,4,4,"Cortex",3,"MS-up",NA,0.0021,"Tested",0.0087
+"Combined","VIP-IN","Rank 1","GSEA",1198,1,7,7,"Cerebellum, Cortex",7,"MS-up",1.55356568046854,0.050910919026692,"Tested",0.123034720981172
+"Combined","VIP-IN","Rank 1","ROAST",1198,1,7,7,"Cerebellum, Cortex",7,"MS-up",NA,0.0022,"Tested",0.0087
+"Combined","VIP-IN","Rank 2","GSEA",1198,1,7,7,"Cerebellum, Cortex",4,"MS-up",1.63601691124062,0.00825035922026998,"Tested",0.0390165550316943
+"Combined","VIP-IN","Rank 2","ROAST",1198,1,7,7,"Cerebellum, Cortex",4,"MS-up",NA,6e-04,"Tested",0.0058

@@ -1,0 +1,61 @@
+"method","rank","region","subtype","genes_tested","direction","effect","p_value","q_within_method","q_all_analyses"
+"fgsea","Rank 1","Cerebellum","FRMPD4-IN",5,"MS-up",1.15428543999092,0.308300395256917,0.411067193675889,0.479578392621871
+"fgsea","Rank 2","Cerebellum","FRMPD4-IN",1,"Not testable (<3 genes)",NA,NA,NA,NA
+"camera","Rank 1","Cerebellum","FRMPD4-IN",5,"MS-Up",NA,0.299872302544773,0.299872302544773,0.479578392621871
+"camera","Rank 2","Cerebellum","FRMPD4-IN",1,"Not testable (<3 genes)",NA,NA,NA,NA
+"roast","Rank 1","Cerebellum","FRMPD4-IN",5,"Up",NA,0.3886,0.3886,0.54404
+"roast","Rank 2","Cerebellum","FRMPD4-IN",1,"Not testable (<3 genes)",NA,NA,NA,NA
+"pseudobulk_mean_logCPM","Rank 1","Cerebellum","FRMPD4-IN",5,"MS-up",0.11357862071889,0.662520583540057,0.662520583540057,0.713483705350831
+"pseudobulk_mean_logCPM","Rank 2","Cerebellum","FRMPD4-IN",1,"Not testable (<3 genes)",NA,NA,NA,NA
+"fgsea","Rank 1","Cerebellum","GRAN-EN",14,"MS-up",0.906760571169672,0.569060773480663,0.569060773480663,0.713483705350831
+"fgsea","Rank 2","Cerebellum","GRAN-EN",16,"MS-up",1.22802096307463,0.213893967093236,0.411067193675889,0.406434940271789
+"camera","Rank 1","Cerebellum","GRAN-EN",14,"MS-Up",NA,0.21773300371703,0.290310671622707,0.406434940271789
+"camera","Rank 2","Cerebellum","GRAN-EN",16,"MS-Up",NA,0.0809111810818842,0.290310671622707,0.251723674476973
+"roast","Rank 1","Cerebellum","GRAN-EN",14,"Up",NA,0.276,0.368,0.479578392621871
+"roast","Rank 2","Cerebellum","GRAN-EN",16,"Up",NA,0.152,0.368,0.406434940271789
+"pseudobulk_mean_logCPM","Rank 1","Cerebellum","GRAN-EN",14,"MS-up",0.265330791701665,0.190430263825524,0.253907018434032,0.406434940271789
+"pseudobulk_mean_logCPM","Rank 2","Cerebellum","GRAN-EN",16,"MS-up",0.319007624567193,0.0808555983700523,0.161711196740105,0.251723674476973
+"fgsea","Rank 1","Cerebellum","KCNC2-IN",3,"MS-up",1.51240216535836,0.0181108405629807,0.0724433622519227,0.251723674476973
+"fgsea","Rank 2","Cerebellum","KCNC2-IN",1,"Not testable (<3 genes)",NA,NA,NA,NA
+"camera","Rank 1","Cerebellum","KCNC2-IN",3,"MS-Up",NA,0.159768711885099,0.290310671622707,0.406434940271789
+"camera","Rank 2","Cerebellum","KCNC2-IN",1,"Not testable (<3 genes)",NA,NA,NA,NA
+"roast","Rank 1","Cerebellum","KCNC2-IN",3,"Up",NA,0.2163,0.368,0.406434940271789
+"roast","Rank 2","Cerebellum","KCNC2-IN",1,"Not testable (<3 genes)",NA,NA,NA,NA
+"pseudobulk_mean_logCPM","Rank 1","Cerebellum","KCNC2-IN",3,"MS-up",0.775233043368705,0.0808555983700523,0.161711196740105,0.251723674476973
+"pseudobulk_mean_logCPM","Rank 2","Cerebellum","KCNC2-IN",1,"Not testable (<3 genes)",NA,NA,NA,NA
+"fgsea","Rank 1","Cerebellum","PC",2,"Not testable (<3 genes)",NA,NA,NA,NA
+"fgsea","Rank 2","Cerebellum","PC",1,"Not testable (<3 genes)",NA,NA,NA,NA
+"camera","Rank 1","Cerebellum","PC",2,"Not testable (<3 genes)",NA,NA,NA,NA
+"camera","Rank 2","Cerebellum","PC",1,"Not testable (<3 genes)",NA,NA,NA,NA
+"roast","Rank 1","Cerebellum","PC",2,"Not testable (<3 genes)",NA,NA,NA,NA
+"roast","Rank 2","Cerebellum","PC",1,"Not testable (<3 genes)",NA,NA,NA,NA
+"pseudobulk_mean_logCPM","Rank 1","Cerebellum","PC",2,"Not testable (<3 genes)",NA,NA,NA,NA
+"pseudobulk_mean_logCPM","Rank 2","Cerebellum","PC",1,"Not testable (<3 genes)",NA,NA,NA,NA
+"fgsea","Rank 1","Spinal_cord","DORSAL-NEU",0,"Not testable (<3 genes)",NA,NA,NA,NA
+"fgsea","Rank 2","Spinal_cord","DORSAL-NEU",0,"Not testable (<3 genes)",NA,NA,NA,NA
+"camera","Rank 1","Spinal_cord","DORSAL-NEU",0,"Not testable (<3 genes)",NA,NA,NA,NA
+"camera","Rank 2","Spinal_cord","DORSAL-NEU",0,"Not testable (<3 genes)",NA,NA,NA,NA
+"roast","Rank 1","Spinal_cord","DORSAL-NEU",0,"Not testable (<3 genes)",NA,NA,NA,NA
+"roast","Rank 2","Spinal_cord","DORSAL-NEU",0,"Not testable (<3 genes)",NA,NA,NA,NA
+"pseudobulk_mean_logCPM","Rank 1","Spinal_cord","DORSAL-NEU",0,"Not testable (<3 genes)",NA,NA,NA,NA
+"pseudobulk_mean_logCPM","Rank 2","Spinal_cord","DORSAL-NEU",0,"Not testable (<3 genes)",NA,NA,NA,NA
+"fgsea","Rank 1","Spinal_cord","VENTRAL-NEU",0,"Not testable (<3 genes)",NA,NA,NA,NA
+"fgsea","Rank 2","Spinal_cord","VENTRAL-NEU",0,"Not testable (<3 genes)",NA,NA,NA,NA
+"camera","Rank 1","Spinal_cord","VENTRAL-NEU",0,"Not testable (<3 genes)",NA,NA,NA,NA
+"camera","Rank 2","Spinal_cord","VENTRAL-NEU",0,"Not testable (<3 genes)",NA,NA,NA,NA
+"roast","Rank 1","Spinal_cord","VENTRAL-NEU",0,"Not testable (<3 genes)",NA,NA,NA,NA
+"roast","Rank 2","Spinal_cord","VENTRAL-NEU",0,"Not testable (<3 genes)",NA,NA,NA,NA
+"pseudobulk_mean_logCPM","Rank 1","Spinal_cord","VENTRAL-NEU",0,"Not testable (<3 genes)",NA,NA,NA,NA
+"pseudobulk_mean_logCPM","Rank 2","Spinal_cord","VENTRAL-NEU",0,"Not testable (<3 genes)",NA,NA,NA,NA
+"UCell_existing","Rank 1","Spinal_cord","DORSAL-NEU",31,"MS-down",-0.0110476303187806,0.50655516904904,0.795024700248068,0.675406892065387
+"UCell_existing","Rank 1","Cerebellum","FRMPD4-IN",31,"MS-up",0.00895016354322643,0.0808555983700523,0.194053436088126,0.251723674476973
+"UCell_existing","Rank 1","Cerebellum","GRAN-EN",31,"MS-up",0.00150263576850403,0.382733088885226,0.765466177770452,0.54404
+"UCell_existing","Rank 1","Cerebellum","KCNC2-IN",31,"MS-up",0.0115195063669929,0.0808555983700523,0.194053436088126,0.251723674476973
+"UCell_existing","Rank 1","Cerebellum","PC",31,"MS-down",-0.0111967316851675,0.662520583540057,0.795024700248068,0.713483705350831
+"UCell_existing","Rank 1","Spinal_cord","VENTRAL-NEU",31,"MS-down",-0.0016137888170755,0.662520583540057,0.795024700248068,0.713483705350831
+"UCell_existing","Rank 2","Spinal_cord","DORSAL-NEU",31,"MS-down",-0.000753517407504021,1,1,1
+"UCell_existing","Rank 2","Cerebellum","FRMPD4-IN",31,"MS-up",0.00449350289185188,0.0808555983700523,0.194053436088126,0.251723674476973
+"UCell_existing","Rank 2","Cerebellum","GRAN-EN",31,"MS-up",0.00180399524786202,0.0808555983700523,0.194053436088126,0.251723674476973
+"UCell_existing","Rank 2","Cerebellum","KCNC2-IN",31,"MS-up",0.00635008447303913,0.0808555983700523,0.194053436088126,0.251723674476973
+"UCell_existing","Rank 2","Cerebellum","PC",31,"MS-up",0.00423836936884718,0.662520583540057,0.795024700248068,0.713483705350831
+"UCell_existing","Rank 2","Spinal_cord","VENTRAL-NEU",31,"MS-up",0.00218358629040308,1,1,1

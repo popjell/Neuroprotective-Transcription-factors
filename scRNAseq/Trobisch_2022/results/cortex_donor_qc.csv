@@ -1,0 +1,9 @@
+"sample_id","condition","nCount_RNA","nFeature_RNA","mito_percent"
+"CR_ctrl1","Control",4103,2020,0.698151951
+"CR_ctrl2","Control",4967,2328,0.615842005
+"CR_ctrl3","Control",8864,3352,0.491050214
+"CR_ctrl4","Control",6086,2584,0.2221960075
+"CR_ms1","MS",10334,3889,0.9864070245
+"CR_ms2","MS",6514,3113,1.608859173
+"CR_ms3","MS",6877,3149.5,1.744626377
+"CR_ms4","MS",7666,3361,0.482447136
