@@ -5,7 +5,7 @@ neurite_outgrowth_plate_analysis/
 
 # Ignore all heavy RDS and compressed files
 *.rds
-*.csv.gz
+*.gz
 
 
 # GO reduction and category-based analysis
