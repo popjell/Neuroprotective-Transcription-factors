@@ -1,0 +1,13 @@
+pandas
+numpy
+sentence-transformers
+scikit-learn
+networkx
+obonet
+anndata
+celltypist
+scanpy
+scipy
+lxml
+reportlab
+Pillow

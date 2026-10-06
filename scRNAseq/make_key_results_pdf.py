@@ -34,8 +34,8 @@ CONTENT = RIGHT - LEFT
 INK = colors.HexColor("#24333F")
 MUTED = colors.HexColor("#52616D")
 RULE = colors.HexColor("#CBD3D8")
-pdfmetrics.registerFont(TTFont("LiberationSans", "/usr/share/fonts/liberation/LiberationSans-Regular.ttf"))
-pdfmetrics.registerFont(TTFont("LiberationSans-Bold", "/usr/share/fonts/liberation/LiberationSans-Bold.ttf"))
+pdfmetrics.registerFont(TTFont("LiberationSans", "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf"))
+pdfmetrics.registerFont(TTFont("LiberationSans-Bold", "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf"))
 
 body_style = ParagraphStyle("body", fontName="LiberationSans", fontSize=9.5,
                             leading=14, textColor=INK)

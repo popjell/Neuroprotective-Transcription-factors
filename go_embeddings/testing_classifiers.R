@@ -1,5 +1,6 @@
 
 #GO Based Annotations tests
+source("utils/python_environment.R")
 
 go_annotated_llm <- read.csv("all_BP_terms_annotated_LLM.csv") %>%
   dplyr::select(

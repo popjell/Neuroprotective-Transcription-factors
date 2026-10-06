@@ -1,4 +1,7 @@
 Background info/
+.venv/
+.Rlibs/
+setup/logs/
 neurite_outgrowth_plate_analysis/
 /.quarto/
 **/*.quarto_ipynb
@@ -22,3 +25,5 @@ all_clusters_analysis/
 *.pdf
 
 
+
+.bootstrap-uv/

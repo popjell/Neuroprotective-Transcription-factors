@@ -1,4 +1,5 @@
 import pandas as pd
+from pathlib import Path
 import networkx as nx
 import obonet
 import sys
@@ -12,7 +13,7 @@ if "input_df" in globals():
     print("Running via R integration.")
     del input_df
 else:
-    input_file = "/home/jathavp/lab/Neuroprotective-Transcription-factors/all_BP_terms.csv"
+    input_file = Path(__file__).resolve().parents[1] / "all_BP_terms.csv"
     traversal_df = pd.read_csv(input_file)
     print("running_manually")
 

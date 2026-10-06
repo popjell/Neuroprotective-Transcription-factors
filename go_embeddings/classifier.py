@@ -1,4 +1,5 @@
 import pandas as pd
+from pathlib import Path
 import numpy as np
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -8,7 +9,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 # Load GO terms
 # ==============================
 
-csv_path = "/home/jathavp/lab/Neuroprotective-Transcription-factors/all_BP_terms.csv"
+project_root = Path(__file__).resolve().parents[1]
+csv_path = project_root / "all_BP_terms.csv"
 
 df = pd.read_csv(csv_path)
 
@@ -229,10 +231,7 @@ if "negative_log10_of_adjusted_p_value" in classified.columns:
 # Save output
 # ==============================
 
-output_path = (
-    "/home/jathavp/lab/Neuroprotective-Transcription-factors/"
-    "all_BP_terms_semantic_categories.csv"
-)
+output_path = project_root / "all_BP_terms_semantic_categories.csv"
 
 classified.to_csv(
     output_path,

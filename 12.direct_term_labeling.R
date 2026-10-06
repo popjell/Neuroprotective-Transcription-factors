@@ -1,6 +1,6 @@
 library(tidyr)
 library(reticulate)
-use_python("/home/jathavp/lab/Neuroprotective-Transcription-factors/.venv/bin/python3.11")
+source("utils/python_environment.R")
 #Convert GO list into gene specific with GO lists afterwards
 
 
