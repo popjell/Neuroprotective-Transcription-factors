@@ -278,7 +278,7 @@ p <- ggplot(tf_community_df, aes(
     panel.grid.minor = element_blank()
   )
 p
-name = paste0("community_detection/tf_community_dotplot_res:", chosen_res, ".png")
+name = paste0("community_detection/tf_community_dotplot_res_", chosen_res, ".png")
 
 if(file.exists(name)) {
   file.remove(name)
