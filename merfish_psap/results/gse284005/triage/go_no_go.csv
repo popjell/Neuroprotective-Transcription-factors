@@ -1,0 +1,6 @@
+"criterion","value","pass"
+"PSAP on panel","FALSE",FALSE
+"raw integer counts","TRUE",TRUE
+"donors with GM neurons >= 3","8",TRUE
+"GM controls with >= min neurons","1",FALSE
+"transcript coordinates","FALSE",FALSE

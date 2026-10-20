@@ -1,4 +1,0 @@
-"region","subtype","rank","genes_tested","control_donors","ms_donors","ms_minus_control","p_value","q_global"
-"Cerebellum","GRAN-EN","Rank 1",11,3,3,0.123713512207212,0.167350832317733,0.251026248476599
-"Cerebellum","GRAN-EN","Rank 2",15,3,3,0.207427060309017,0.0677763985601537,0.203329195680461
-"Cerebellum","VIP-IN","Rank 1",5,3,3,0.11338702108886,0.449525159944358,0.449525159944358

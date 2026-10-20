@@ -1,0 +1,30 @@
+column_name,column_description
+sample_id_anon,anonymised ID for sample
+individual_id_anon,anonymised ID for donor
+cell_id,"id for cell, corresponding to the column names of the counts matrix (this is sample_id plus droplet barcode)"
+type_fine,fine cell type annotation
+type_broad,broad cell type annotation
+cluster_zoom,"cluster used to define type_fine (type_broad was determined by clustering at the whole experiment level, subsets of the data were then clustered, and this was used to define type_fine; cluster_zoom indicates both the subset that was used, and the clusters within that subset)"
+exclude_pseudobulk,TRUE if this cell was excluded from the pseudobulk analysis; this indicates that the cluster appeared to be mixed based on the expression of marker genes
+cortical_layer,annotations of cortical layers for a subset of neuronal cell types; this is used to account for differences in layers in GM
+log10_counts,log10 library size for this barcode
+log10_feats,log10 number of genes observed for this barcode
+logit_mito,logistic function of proportion of mitochondrial genes for this barcode (in R: qlogis(pct_mito/100))
+logit_splice,logistic function of proportion of spliced genes for this barcode (in R: qlogis(pct_splice/100))
+pct_mito,percentage of mitochondrial genes for this barcode
+pct_splice,percentage of spliced genes for this barcode
+lesion_type,"lesion type for this sample (WM = ctrl WM, NAWM = normal appearing WM, AL = active lesion, CAL = chronic lesion, CIL = chronic inactive lesion, RL = remyelinating lesion, GM = ctrl GM, NAGM = normal appearing GM, GML = cortical lesion)"
+seq_pool,randomly allocated pool of samples to be sequenced together
+matter,white matter (WM) or grey matter (GM)
+sample_source,brain bank of origin for this sample
+diagnosis,"MS diagnosis for this donor (CTR = non MS, SPMS = secondary progressive MS, PPMS = primary progressive MS, RRMS = relapsing remitting MS)"
+sex,male or female (checked against expression of known X- and Y-linked genes)
+age_at_death,"age at death, in years"
+cause_of_death,cause of death
+years_w_ms,number of years with MS
+pmi_minutes,"post-mortem interval, in minutes"
+smoker,"smoking status of donor, where known (smoker, non-smoker, cannabis smoker, unknown)"
+age_scale,"age at death, scaled across donors to have mean 0 and standard deviation 0.5 (see Gelman 2008)"
+age_cat,"age categorised into below 50, over 70 and between"
+pmi_cat,"pmi_minutes categorised into up to 6 hours, 6 hours to 12 hours, and 12 hours or more"
+pmi_cat2,"pmi_minutes categorised into up to 12 hours, and 12 hours or more (necessary for using pmi_cat to model GM, where only one sample had pmi_cat up to 6 hours)"

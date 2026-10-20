@@ -29,3 +29,7 @@ bash setup/start_cytoscape.sh
 ```
 
 Then, from the analysis terminal, `Rscript setup/verify_cytoscape.R` checks the API connection and creates/removes a temporary three-node network. The migration verified this connection using an isolated virtual display. The test process has been stopped; the application is installed for normal interactive use. Script 8 allows skipping Cytoscape, and script 9 requires the layout prepared in step 8.
+
+## Fresh-machine scRNA-seq inputs
+
+See [DATA_RESTORATION.md](DATA_RESTORATION.md) and run `bash setup/restore_scrnaseq.sh` to download published inputs and rebuild caches without rerunning statistical analyses.

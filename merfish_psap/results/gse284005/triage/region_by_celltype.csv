@@ -1,0 +1,36 @@
+"region","major","Freq"
+"DMWM","Astro",37043
+"GM","Astro",9097
+"healthyWM","Astro",8613
+"NAWM","Astro",23669
+"Vas_Imm","Astro",333
+"DMWM","Lym",1173
+"GM","Lym",231
+"healthyWM","Lym",238
+"NAWM","Lym",740
+"Vas_Imm","Lym",1091
+"DMWM","Micro & Mac",12848
+"GM","Micro & Mac",2732
+"healthyWM","Micro & Mac",6996
+"NAWM","Micro & Mac",16608
+"Vas_Imm","Micro & Mac",581
+"DMWM","Neuron",5925
+"GM","Neuron",39535
+"healthyWM","Neuron",1229
+"NAWM","Neuron",9010
+"Vas_Imm","Neuron",86
+"DMWM","Oligo",10126
+"GM","Oligo",3217
+"healthyWM","Oligo",46743
+"NAWM","Oligo",116784
+"Vas_Imm","Oligo",145
+"DMWM","OPC",1877
+"GM","OPC",1409
+"healthyWM","OPC",4563
+"NAWM","OPC",10278
+"Vas_Imm","OPC",33
+"DMWM","Vascular",7592
+"GM","Vascular",10305
+"healthyWM","Vascular",2772
+"NAWM","Vascular",6796
+"Vas_Imm","Vascular",1376

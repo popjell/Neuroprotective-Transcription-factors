@@ -1,1 +1,37 @@
-.r_lib/
+_keep_input/
+results/
+figures/
+*.log
+ms-cross-regional/
+bulk_replication/results_schirmer/
+
+# Project-local R libraries (reinstallable, ~250MB of compiled .so/.html)
+Rlib/
+Rlib_*.txt
+
+# Scratch / rerun output dirs
+*_tmp/
+cache/
+cache_*/
+
+# Raw downloaded datasets (re-downloadable; keep small curated files like sample_donor.csv)
+data/*/raw/
+data/Schirmer_2019/meta.tsv
+macnair_harmonized/data/*.zip
+
+# Large binary / matrix formats not already covered by the root .gitignore
+*.h5
+*.h5ad
+*.h5seurat
+*.loom
+*.qs
+*.bin
+*.RData
+*.rda
+
+# Run logs and editor/session cruft
+*.out
+.Rhistory
+.Rproj.user/
+__pycache__/
+*.pyc

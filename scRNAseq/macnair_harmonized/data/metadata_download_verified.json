@@ -1,0 +1,18 @@
+{
+  "ms_lesions_snRNAseq_col_data_2023-09-12.txt.gz": {
+    "url": "https://zenodo.org/records/8338963/files/ms_lesions_snRNAseq_col_data_2023-09-12.txt.gz",
+    "md5": "b6b859e35dbae9e60b451f7755ce0508"
+  },
+  "ms_lesions_snRNAseq_col_data_column_descriptions_2023-09-12.txt": {
+    "url": "https://zenodo.org/records/8338963/files/ms_lesions_snRNAseq_col_data_column_descriptions_2023-09-12.txt",
+    "md5": "a64e78d80c705833321fb8b40fc3a7b7"
+  },
+  "ms_lesions_snRNAseq_row_data_2023-09-12.txt.gz": {
+    "url": "https://zenodo.org/records/8338963/files/ms_lesions_snRNAseq_row_data_2023-09-12.txt.gz",
+    "md5": "918da97c97fa2b0e055fb19acd2d033b"
+  },
+  "ms_lesions_snRNAseq_scripts_2023-09-12.zip": {
+    "url": "https://zenodo.org/records/8338963/files/ms_lesions_snRNAseq_scripts_2023-09-12.zip",
+    "md5": "7b25ac44332ade88b316f5d9b1812d9e"
+  }
+}

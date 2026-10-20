@@ -1,0 +1,6 @@
+"item","value"
+"counts_all_integer","TRUE"
+"counts_max","488"
+"median_transcripts_per_cell","102"
+"coordinate_columns","x,y (cell centroids)"
+"transcript_level_coordinates","FALSE"
